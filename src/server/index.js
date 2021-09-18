@@ -9,6 +9,10 @@ import cookieParser from 'cookie-parser';
 import bodyParser from 'body-parser';
 import serialize from 'serialize-javascript';
 import validator from 'express-validator';
+import fs from 'fs';
+import path from 'path';
+import http from 'http';
+import https from 'https';
 
 const app = express();
 const port = process.env.PORT || 5000;
@@ -83,4 +87,4 @@ app.use((req, res, next) => {  //<-- заменить если появится 
      next (err);
 });
 
-app.listen(port, () => {console.log('connected!')});
+app.listen(8080, () => {console.log('connected!')});

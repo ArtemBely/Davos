@@ -24,7 +24,14 @@ var browserConfig = {
           },
           {
             test: /\.(jpe?g|jpg|png|gif|svg|ico)$/i,
-            use: 'url-loader?limit=8192'
+            use: [
+              {
+              loader: "file-loader",
+              options: {
+                name: 'image/[name].[ext]'
+              }
+            }
+           ]
           },
           {
             test: /\.(woff(2)?|ttf|eot)$/,
@@ -69,8 +76,15 @@ var serverConfig = {
          use: [MiniCssExtractPlugin.loader, 'css-loader'],
       },
       {
-         test: /\.(jpe?g|jpg|png|gif|svg|ico)$/i,
-         use: 'url-loader?limit=8192'
+        test: /\.(jpe?g|jpg|png|gif|svg|ico)$/i,
+        use: [
+          {
+          loader: "file-loader",
+          options: {
+            name: 'image/[name].[ext]'
+          }
+        }
+       ]
       },
       {
         test: /\.(woff(2)?|ttf|eot)$/,

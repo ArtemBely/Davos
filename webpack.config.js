@@ -28,7 +28,7 @@ var browserConfig = {
               {
               loader: "file-loader",
               options: {
-                name: 'image/[name].[ext]'
+                name: 'images/[name].[ext]'
               }
             }
            ]
@@ -81,7 +81,7 @@ var serverConfig = {
           {
           loader: "file-loader",
           options: {
-            name: 'image/[name].[ext]'
+            name: 'images/[name].[ext]'
           }
         }
        ]

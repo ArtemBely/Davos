@@ -1,0 +1,63 @@
+/* MainSection2 */
+.wrap__main-section2 {
+    width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    background-color: #111419;
+}
+.main__section2 {
+    width: 1290px;
+    height: 570px;
+}
+.section2-title {
+    margin-top: 60px;
+    margin-bottom: 10px;
+    font-family: "WorkSans-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 53px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+.section2-paragraph {
+    font-family: 'WorkSans-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 160%;
+    color: #FFFFFF;
+    margin-bottom: 83px;
+}
+.section2__logo-container {
+    width: 100%;
+}
+.section2__logo-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.section2__logo-list > li:nth-child(1) {
+    margin-right: 130px;
+}
+.section2__logo-list > li:nth-child(2) {
+    margin-right: 130px;
+}
+.section2__logo-list > li:nth-child(3) {
+    margin-right: 130px;
+}
+.section2__logo-list > li:nth-child(5) {
+    margin-right: 190px;
+    margin-top: 93px;
+}
+.section2__logo-list > li:nth-child(6) {
+    margin-right: 190px;
+    margin-top: 106px;
+}
+.section2__logo-list > li:nth-child(7) {
+    margin-right: 190px;
+    margin-top: 102px;
+}
+.section2__logo-list > li:nth-child(8) {
+    margin-top: 90px;
+}

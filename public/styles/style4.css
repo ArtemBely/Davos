@@ -1,0 +1,116 @@
+/* MainSection3 */
+.wrap__main-section3 {
+    width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    background-color: #05060B;
+}
+.main__section3 {
+    margin-top: 190px;
+    width: 1290px;
+}
+.section3-title {
+    font-family: 'WorkSans-Bold';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 53px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+.section3__container-img {
+    margin-top: 20px;
+}
+.section3-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.section3-list > li:nth-child(1) {
+    margin-right: 30px;
+}
+.section3-list > li:nth-child(2) {
+    margin-right: 30px;
+}
+.section3-list > li:nth-child(4) {
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.section3-list > li:nth-child(5) {
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.section3-list > li:nth-child(6) {
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.section3-list > li:nth-child(7) {
+    margin-top: 30px;
+}
+.section3-list > li:nth-child(8) {
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.section3-list > li:nth-child(9) {
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.section3-list > li:nth-child(10) {
+    margin-top: 30px;
+}
+.section3__events {
+    margin-top: 190px;
+    margin-bottom: 190px;
+}
+.events__title-container {
+    width: 490px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 38px;
+}
+.events__title-link, .events__title-link:visited {
+    font-family: 'WorkSans-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    margin-bottom: 5.39px;
+}
+.events__button-container > button:nth-child(2) {
+    margin-top: 20px;
+}
+.events__button {
+    width: 1290px;
+    height: 80px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.event-paragraph {
+    font-family: 'WorkSans-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-align: start;
+}
+.events__button > p:nth-child(1) {
+    flex-basis: 21.5%;
+    font-size: 30px;
+    line-height: 35px;
+}
+.events__button > p:nth-child(2) {
+    flex-basis: 24.8%;
+    margin-left: 30px;
+}
+.events__button > p:nth-child(3) {
+    flex-basis: 2.65%;
+    margin-left: 588px;
+}

@@ -37,61 +37,48 @@ body {
   justify-content: center;
 }
 .header {
+  margin: 15px 0px;
   width: 1290px;
-  height: 80px;
-  display: grid;
-  grid-template-rows: 1fr;
-  grid-template-columns: 45% repeat(7, 1fr);
+  height: 50px;
+}
+.nanigation {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
-.nav_header {
-  color: white;
+.nanigation-list {
+  display: flex;
+  align-items: center;
+}
+.nanigation-item {
+  margin-left: 50px;
+}
+.nanigation-link {
+  font-family: 'WorkSans-Regular';
+  font-style: normal;
+  font-weight: normal;
   font-size: 20px;
-  font-weight: 400;
-  line-height: 32px;
-  position: relative;
-  top: -26px;
-  display: inline-flex;
-  justify-content: center;
+  line-height: 160%;
+  text-decoration-line: underline;
+  text-transform: capitalize;
+  color: #FFFFFF;
 }
- #ass {
-  left: -91px;
-}
- #event {
-  left: -44px;
-}
- #member {
-  left: -6px;
-}
- #new {
-  left: 25px;
-}
- #cont {
-  left: 51px;
-}
+
 #login {
-  width: 130px;
+  width: 113px;
   height: 50px;
+  border: 1.5px solid #F6DBA8;
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1.5px solid #F6DBA8;
-  box-sizing: border-box;
-  position: relative;
-  left: 100px;
 }
-#logo {
-  position: relative;
-  top: 29px;
-}
+
 #under_logo {
-  position: relative;
   width: 162px;
   font-style: normal;
   font-weight: bold;
   font-size: 15.7772px;
   line-height: 19px;
   color: #787878;
-  grid-column: 1 / 2;
-  top: 39px;
 }

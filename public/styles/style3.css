@@ -36,6 +36,8 @@
 .section2__logo-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
 }
 .section2__logo-list > li:nth-child(1) {
     margin-right: 130px;

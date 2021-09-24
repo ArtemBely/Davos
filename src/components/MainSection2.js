@@ -20,28 +20,28 @@ function MainSection2 () {
             <div className='section2__logo-container'>
                 <ul className='section2__logo-list'>
                     <li className='section2__logo-item'>
-                        <img src={facebook} className='section2__logo-img'></img>
+                        <img src={facebook} className='section2__logo-img' id="facebook"></img>
                     </li>
                     <li className='section2__logo-item'>
-                        <img src={spacex} className='section2__logo-img'></img>
+                        <img src={spacex} className='section2__logo-img' id="spacex"></img>
                     </li>
                     <li className='section2__logo-item'>
-                        <img src={tesla} className='section2__logo-img'></img>
+                        <img src={tesla} className='section2__logo-img' id="tesla"></img>
                     </li>
                     <li className='section2__logo-item'>
-                        <img src={visa} className='section2__logo-img'></img>
+                        <img src={visa} className='section2__logo-img' id="visa"></img>
                     </li>
                     <li className='section2__logo-item'>
-                        <img src={google} className='section2__logo-img'></img>
+                        <img src={google} className='section2__logo-img' id="google"></img>
                     </li>
                     <li className='section2__logo-item'>
-                        <img src={amazon} className='section2__logo-img'></img>
+                        <img src={amazon} className='section2__logo-img' id="amazon"></img>
                     </li>
                     <li className='section2__logo-item'>
-                        <img src={ibm} className='section2__logo-img'></img>
+                        <img src={ibm} className='section2__logo-img' id="ibm"></img>
                     </li>
                     <li className='section2__logo-item'>
-                        <img src={samsung} className='section2__logo-img'></img>
+                        <img src={samsung} className='section2__logo-img' id="samsung"></img>
                     </li>
                 </ul>
             </div>

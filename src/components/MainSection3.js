@@ -10,11 +10,6 @@ import Artificial_intelligence from '../../public/images/Artificial_intelligence
 import DLT from '../../public/images/DLT.svg';
 import FoodTech from '../../public/images/FoodTech.svg';
 
-
-
-
-
-
 function MainSection3 () {
   return(
     <div className='wrap__main-section3'>
@@ -29,7 +24,7 @@ function MainSection3 () {
                         <img src={Variables} className='section3-img'></img>
                     </li>
                     <li className='section3-item'>
-                        <img src={VirtualReality} className='section3-img'></img>
+                        <img src={VirtualReality} className='section3-img section3-big-img'></img>
                     </li>
                     <li className='section3-item'>
                         <img src={MedTech} className='section3-img'></img>
@@ -44,7 +39,7 @@ function MainSection3 () {
                         <img src={EduTech} className='section3-img'></img>
                     </li>
                     <li className='section3-item'>
-                        <img src={Artificial_intelligence} className='section3-img'></img>
+                        <img src={Artificial_intelligence} className='section3-img section3-big-img'></img>
                     </li>
                     <li className='section3-item'>
                         <img src={DLT} className='section3-img'></img>

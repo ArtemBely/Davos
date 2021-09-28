@@ -37,7 +37,7 @@ class Header extends React.Component {
                 </div>
                 <ul className="nanigation-list" ref={this.nan}>
                   <li className="nanigation-item">
-                    <NavLink to="#" className="nanigation-link">Association</NavLink>
+                    <NavLink to="/association" className="nanigation-link">Association</NavLink>
                   </li>
                   <li className="nanigation-item">
                     <NavLink to="#" className="nanigation-link">Events</NavLink>

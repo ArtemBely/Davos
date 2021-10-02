@@ -1,0 +1,108 @@
+/* Association */
+@media (min-width: 576px) and (max-width: 767px) {
+    .association1,
+    .association2,
+    .association3 {
+        width: 537px;
+    }
+    .association1 {
+        height: 1643px;
+    }
+    .association1-img {
+        margin-top: 60px;
+        margin-bottom: 189.31px;
+        width: 510px;
+        height: 154.69px;
+    }
+    .association1__about-title {
+        font-size: 35px;
+        margin-bottom: 12px;
+    }
+    .association1__about-container {
+        justify-content: start;
+        position: relative;
+    }
+    .association1__about-paragraph1 {
+        font-size: 18px;
+        line-height: 140%;
+        margin-bottom: 0px;
+    }
+    #AssociationAboutParagraph2 {
+        margin-top: 332px;
+    }
+    #aboutSection2 {
+        position: absolute;
+        top: 160px;
+    }
+    .association1__about-paragraph2 {
+        font-size: 18px;
+        margin-bottom: 35px;
+    }
+    .association1__about-background {
+        margin-top: 0px;
+        width: 537px;
+        height: 262px;
+        margin-bottom: 345px;
+        padding-bottom: 30px;
+    }
+    .association1__about-btn {
+        width: 302px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    p br {
+        display: none;
+    }
+    .association2 {
+        height: 330px;
+        justify-content: start;
+    }
+    .association2__sponsorships {
+        width: 425px;
+    }
+    .association2__sponsorships-title {
+        font-size: 35px;
+        line-height: 41px;
+    }
+    .association2__sponsorships-pargraph {
+        font-size: 18px;
+        margin-bottom: 23px;
+    }
+    .association2__sponsorships-btn {
+        width: 243px;
+        height: 50px;
+        font-size: 18px;
+    }
+    .association2__sponsorships-img {
+        display: none;
+    }
+    .association3 {
+        height: 961px;
+    }
+    .association3__container {
+        height: 681px;
+    }
+    .association3__container-card {
+        display: flex;
+        height: 591px;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .association3__card {
+        width: 537px;
+        height: 177px;
+        padding: 0px 95px;
+    }
+    .association3__card-title {
+        font-size: 26px;
+    }
+    .association3__card-paragraph {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .association3__container-btn {
+        font-size: 18px;
+        width: 243px;
+        height: 50px;
+    }
+}

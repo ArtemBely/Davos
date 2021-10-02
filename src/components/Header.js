@@ -2,16 +2,6 @@ import React from 'react';
 import logo from '../../public/images/Vector-2.svg';
 import { NavLink } from 'react-router-dom';
 
-// let burger = document.querySelector(".header__burger");
-// let list = document.querySelector(".nanigation-list");
-// let body = document.querySelector("body");
-
-// function AddClass() {
-//     burger.classList.toggle("active");
-//     list.classList.toggle("active");
-//     body.classList.toggle("lock");
-// }
-// burger.addEventListener("click", AddClass);
 class Header extends React.Component {
 
   constructor() {
@@ -28,31 +18,31 @@ class Header extends React.Component {
 
   render() {
     return(
-      <div className='wrap_header'>
+      <div className='wrap__header'>
           <div className='header'>
-              <div className="nanigation">
+              <div className="navigation">
                 <img src={logo} id='logo' />
                 <div className="header__burger" ref={this.head} onClick={this.addClass}>
                   <span></span>
                 </div>
-                <ul className="nanigation-list" ref={this.nan}>
-                  <li className="nanigation-item">
-                    <NavLink to="/association" className="nanigation-link">Association</NavLink>
+                <ul className="navigation-list" ref={this.nan}>
+                  <li className="navigation-item">
+                    <NavLink to="/association" className="navigation-link">Association</NavLink>
                   </li>
-                  <li className="nanigation-item">
-                    <NavLink to="#" className="nanigation-link">Events</NavLink>
+                  <li className="navigation-item">
+                    <NavLink to="/events" className="navigation-link">Events</NavLink>
                   </li>
-                  <li className="nanigation-item">
-                    <NavLink to="#" className="nanigation-link">Members</NavLink>
+                  <li className="navigation-item">
+                    <NavLink to="#" className="navigation-link">Members</NavLink>
                   </li>
-                  <li className="nanigation-item">
-                    <NavLink to="#" className="nanigation-link">News</NavLink>
+                  <li className="navigation-item">
+                    <NavLink to="#" className="navigation-link">News</NavLink>
                   </li>
-                  <li className="nanigation-item">
-                    <NavLink to="#" className="nanigation-link">Contacts</NavLink>
+                  <li className="navigation-item">
+                    <NavLink to="#" className="navigation-link">Contacts</NavLink>
                   </li>
-                  <li className="nanigation-item nav-login">
-                    <NavLink to="#" className="nanigation-link" id='login'>Log in</NavLink>
+                  <li className="navigation-item nav-login">
+                    <NavLink to="#" className="navigation-link" id='login'>Log in</NavLink>
                   </li>
                 </ul>
               </div>

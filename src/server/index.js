@@ -15,6 +15,7 @@ import http from 'http';
 import https from 'https';
 
 import asRouter from './routes/association';
+import asEvents from './routes/events';
 
 const app = express();
 const port = process.env.PORT || 5000;
@@ -45,6 +46,8 @@ app.use(validator());
 app.use(cookieParser());
 
 app.use('/association', asRouter);
+app.use('/events', asEvents);
+
 
 app.get('*', (req, res, next) => {
   const activeRouter = Routes.find((route) => matchPath(req.url, route)) || {};

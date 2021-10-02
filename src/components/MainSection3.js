@@ -9,6 +9,8 @@ import EduTech from '../../public/images/EduTech.svg';
 import Artificial_intelligence from '../../public/images/Artificial_intelligence.svg';
 import DLT from '../../public/images/DLT.svg';
 import FoodTech from '../../public/images/FoodTech.svg';
+import { NavLink } from 'react-router-dom';
+import MainSection4 from './MainSection4';
 
 function MainSection3 () {
   return(
@@ -52,20 +54,9 @@ function MainSection3 () {
             <div className='section3__events'>
                 <div className='events__title-container'>
                     <h2 className='section3-title'>Events</h2>
-                    <a href="##" className='events__title-link'>Submit your event</a>
+                    <NavLink to="##" className='events__title-link'>Submit your event</NavLink>
                 </div>
-                <div className='events__button-container'>
-                    <button className='events__button'>
-                        <p className='events__button-davos event-paragraph'>Davos</p>
-                        <p className='events__button-date event-paragraph'>21 september 2021</p>
-                        <p className='events__button-date event-paragraph'>123</p>
-                    </button>
-                    <button className='events__button'>
-                        <p className='events__button-davos event-paragraph'>Davos</p>
-                        <p className='events__button-date event-paragraph'>21 september 2021</p>
-                        <p className='events__button-date event-paragraph'>123</p>
-                    </button>
-                </div>
+                <MainSection4 />
             </div>
         </div>
     </div>

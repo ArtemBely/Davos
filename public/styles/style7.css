@@ -1,0 +1,62 @@
+/* Association2 */
+.wrap__association2 {
+    width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    background-color: #111419;
+}
+.association2 {
+    width: 1290px;
+    height: 446.14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.association2__sponsorships {
+    width: 520px;
+}
+.association2__sponsorships-title {
+    font-family: "WorkSans-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 53px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.association2__sponsorships-pargraph {
+    font-family: "WorkSans-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-bottom: 36.38px;
+}
+.association2__sponsorships-btn {
+    border: 2px solid #F6DBA8;
+    box-sizing: border-box;
+    width: 273px;
+    height: 53px;
+    font-family: "WorkSans-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 160%;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.association2__sponsorships-img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 997.96px;
+    height: 446.12px;
+    /* z-index: -1; */
+}

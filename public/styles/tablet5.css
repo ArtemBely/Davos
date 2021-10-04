@@ -1,0 +1,39 @@
+/* EventSection tablet 1 */
+@media (min-width: 992px) and (max-width: 1290px) {
+    .event__container {
+        width: 952px;
+        height: 1338px;
+    }
+    .event-img {
+        width: 883.52px;
+        height: 275.85px;
+        left: 33.7px;
+        top: 314px;
+    }
+    .event__section {
+        margin-top: 544px;
+        width: 709px;
+    }
+    .event__section-title {
+        font-size: 46px;
+    }
+    .event__section-paragraph {
+        font-size: 26px;
+    }
+    .event__section2 {
+        margin-top: 170px;
+    }
+    .event__title-container {
+        width: 673px;
+        margin-bottom: 35px;
+    }
+    .event__section2-title {
+        font-size: 40px;
+        line-height: 47px;
+    }
+    .event__section2-link {
+        font-size: 26px;
+        line-height: 30px;
+        margin-bottom: 4px;
+    }
+}

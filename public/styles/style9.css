@@ -19,6 +19,7 @@
 .event__section {
     margin-top: 620px;
     width: 850.05px;
+    position: relative;
 }
 .event__section-title {
     font-family: "WorkSans-Bold";
@@ -45,6 +46,7 @@
     display: flex;
     justify-content: space-between;
     align-items: end;
+    margin-bottom: 37.63px;
 }
 .event__section2-title {
     font-family: "WorkSans-Bold";
@@ -65,4 +67,5 @@
     text-decoration-line: underline;
     color: #FFFFFF;
     margin-top: 13px;
+    margin-bottom: 5px;
 }

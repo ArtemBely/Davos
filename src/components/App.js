@@ -21,6 +21,14 @@ import '../../public/styles/phone3.css';
 import '../../public/styles/phone4.css';
 //Events 
 import '../../public/styles/style9.css';
+import '../../public/styles/tablet5.css';
+import '../../public/styles/tablet6.css';
+import '../../public/styles/phone5.css';
+import '../../public/styles/phone6.css';
+
+
+
+
 
 
 class App extends React.Component {

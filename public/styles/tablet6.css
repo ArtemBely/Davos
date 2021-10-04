@@ -1,0 +1,38 @@
+@media (min-width: 768px) and (max-width: 991px) {
+    .event__container {
+        width: 730px;
+        height: 1163px;
+    }
+    .event-img {
+        width: 704.8px;
+        height: 220.05px;
+        top: 263.6px;
+    }
+    .event__section {
+        margin-top: 494px;
+        width: 540px;
+    }
+    .event__section-title {
+        font-size: 35px;
+    }
+    .event__section-paragraph {
+        font-size: 20px;
+    }
+    .event__section2 {
+        margin-top: 150px;
+    }
+    .event__title-container {
+        width: 538px;
+        margin-bottom: 25px;
+    }
+    .event__section2-title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .event__section2-link {
+        font-size: 22px;
+        line-height: 26px;
+        margin-top: 6px;
+        margin-bottom: 3px;
+    }
+}

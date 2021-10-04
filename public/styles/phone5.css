@@ -1,0 +1,39 @@
+@media (min-width: 576px) and (max-width: 767px) {
+    .event__container {
+        width: 537px;
+        height: 970px;
+    }
+    .event-img {
+        width: 537px;
+        height: 146.21px;
+        top: 183.79px;
+    }
+    .event__section {
+        margin-top: 334px;
+        width: 481px;
+    }
+    .event__section-title {
+        font-size: 35px;
+    }
+    .event__section-paragraph {
+        font-size: 18px;
+        line-height: 140%;
+    }
+    .event__section2 {
+        margin-top: 140px;
+    }
+    .event__title-container {
+        width: 536px;
+        margin-bottom: 20px;
+    }
+    .event__section2-title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .event__section2-link {
+        font-size: 22px;
+        line-height: 26px;
+        margin-top: 6px;
+        margin-bottom: 3px;
+    }
+}

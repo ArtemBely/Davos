@@ -21,7 +21,7 @@ function EventsSection () {
             </div>
             <div className="event__section2">
                 <div className="event__title-container">
-                    <h2 className="event__section2-title">Calendar of Events</h2>
+                    <h2 className="event__section2-title">Events</h2>
                     <NavLink to='#' className="event__section2-link">Submit your event</NavLink>
                 </div>
                 <MainSection4 />

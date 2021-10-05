@@ -1,0 +1,110 @@
+@media (min-width: 768px) and (max-width: 991px) {
+    .members__section1,
+    .members__section2,
+    .members__section3 {
+        width: 730px;
+    }
+    .members__section1 {
+        height: 753px;
+    }
+    .members__section1-title {
+        font-size: 35px;
+        margin-top: 57px;
+        margin-bottom: 41px;
+    }
+    .members__section1-container {
+        width: 730px;
+    }
+    .members__container-block {
+        width: 353px;
+        height: 169.71px;
+    }
+    .members__container-title {
+        font-size: 20px;
+        line-height: 140%;
+        margin-bottom: 4px;
+    }
+    .members__container-paragraph {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .members__special-container {
+        margin-left: 0px;
+    }
+    .members__container-btn {
+        width: 516px;
+        margin-left: 105px;
+        margin-top: 40px;
+    }
+    .members__section1-btn {
+        width: 243px;
+        height: 50px;
+        font-size: 18px;
+    }
+    .members__section2 {
+        height: 493px;
+    }
+    .members__section2-title {
+        font-size: 30px;
+        line-height: 35px;
+        margin-top: 80px;
+    }
+    .members__section2-paragraph {
+        font-size: 18px;
+        line-height: 140%;
+    }
+    .members__section2-list {
+        margin-top: 21px;
+    }
+    .members__section2-img {
+        width: 106px;
+        height: 112px;
+    }
+    .members__section2-btn {
+        width: 152px;
+        height: 50px;
+        font-size: 18px;
+    }
+    .members__section3 {
+        height: 827px;
+    }
+    .members__section3-technologies {
+        margin-top: 150px;
+        height: 257px;
+    }
+    .members__technologies-title {
+        margin-top: 7px;
+        margin-bottom: 10px;
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .members__technologies-paragraph {
+        font-size: 18px;
+        line-height: 140%;
+        margin-bottom: 20px;
+    }
+    .members__technologies-btn {
+        width: 276px;
+        height: 50px;
+        font-size: 18px;
+    }
+    .members__technologies-img {
+        width: 425px;
+        height: 211px;
+        left: 302px;
+    }
+    .members__section3-report {
+        margin-top: 150px;
+        width: 510px;
+    }
+    .members__report-title {
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 20px;
+    }
+    .members__report-btn {
+        width: 168px;
+        height: 50px;
+        font-size: 18px;
+    }
+}

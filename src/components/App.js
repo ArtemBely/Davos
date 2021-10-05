@@ -25,6 +25,21 @@ import '../../public/styles/tablet5.css';
 import '../../public/styles/tablet6.css';
 import '../../public/styles/phone5.css';
 import '../../public/styles/phone6.css';
+//Members
+import '../../public/styles/style10.css';
+import '../../public/styles/style11.css';
+import '../../public/styles/style12.css';
+import '../../public/styles/tablet7.css';
+import '../../public/styles/tablet8.css';
+import '../../public/styles/phone7.css';
+import '../../public/styles/phone8.css';
+
+
+
+
+
+
+
 
 
 

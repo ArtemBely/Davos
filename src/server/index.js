@@ -16,6 +16,8 @@ import https from 'https';
 
 import asRouter from './routes/association';
 import asEvents from './routes/events';
+import asMembers from './routes/members';
+
 
 const app = express();
 const port = process.env.PORT || 5000;
@@ -47,6 +49,8 @@ app.use(cookieParser());
 
 app.use('/association', asRouter);
 app.use('/events', asEvents);
+app.use('/members', asMembers);
+
 
 
 app.get('*', (req, res, next) => {

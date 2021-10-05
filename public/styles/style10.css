@@ -1,0 +1,89 @@
+/* members section1  */
+.wrap__members-section1 {
+    width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    background: #05060B;
+}
+.members__section1 {
+    width: 1290px;
+    height: 1043px;
+}
+.members__section1-title {
+    font-family: 'WorkSans-Bold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-top: 110px;
+    margin-bottom: 45px;
+}
+.members__section1-container {
+    width: 1070px;
+    display: flex;
+    justify-content: space-between;
+}
+.members__container-block {
+    width: 520px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #111419;
+    border: 2px solid #F6DBA8;
+    box-sizing: border-box;
+    box-shadow: 3px 8px 13px #000000;
+    border-radius: 30px;
+}
+.members__special-block {
+    background: #F6DBA8;
+    box-shadow: 0px 4px 90px 19px rgba(202, 162, 42, 0.85);
+}
+.members__container-title {
+    font-family: 'WorkSans-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+.members__container-paragraph {
+    font-family: 'WorkSans-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.members__special-container {
+    margin-top: 30px;
+    margin-left: 220px;
+}
+.members__container-btn {
+    width: 586px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 691.11px;
+    margin-top: 50px;
+}
+.members__section1-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #F6DBA8;
+    box-sizing: border-box;
+    width: 273px;
+    height: 53px;
+    font-family: 'WorkSans-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+.members__special-text {
+    color: #000000;
+}

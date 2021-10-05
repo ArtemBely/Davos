@@ -1,0 +1,56 @@
+/* members section2  */
+.wrap__members-section2 {
+    width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    background: #111419;
+}
+.members__section2 {
+    width: 1290px;
+    height: 669px;
+}
+.members__section2-title {
+    font-family: 'WorkSans-Bold';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 53px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    margin-top: 97px;
+    margin-bottom: 10px;
+}
+.members__section2-paragraph {
+    font-family: 'WorkSans-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+.members__section2-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.members__section2-img {
+    width: 190px;
+    height: 200px;
+}
+.members__section2-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #F6DBA8;
+    box-sizing: border-box;
+    width: 190px;
+    height: 53px;
+    font-family: 'WorkSans-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 160%;
+    color: #FFFFFF;
+    margin-top: 30px;
+}

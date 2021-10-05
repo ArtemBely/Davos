@@ -1,6 +1,8 @@
 import Main from './Main';
 import MainAssociation from './MainAssociation';
 import MainEvents from './MainEvents';
+import MainMembers from './MainMembers';
+
 
 
 const routes = [
@@ -18,6 +20,11 @@ const routes = [
     path: '/events',
     exact: true,
     component: MainEvents
+  },
+  {
+    path: '/members',
+    exact: true,
+    component: MainMembers
   }
 ]
 

@@ -1,0 +1,101 @@
+@media (min-width: 992px) and (max-width: 1290px) {
+    .members__section1,
+    .members__section2,
+    .members__section3 {
+        width: 952px;
+    }
+    .members__section1 {
+        height: 822px;
+    }
+    .members__section1-title {
+        font-size: 46px;
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+    .members__section1-container {
+        width: 790px;
+    }
+    .members__container-block {
+        width: 375px;
+        height: 180.29px;
+    }
+    .members__container-title {
+        font-size: 21px;
+        line-height: 140%;
+    }
+    .members__container-paragraph {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .members__special-container {
+        margin-top: 30px;
+        margin-left: 166px;
+    }
+    .members__container-btn {
+        width: 582px;
+        margin-left: 370px;
+        margin-top: 50px;
+    }
+    .members__section1-btn {
+        width: 276px;
+        height: 50px;
+    }
+    .members__section2 {
+        height: 580px;
+    }
+    .members__section2-title {
+        font-size: 40px;
+        line-height: 47px;
+        margin-top: 80px;
+    }
+    .members__section2-list {
+        margin-top: 40px;
+    }
+    .members__section2-img {
+        width: 139px;
+        height: 147px;
+    }
+    .members__section2-btn {
+        width: 160px;
+        height: 50px;
+    }
+    .members__section3 {
+        height: 917px;
+    }
+    .members__section3-technologies {
+        margin-top: 170px;
+        height: 258px;
+    }
+    .members__technologies-title {
+        margin-top: 19px;
+        margin-bottom: 10px;
+        font-size: 40px;
+        line-height: 47px;
+    }
+    .members__technologies-paragraph {
+        font-size: 20px;
+    }
+    .members__technologies-btn {
+        width: 276px;
+        height: 50px;
+    }
+    .members__technologies-img {
+        width: 517.99px;
+        height: 258px;
+        top: 0;
+        left: 434px;
+        z-index: 0;
+    }
+    .members__section3-report {
+        margin-top: 170px;
+        width: 670px;
+    }
+    .members__report-title {
+        font-size: 40px;
+        line-height: 47px;
+    }
+    .members__report-btn {
+        width: 162px;
+        height: 50px;
+    }
+}

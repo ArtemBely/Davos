@@ -37,6 +37,7 @@
     box-sizing: border-box;
     box-shadow: 3px 8px 13px #000000;
     border-radius: 30px;
+    cursor: pointer;
 }
 .members__special-block {
     background: #F6DBA8;

@@ -33,14 +33,8 @@ import '../../public/styles/tablet7.css';
 import '../../public/styles/tablet8.css';
 import '../../public/styles/phone7.css';
 import '../../public/styles/phone8.css';
-
-
-
-
-
-
-
-
+//PopupInternational
+import '../../public/styles/style13.css';
 
 
 

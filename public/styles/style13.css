@@ -1,0 +1,213 @@
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.popup__body {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+}
+.popup__content {
+    position: relative;
+    background-color: #fff;
+    color: black;
+    max-width: 570px;
+    max-height: 744px;
+    padding: 25px;
+    transition: all 0.8s ease 0s;
+}
+.popup__header {
+    display: flex;
+    justify-content: space-between;
+}
+.popup-title {
+    font-family: 'WorkSans-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 160%;
+    color: #000000;
+}
+.popup__close {
+    display: block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.popup__main-paragraph {
+    font-family: 'WorkSans-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 160%;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.popup__input {
+    padding: 11px 20px;
+    width: 520px;
+    height: 54px;
+    border: 2px solid #808080;
+    box-sizing: border-box;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+.popup__input::placeholder {
+    font-family: 'WorkSans-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 160%;
+    color: #808080;
+}
+.popup__input[type="text"] {
+    font-family: 'WorkSans-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 160%;
+    color: black;
+}
+.popup__checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.popup__checkbox {
+    border: 2px solid #808080;
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.popup__label {
+    font-family: 'WorkSans-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 160%;
+    color: #000000;
+    cursor: pointer;
+}
+.popup__footer {
+    width: 401px;
+    display: flex;
+    justify-content: space-between;
+}
+.popup__footer-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 54px;
+    border: 3px solid #F6DBA8;
+    box-sizing: border-box;
+    border-radius: 7px;
+    font-family: 'WorkSans-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 160%;
+    color: #000000;
+}
+.popup__footer-paragraph {
+    font-family: 'WorkSans-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+    color: #000000;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .popup__content {
+        max-width: 537px;
+        max-height: 714px;
+    }
+    .popup__main-paragraph {
+        font-size: 18px;
+        line-height: 140%;
+    }
+    .popup__input {
+        width: 487px;
+        height: 51px;
+    }
+    .popup__input::placeholder {
+        font-size: 18px;
+    }
+    .popup__input[type="text"] {
+        font-size: 18px;
+    }
+    .popup__checkbox-container {
+        margin-bottom: 16px;
+    }
+    .popup__label {
+        font-size: 18px;
+    }
+    .popup__footer {
+        width: 401px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .popup__footer-btn {
+        width: 105px;
+        height: 51px;
+        font-size: 18px;
+    }
+}
+@media (min-width: 320px) and (max-width: 575px) {
+    .popup__content {
+        max-width: 280px;
+        max-height: 794px;
+        padding: 20px;
+    }
+    .popup-title {
+        font-size: 22px;
+    }
+    .popup__close {
+        width: 14px;
+        height: 14px;
+    }
+    .popup__main-paragraph {
+        font-size: 16px;
+    }
+    .popup__input {
+        width: 235px;
+        height: 48px;
+    }
+    .popup__input::placeholder {
+        font-size: 16px;
+    }
+    .popup__input[type="text"] {
+        font-size: 16px;
+    }
+    .popup__checkbox-container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .popup__label {
+        font-size: 16px;
+    }
+    .popup__footer {
+        width: 235px;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .popup__footer-btn {
+        width: 235px;
+        height: 45px;
+        font-size: 18px;
+    }
+    .popup__footer-paragraph {
+        font-size: 14px;
+    }
+}

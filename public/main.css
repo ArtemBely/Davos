@@ -2485,6 +2485,8 @@ body {
     line-height: 130%;
     color: #FFFFFF;
     margin-bottom: 4px;
+    z-index: 1000;
+    position: relative;
 }
 .event__section-paragraph {
     font-family: "WorkSans-Regular";
@@ -2525,6 +2527,7 @@ body {
     margin-top: 13px;
     margin-bottom: 5px;
 }
+
 /* EventSection tablet 1 */
 @media (min-width: 992px) and (max-width: 1290px) {
     .event__container {

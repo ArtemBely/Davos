@@ -3,6 +3,7 @@ import Davos from '../../public/images/Davos.svg';
 import Dubai from '../../public/images/Dubai.svg';
 import rect1 from '../../public/images/Rectangle 248.png';
 import rect2 from '../../public/images/Rectangle 249.png';
+import ReactPlayer from "react-player"
 
 function MainSection1 () {
   return(
@@ -10,7 +11,7 @@ function MainSection1 () {
     <div id="video-bg">
      <img src={rect1} id='rect1' />
       <video height="977px" height="auto" autoPlay loop muted>
-          <source src="http://caihana.cz/img/shutterstock.mp4" type="video/mp4"></source>
+          <source src="https://emtechassociation.com/public/images/shutterstock.mp4" type="video/mp4"></source>
       </video>
       <img src={rect2} id='rect2' />
     </div>

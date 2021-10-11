@@ -9,6 +9,7 @@ import cookieParser from 'cookie-parser';
 import bodyParser from 'body-parser';
 import serialize from 'serialize-javascript';
 import validator from 'express-validator';
+import cors from 'cors';
 import fs from 'fs';
 import path from 'path';
 import http from 'http';
@@ -44,6 +45,7 @@ app.use(express.static('public'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.urlencoded({ extended: false }));
+app.use(cors());
 app.use(validator());
 app.use(cookieParser());
 

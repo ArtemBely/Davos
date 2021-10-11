@@ -10,7 +10,7 @@ function MainSection1 () {
     <div id="video-bg">
      <img src={rect1} id='rect1' />
       <video height="977px" height="auto" autoPlay loop muted>
-          <source src="https://emtechassociation.com/public/images/shutterstock.mp4" type="video/mp4"></source>
+          <source src="https://youtu.be/Fx5v9-TMEQE" type="video/mp4"></source>
       </video>
       <img src={rect2} id='rect2' />
     </div>

@@ -3,7 +3,6 @@ import Davos from '../../public/images/Davos.svg';
 import Dubai from '../../public/images/Dubai.svg';
 import rect1 from '../../public/images/Rectangle 248.png';
 import rect2 from '../../public/images/Rectangle 249.png';
-import ReactPlayer from "react-player"
 
 function MainSection1 () {
   return(

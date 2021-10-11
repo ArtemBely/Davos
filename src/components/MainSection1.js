@@ -9,9 +9,9 @@ function MainSection1 () {
     <div className='wrap__main-section1'>
     <div id="video-bg">
      <img src={rect1} id='rect1' />
-      <video height="977px" height="auto" autoPlay loop muted>
-          <source src="https://youtu.be/Fx5v9-TMEQE" type="video/mp4"></source>
-      </video>
+         <video height="977px" height="auto" autoPlay loop muted>
+              <source src="/files" type="video/mp4"></source>
+          </video>
       <img src={rect2} id='rect2' />
     </div>
         <div className='main__section1'>

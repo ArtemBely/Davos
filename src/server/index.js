@@ -53,7 +53,10 @@ app.use('/association', asRouter);
 app.use('/events', asEvents);
 app.use('/members', asMembers);
 
-
+app.get('/files', (req, res) => {
+  const resolvePath = path.resolve('public/images/shutterstock.mp4');
+  res.sendFile(resolvePath);
+});
 
 app.get('*', (req, res, next) => {
   const activeRouter = Routes.find((route) => matchPath(req.url, route)) || {};

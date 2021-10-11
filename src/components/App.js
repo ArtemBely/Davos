@@ -19,7 +19,7 @@ import '../../public/styles/tablet3.css';
 import '../../public/styles/tablet4.css';
 import '../../public/styles/phone3.css';
 import '../../public/styles/phone4.css';
-//Events 
+//Events
 import '../../public/styles/style9.css';
 import '../../public/styles/tablet5.css';
 import '../../public/styles/tablet6.css';
@@ -47,7 +47,7 @@ class App extends React.Component {
           <Switch>
             {routes.map((route, i) => (
               <Route
-              key={1}
+              key={i}
               path={route.path}
               exact={route.exact}
               component={route.component}

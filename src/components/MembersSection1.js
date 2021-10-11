@@ -1,17 +1,27 @@
 import React from 'react';
 import cross from '../../public/images/cross.svg';
+import wave2 from '../../public/images/2.svg';
+
 
 
 class MembersSection1 extends React.Component {
-    state = {
+  constructor() {
+
+    super()
+
+    this.state = {
         isOpen: false,
         isOpen2: false,
         isOpen3: false,
         isOpen4: false,
     }
+  }
     render() {
     return(
         <div className='wrap__members-section1'>
+        <div className='wrap_wave'>
+           <img src={wave2} id='wave_big'/>
+        </div>
             <div className='members__section1'>
                 <h1 className="members__section1-title">Members and Partners</h1>
                 <div className='members__section1-container'>
@@ -26,10 +36,10 @@ class MembersSection1 extends React.Component {
                             </p>
                         </div>
                     </div>
-                    <div className="members__container-block members__special-block" onClick={()=>this.setState({isOpen:true})}>
+                    <div className="members__container-block" onClick={()=>this.setState({isOpen:true})}>
                         <div className="members__container-special">
-                            <h3 className="members__container-title members__special-text">Investment structures</h3>
-                            <p className="members__container-paragraph members__special-text">
+                            <h3 className="members__container-title">Investment structures</h3>
+                            <p className="members__container-paragraph">
                                 If you would like to have exclusive <br />
                                 access to an extensive database <br />
                                 of emerging technologies <br />
@@ -99,7 +109,7 @@ class MembersSection1 extends React.Component {
                                         of data and agree to the privacy policy
                                     </p>
                                 </div>
-                            </form> 
+                            </form>
                         </div>
                     </div>
                 </div>)}
@@ -137,7 +147,7 @@ class MembersSection1 extends React.Component {
                                         of data and agree to the privacy policy
                                     </p>
                                 </div>
-                            </form> 
+                            </form>
                         </div>
                     </div>
                 </div>)}
@@ -166,7 +176,7 @@ class MembersSection1 extends React.Component {
                                         of data and agree to the privacy policy
                                     </p>
                                 </div>
-                            </form> 
+                            </form>
                         </div>
                     </div>
                 </div>)}
@@ -194,7 +204,7 @@ class MembersSection1 extends React.Component {
                                         of data and agree to the privacy policy
                                     </p>
                                 </div>
-                            </form> 
+                            </form>
                         </div>
                     </div>
                 </div>)}

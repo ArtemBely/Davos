@@ -1,5 +1,5 @@
 @media (min-width: 992px) and (max-width: 1290px) {
-    .header, 
+    .header,
     .main__section1,
     .main__section2,
     .main__section3,
@@ -223,3 +223,69 @@
         margin-left: 216px;
     }
 }
+@media (min-width: 1345px) and (max-width: 1960px) {
+  .event-img2 {
+    -webkit-transform: scale(0.68);
+    -ms-transform: scale(0.68);
+        transform: scale(0.68);
+  }
+}
+  @media (min-width: 995px) and (max-width: 1345px) {
+    .event-img2 {
+      position: absolute;
+      left: -487px !important;
+      height: auto;
+      top: 24px !important;
+      -webkit-transform: scale(0.52);
+      -ms-transform: scale(0.52);
+          transform: scale(0.52);
+    }
+  }
+    @media (min-width: 1290px) and (max-width: 1345px) {
+      .event-img2 {
+        position: absolute;
+        left: -316px !important;
+        height: auto;
+        top: -11px !important;
+        -webkit-transform: scale(0.67);
+        -ms-transform: scale(0.67);
+            transform: scale(0.67);
+      }
+      .header, .event__section {
+        z-index: 10;
+      }
+    }
+      @media (min-width: 767px) and (max-width: 995px) {
+        .event-img2 {
+          position: absolute;
+          left: -593px !important;
+          height: auto;
+          top: 72px !important;
+          -webkit-transform: scale(0.38);
+          -ms-transform: scale(0.38);
+              transform: scale(0.38);
+        }
+        .header {
+          z-index: 10;
+        }
+      }
+        @media (min-width: 576px) and (max-width: 767px) {
+          .event-img2 {
+            position: absolute;
+            left: -692px !important;
+            top: 123px !important;
+            -webkit-transform: scale(0.3);
+            -ms-transform: scale(0.3);
+                transform: scale(0.3);
+          }
+}
+      @media (min-width: 320px) and (max-width: 576px) {
+        .event-img2 {
+              position: absolute;
+              left: -816px !important;
+              top: 57px !important;
+              -webkit-transform: scale(0.15);
+              -ms-transform: scale(0.15);
+                  transform: scale(0.15);
+        }
+      }

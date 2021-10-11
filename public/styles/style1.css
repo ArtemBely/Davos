@@ -40,6 +40,7 @@ body {
   margin: 15px 0px;
   width: 1290px;
   height: 50px;
+  z-index: 10;
 }
 .navigation {
   display: flex;
@@ -52,6 +53,10 @@ body {
 }
 .navigation-item {
   margin-left: 50px;
+}
+.wrap_lines {
+  position: absolute;
+  top: 0;
 }
 .navigation-link {
   font-family: 'WorkSans-Regular';
@@ -75,6 +80,8 @@ body {
 }
 
 #under_logo {
+  z-index: 1000;
+  position: relative;
   width: 162px;
   font-style: normal;
   font-weight: bold;

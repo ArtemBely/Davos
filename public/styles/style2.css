@@ -5,12 +5,36 @@
 	justify-content: center;
 	align-items: center;
     background-color: rgba(5, 6, 11, 1);
+    position: relative;
+    overflow: hidden;
 }
 .main__section1 {
     width: 1290px;
     height: 980px;
     display: flex;
     justify-content: space-between;
+    z-index: 1;
+}
+#video-bg {
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#rect1 {
+  position: relative;
+  left: 190px;
+  top: -50px;
+}
+#rect2 {
+  position: relative;
+  left: -200px;
+  top: -47px;
 }
 .section1__description {
     margin-top: 393px;
@@ -65,14 +89,18 @@
     box-sizing: border-box;
     backdrop-filter: blur(16px);
     border-radius: 30px;
+    cursor: pointer;
 }
 .section1__img-dubai {
     width: 414px;
     height: 291px;
     background: #0E1010;
-    border: 2px solid #F6DBA8;
     box-sizing: border-box;
     backdrop-filter: blur(16px);
     border-radius: 30px;
-    box-shadow: 0px 4px 90px 19px rgba(202, 162, 42, 0.85);
+    cursor: pointer;
+    border: 2px solid #F6DBA8;
+}
+.section1__img-dubai:hover, .section1__img-davos:hover {
+  box-shadow: 0px 4px 90px 19px rgba(202, 162, 42, 0.85);
 }

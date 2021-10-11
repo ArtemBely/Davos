@@ -1,12 +1,18 @@
 import React from 'react';
 import membersImg from "../../public/images/membersPlanets.svg"
 import cross from '../../public/images/cross.svg';
+import wave2 from '../../public/images/2.svg';
 
 
 class MembersSection3 extends React.Component {
-    state = {
-        isOpen2: false,
-    }
+  constructor() {
+     super()
+
+     this.state = {
+         isOpen2: false,
+     }
+  }
+
     render() {
     return(
         <div className='wrap__members-section3'>
@@ -14,8 +20,8 @@ class MembersSection3 extends React.Component {
                 <div className="members__section3-technologies">
                     <h2 className="members__technologies-title">Different technologies. Rooms. Showcases.</h2>
                     <p className="members__technologies-paragraph">
-                        Best showcases of emerging technologies and professional <br /> 
-                        investment community. Our members can see each other <br /> 
+                        Best showcases of emerging technologies and professional <br />
+                        investment community. Our members can see each other <br />
                         and communicate through a personal account after login.
                     </p>
                     <button className="members__technologies-btn" onClick={()=>this.setState({isOpen2:true})}>Apply for participation</button>
@@ -60,10 +66,13 @@ class MembersSection3 extends React.Component {
                                         of data and agree to the privacy policy
                                     </p>
                                 </div>
-                            </form> 
+                            </form>
                         </div>
                     </div>
                 </div>)}
+                <div className='wrap_wave2'>
+                   <img src={wave2} id='wave_big2'/>
+                </div>
         </div>
     )
     }

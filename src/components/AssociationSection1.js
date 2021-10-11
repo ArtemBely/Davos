@@ -1,12 +1,18 @@
 import React from 'react';
-import AssociationMainLogo from "../../public/images/AssociationMainLogo.svg"
+import associationMainLogo from "../../public/images/AssociationMainLogo.svg"
+import lines from '../../public/images/Group (2).svg';
+import associationMainLogo1 from "../../public/images/Слой 1.svg";
+import grad1 from '../../public/images/Frame 402.svg';
 
 
 function AssociationSection1 () {
   return(
     <div className="wrap__association1">
+    <div className='wrap_lines'>
+        <img src={grad1} className="lines_grad" />
+    </div>
         <div className="association1">
-            <img src={AssociationMainLogo} className="association1-img"></img>
+            <img src={associationMainLogo1} className="association1-img"></img>
             <h2 className="association1__about-title">About</h2>
             <div className="association1__about-container">
                 <div className="association1__about-section">

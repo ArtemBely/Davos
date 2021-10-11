@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import eventImg from "../../public/images/EventsImg.svg"
+import foneEvents from '../../public/images/Group 417.png';
 import MainSection4 from './MainSection4';
 
 
@@ -8,8 +9,11 @@ import MainSection4 from './MainSection4';
 function EventsSection () {
   return(
     <div className="wrap__event-section">
+      <div className='hoo'>
+        <img src={foneEvents} className="event-img2" />
+      </div>
         <div className="event__container">
-            <img src={eventImg} className="event-img" />
+          <img src={eventImg} className="event-img" />
             <div className="event__section">
                 <h2 className="event__section-title">Events</h2>
                 <p className="event__section-paragraph">

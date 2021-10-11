@@ -155,3 +155,34 @@
         font-size: 16px;
     }
 }
+@media (min-width: 320px) and (max-width: 1950px) {
+  .wrap__association1 {
+    overflow: hidden;
+    position: relative;
+  }
+  .lines_grad {
+    position: relative;
+    top: -135px;
+    z-index: 1000;
+  }
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .lines_grad {
+    position: relative;
+    top: -455px;
+    z-index: 1000;
+    -webkit-transform: scale(0.5);
+        -ms-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+}
+@media (min-width: 768px) and (max-width: 1290px) {
+  .lines_grad {
+    position: relative;
+    top: -269px;
+    z-index: 1000;
+    -webkit-transform: scale(0.7);
+        -ms-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+}

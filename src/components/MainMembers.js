@@ -1,17 +1,17 @@
 import React from 'react';
-import Header from './Header'; 
-import MembersSection1 from './MembersSection1'; 
-import MembersSection2 from './MembersSection2'; 
-import MembersSection3 from './MembersSection3'; 
-import Footer from './Footer'; 
-// import PopupInternational from './PopupInternational'; 
+import Header from './Header';
+import MembersSection1 from './MembersSection1';
+import MembersSection2 from './MembersSection2';
+import MembersSection3 from './MembersSection3';
+import Footer from './Footer';
+// import PopupInternational from './PopupInternational';
 
 
 
 class MainMembers extends React.Component {
   render() {
     return(
-      <div>
+      <div className='wrap_memb'>
           <Header />
           <MembersSection1 />
           <MembersSection2 />

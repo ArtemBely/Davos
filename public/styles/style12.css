@@ -1,10 +1,12 @@
 /* members section3  */
 .wrap__members-section3 {
-    width: 100%;
+  width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-    background: #05060B;
+  background: #05060B;
+  position: relative;
+  overflow: hidden;
 }
 .members__section3 {
     width: 1290px;
@@ -60,6 +62,8 @@
 .members__section3-report {
     margin-top: 190px;
     width: 742px;
+    z-index: 1000;
+    position: relative;
 }
 .members__report-title {
     font-family: 'WorkSans-Bold';

@@ -1,14 +1,15 @@
 import React from 'react';
-import FinTech from '../../public/images/FinTech.svg';
-import Variables from '../../public/images/Variables.svg';
-import VirtualReality from '../../public/images/VirtualReality.svg';
-import MedTech from '../../public/images/MedTech.svg';
-import BioTech from '../../public/images/BioTech.svg';
-import AgroTech from '../../public/images/AgroTech.svg';
-import EduTech from '../../public/images/EduTech.svg';
-import Artificial_intelligence from '../../public/images/Artificial_intelligence.svg';
-import DLT from '../../public/images/DLT.svg';
-import FoodTech from '../../public/images/FoodTech.svg';
+import dlt from '../../public/images/DLT.svg';
+import img1 from '../../public/images/Group 46.png';
+import img2 from '../../public/images/image 23.svg';
+import img3 from '../../public/images/Group 48.png';
+import img4 from '../../public/images/Group 51.png';
+import img5 from '../../public/images/Group 53.png';
+import img6 from '../../public/images/Group 370.png';
+import img7 from '../../public/images/Group 373.png';
+import img8 from '../../public/images/Group 421.png';
+import img9 from '../../public/images/Group 49.png';
+import foodTech from '../../public/images/FoodTech.svg';
 import { NavLink } from 'react-router-dom';
 import MainSection4 from './MainSection4';
 
@@ -20,34 +21,34 @@ function MainSection3 () {
             <div className='section3__container-img'>
                 <ul className='section3-list'>
                     <li className='section3-item'>
-                        <img src={FinTech} className='section3-img'></img>
+                        <img src={img1} className='section3-img'></img>
                     </li>
                     <li className='section3-item'>
-                        <img src={Variables} className='section3-img'></img>
+                        <img src={img8} className='section3-img' />
                     </li>
                     <li className='section3-item'>
-                        <img src={VirtualReality} className='section3-img section3-big-img'></img>
+                        <img src={img3} className='section3-img section3-big-img'></img>
                     </li>
                     <li className='section3-item'>
-                        <img src={MedTech} className='section3-img'></img>
+                        <img src={img9} className='section3-img'></img>
                     </li>
                     <li className='section3-item'>
-                        <img src={BioTech} className='section3-img'></img>
+                        <img src={img6} className='section3-img'></img>
                     </li>
                     <li className='section3-item'>
-                        <img src={AgroTech} className='section3-img'></img>
+                        <img src={img4} className='section3-img'></img>
                     </li>
                     <li className='section3-item'>
-                        <img src={EduTech} className='section3-img'></img>
+                        <img src={img7} className='section3-img'></img>
                     </li>
                     <li className='section3-item'>
-                        <img src={Artificial_intelligence} className='section3-img section3-big-img'></img>
+                        <img src={img5} className='section3-img section3-big-img'></img>
                     </li>
                     <li className='section3-item'>
-                        <img src={DLT} className='section3-img'></img>
+                        <img src={dlt} className='section3-img'></img>
                     </li>
                     <li className='section3-item'>
-                        <img src={FoodTech} className='section3-img'></img>
+                        <img src={foodTech} className='section3-img'></img>
                     </li>
                 </ul>
             </div>

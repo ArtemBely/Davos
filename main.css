@@ -124,6 +124,9 @@ body {
   line-height: 19px;
   color: #787878;
 }
+.section3-img {
+  cursor: pointer;
+}
 
 /* MainSection1 */
 .wrap__main-section1 {
@@ -211,25 +214,26 @@ body {
     margin-bottom: 48px;
     width: 414px;
     height: 291px;
-    background: #0E1010;
-    border: 2px solid #F6DBA8;
     box-sizing: border-box;
     backdrop-filter: blur(16px);
     border-radius: 30px;
     cursor: pointer;
+    mix-blend-mode: lighten;
 }
 .section1__img-dubai {
-    width: 414px;
-    height: 291px;
-    background: #0E1010;
-    box-sizing: border-box;
-    backdrop-filter: blur(16px);
-    border-radius: 30px;
-    cursor: pointer;
-    border: 2px solid #F6DBA8;
+  width: 414px;
+  height: 291px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-backdrop-filter: blur(16px);
+          backdrop-filter: blur(16px);
+  border-radius: 30px;
+  cursor: pointer;
+  mix-blend-mode: lighten;
 }
 .section1__img-dubai:hover, .section1__img-davos:hover {
-  box-shadow: 0px 4px 90px 19px rgba(202, 162, 42, 0.85);
+  -webkit-box-shadow: 0px 4px 90px 19px rgba(202, 162, 42, 0.85);
+        box-shadow: 0px 4px 90px 19px rgba(202, 162, 42, 0.85);
 }
 
 /* MainSection2 */
@@ -763,7 +767,7 @@ body {
       }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .header, 
+    .header,
     .main__section1,
     .main__section2,
     .main__section3,
@@ -1016,6 +1020,12 @@ body {
         margin-left: 145px;
     }
 }
+@media (max-width: 1290px) {
+  .section1__img-davos, .section1__img-dubai {
+    border: 2px solid #F6DBA8;
+  }
+}
+
 @media (min-width: 576px) and (max-width: 767px) {
     .header, 
     .main__section1,

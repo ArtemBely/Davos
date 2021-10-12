@@ -89,3 +89,6 @@ body {
   line-height: 19px;
   color: #787878;
 }
+.section3-img {
+  cursor: pointer;
+}

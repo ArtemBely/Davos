@@ -22,13 +22,14 @@
     width: 74px;
 }
 .footer-link {
-    font-family: 'WorkSans-Regular';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 23px;
-    text-decoration-line: underline;
-    color: #FFFFFF;
+  font-family: 'WorkSans-Regular';
+     font-style: normal;
+     font-weight: normal;
+     font-size: 20px;
+     line-height: 23px;
+     -webkit-text-decoration-line: underline;
+             text-decoration-line: underline;
+     color: #FFFFFF;
 }
 .footer-item {
     margin-bottom: 20px;
@@ -49,7 +50,11 @@
     margin-left: 405px;
 }
 #social_networks {
-    width: 70px;
-    display: flex;
-    justify-content: space-between;
+  width: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }

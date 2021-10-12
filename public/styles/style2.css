@@ -1,9 +1,15 @@
 /* MainSection1 */
 .wrap__main-section1 {
     width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  	display: -webkit-box;
+  	display: -ms-flexbox;
+  	display: flex;
+  	-webkit-box-pack: center;
+  	    -ms-flex-pack: center;
+  	        justify-content: center;
+  	-webkit-box-align: center;
+  	    -ms-flex-align: center;
+  	        align-items: center;
     background-color: rgba(5, 6, 11, 1);
     position: relative;
     overflow: hidden;
@@ -11,8 +17,12 @@
 .main__section1 {
     width: 1290px;
     height: 980px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     z-index: 1;
 }
 #video-bg {
@@ -63,7 +73,8 @@
     font-weight: normal;
     font-size: 30px;
     line-height: 160%;
-    text-decoration-line: underline;
+    -webkit-text-decoration-line: underline;
+        text-decoration-line: underline;
     color: #FFFFFF;
     display: block;
 }
@@ -80,27 +91,30 @@
     color: #FFFFFF;
 }
 .section1__img-davos {
-    margin-top: 17px;
-    margin-bottom: 48px;
-    width: 414px;
-    height: 291px;
-    background: #0E1010;
-    border: 2px solid #F6DBA8;
-    box-sizing: border-box;
-    backdrop-filter: blur(16px);
-    border-radius: 30px;
-    cursor: pointer;
+  margin-top: 17px;
+  margin-bottom: 48px;
+  width: 414px;
+  height: 291px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-backdrop-filter: blur(16px);
+          backdrop-filter: blur(16px);
+  border-radius: 30px;
+  cursor: pointer;
+  mix-blend-mode: lighten;
 }
 .section1__img-dubai {
-    width: 414px;
-    height: 291px;
-    background: #0E1010;
-    box-sizing: border-box;
-    backdrop-filter: blur(16px);
-    border-radius: 30px;
-    cursor: pointer;
-    border: 2px solid #F6DBA8;
+  width: 414px;
+  height: 291px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-backdrop-filter: blur(16px);
+          backdrop-filter: blur(16px);
+  border-radius: 30px;
+  cursor: pointer;
+  mix-blend-mode: lighten;
 }
 .section1__img-dubai:hover, .section1__img-davos:hover {
-  box-shadow: 0px 4px 90px 19px rgba(202, 162, 42, 0.85);
+  -webkit-box-shadow: 0px 4px 90px 19px rgba(202, 162, 42, 0.85);
+        box-shadow: 0px 4px 90px 19px rgba(202, 162, 42, 0.85);
 }

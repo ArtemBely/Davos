@@ -1,5 +1,5 @@
 @media (min-width: 768px) and (max-width: 991px) {
-    .header, 
+    .header,
     .main__section1,
     .main__section2,
     .main__section3,
@@ -251,4 +251,9 @@
     .footer__list4 {
         margin-left: 145px;
     }
+}
+@media (max-width: 1290px) {
+  .section1__img-davos, .section1__img-dubai {
+    border: 2px solid #F6DBA8;
+  }
 }

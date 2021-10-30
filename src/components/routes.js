@@ -2,8 +2,7 @@ import Main from './Main';
 import MainAssociation from './MainAssociation';
 import MainEvents from './MainEvents';
 import MainMembers from './MainMembers';
-
-
+import Davos from './Davos';
 
 
 const routes = [
@@ -26,6 +25,11 @@ const routes = [
     path: '/members',
     exact: true,
     component: MainMembers
+  },
+  {
+    path: '/davos',
+    exact: true,
+    component: Davos
   }
 ]
 

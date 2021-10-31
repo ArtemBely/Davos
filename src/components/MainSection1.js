@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import Davos from '../../public/images/Davos.svg';
 import Dubai from '../../public/images/Dubai.svg';
 import rect1 from '../../public/images/Rectangle 248.png';
@@ -27,7 +28,7 @@ function MainSection1 () {
             </div>
             <div className='section1__img-container'>
                 <h2 className='section1__img-title'>Coming soon</h2>
-                <img src={Davos} className='section1__img-davos'></img>
+                <NavLink to='/davos'><img src={Davos} className='section1__img-davos'></img></NavLink>
                 <img src={Dubai} className='section1__img-dubai'></img>
             </div>
         </div>

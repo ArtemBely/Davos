@@ -35,6 +35,9 @@ import '../../public/styles/phone7.css';
 import '../../public/styles/phone8.css';
 //PopupInternational
 import '../../public/styles/style13.css';
+//Davos
+import '../../public/styles/style14.css';
+
 
 
 

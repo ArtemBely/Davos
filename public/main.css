@@ -4412,3 +4412,100 @@ body {
   left: 280px;
   bottom: 40px;
 }
+.strategic {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 0 auto;
+  max-width: 1330px;
+  color: #ffffff;
+  margin-bottom: 159px;
+}
+
+.strategic__title {
+  font-family: "WorkSans-Bold";
+  font-style: normal;
+  font-size: 45px;
+  line-height: 53px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  margin-top: 107px;
+  margin-bottom: 20px;
+}
+
+.strategic__text {
+  width: 470px;
+  height: 64px;
+  font-family: "WorkSans-Light";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 160%;
+  color: #fafafa;
+  margin-bottom: 73px;
+}
+
+.strategic__contact {
+  display: flex;
+  font-family: "WorkSans-Light";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 160%;
+  align-items: flex-end;
+  color: #fafafa;
+  text-shadow: 1px 2px 5px #000000;
+  margin-top: 25px;
+  max-width: 530px;
+  flex-wrap: wrap;
+}
+
+.strategic__contact-name {
+  font-family: "WorkSans-Bold";
+  margin-bottom: 25px;
+}
+
+.info {
+  color: #7c7c7c;
+  margin-right: 25px;
+}
+
+.download__strategic {
+  display: block;
+  margin: 100px auto;
+  width: 570px;
+  height: 50px;
+  border: 1.5px solid #f5d7a1;
+  background-color: #05060b;
+  transition: 0.5s;
+}
+
+.download__strategic:hover {
+  background-color: #ffff;
+}
+
+.download-wrap__strategic {
+  display: flex;
+  justify-content: space-between;
+}
+
+.strategic-donwload__text {
+  margin-right: 30px;
+  font-family: "WorkSans-Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 160%;
+  color: #ffff;
+}
+
+.strategic-donwload__text:hover {
+  color: #05060b;
+}
+
+.arrow-button__strategic {
+  margin-left: 30px;
+}
+
+.arrow-button__strategic:hover {
+  color: #05060b;
+}
+

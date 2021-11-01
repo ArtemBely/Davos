@@ -38,6 +38,7 @@ import '../../public/styles/style13.css';
 //Davos
 import '../../public/styles/style14.css';
 import '../../public/styles/style15.css';
+import '../../public/styles/style16.css';
 
 
 

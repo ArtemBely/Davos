@@ -17,7 +17,7 @@ function DavosSection() {
       </div>
       <div className="wrap__sections">
         <div className="description">
-          <h1 className="description__title">The future is now</h1>
+          <p className="description__title">The future is now</p>
           <p className="description__paragraph">January 16-23, 2022</p>
           <p className="description__paragraph">Davos, Switzerland</p>
         </div>

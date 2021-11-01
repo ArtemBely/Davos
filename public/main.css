@@ -4133,7 +4133,6 @@ body {
     height: 80px;
     background: rgba(255, 255, 255, 0.01);
     backdrop-filter: blur(21px);
-
 }
 .wrap__lead {
     position: relative;

@@ -32,6 +32,7 @@
     display: block;
   }
 
+
   .Card-wrapper {
     gap: 20px;
     margin: 0 auto;
@@ -83,6 +84,11 @@
 
   .dekstop {
     display: block;
+  }
+
+  .dekstop__wrapper {
+    width: 952px;
+    margin: 0 auto;
   }
 
   .dekstop__logo {

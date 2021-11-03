@@ -15,7 +15,7 @@ router.get('/', (req, res) => {
     `<!DOCTYPE html>
         <html>
             <head>
-              <title>Members</title>
+              <title>International EmTech Investment Association</title>
                    <link rel="stylesheet" type="text/css" href="../main.css">
                      <meta name="viewport" content="width=device-width, initial-scale=1">
                   <script src='/bundle.js' defer></script>

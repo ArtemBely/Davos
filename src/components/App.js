@@ -39,6 +39,9 @@ import '../../public/styles/style13.css';
 import '../../public/styles/style14.css';
 import '../../public/styles/style15.css';
 import '../../public/styles/style16.css';
+import '../../public/styles/dekstop1.css';
+import '../../public/styles/dekstop2.css';
+import '../../public/styles/dekstop3.css';
 
 
 

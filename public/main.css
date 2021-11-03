@@ -4901,7 +4901,7 @@ body {
   }
 
   .dekstop__wrapper {
-    width: 100%;
+    width: 516px;
     margin: 0 auto;
   }
 
@@ -4992,6 +4992,11 @@ body {
   .davosCard__date {
     bottom: 24px;
     left: 26px;
+  }
+
+  .dekstop__wrapper {
+    width: 614px;
+    margin: 0 auto;
   }
 }
 /* davos footer */

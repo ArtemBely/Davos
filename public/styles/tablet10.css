@@ -1,0 +1,204 @@
+/* davosMain */
+
+@media (min-width: 576px) and (max-width: 992px) {
+  .concept{
+    padding: 20px;
+  }
+
+  .concept__wrapper {
+    display: block;
+  }
+
+  .concept__title {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .join-us__header {
+    margin-top: 0;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .join-us__descr {
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: center;
+    width: 272px;
+  }
+
+  .join-us__btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 24px;
+    width: 303px;
+    height: 56px;
+  }
+
+  .Card-wrapper {
+    gap: 11px;
+    width: 535px;
+    margin: 0 auto;
+  }
+
+  .davosCard {
+    width: 262px;
+    height: 127px;
+  }
+
+  .davosCard__img {
+    width: 258px;
+    height: 123px;
+  }
+
+  .davosCard__title {
+    font-size: 16px;
+    bottom: 28px;
+    left: 19px;
+  }
+
+  .davosCard__date {
+    font-size: 16px;
+    bottom: 13px;
+    left: 19px;
+  }
+
+  .concept-download {
+    margin: 20px auto;
+  }
+
+  .partners__title {
+    margin-top: 80px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .partners__wrapper {
+    display: block;
+  }
+
+  .partners__descr {
+    font-size: 16px;
+    margin: 0 auto;
+    width: 474px;
+  }
+
+  .partners__supported {
+    justify-content: baseline;
+    width: 270px;
+  }
+
+  .supported-logo {
+    width: 73px;
+    height: 79px;
+  }
+
+  .supported-descr {
+    font-size: 12px;
+    width: 183px;
+  }
+
+  .partners__supported,
+  .partners__logos {
+    display: none;
+  }
+
+  .dekstop {
+    display: block;
+  }
+
+  .dekstop__wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .dekstop__logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .OfficeDescr {
+    display: flex;
+  }
+
+  supported-descr {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .supportersOffice {
+    width: 73px;
+    height: 79px;
+  }
+
+  .supported-descr {
+    width: 224.61px;
+    height: 78.47px;
+    font-size: 16px;
+  }
+
+  .supportersCypro {
+    width: 183px;
+    height: 36px;
+  }
+
+  .supportersIdaxa {
+    width: 107px;
+    height: 30px;
+    font-size: 18px;
+  }
+
+  .supportersUni {
+    width: 195px;
+    height: 41px;
+  }
+
+  .supportersWorld {
+    width: 83px;
+    height: 70px;
+  }
+
+  .supportersForum {
+    width: 104px;
+    height: 65px;
+  }
+
+  .supportersIe {
+    width: 106px;
+    height: 31px;
+  }
+
+  .supportersBank {
+    width: 229px;
+    height: 46px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .Card-wrapper {
+    width: 725px;
+  }
+
+  .davosCard {
+    width: 355px;
+    height: 173px;
+  }
+
+  .davosCard__img {
+    width: 351px;
+    height: 169px;
+  }
+
+  .davosCard__title {
+    bottom: 45px;
+    left: 26px;
+  }
+
+  .davosCard__date {
+    bottom: 24px;
+    left: 26px;
+  }
+}

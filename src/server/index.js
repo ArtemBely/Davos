@@ -80,7 +80,6 @@ app.get('*', (req, res, next) => {
                     <meta name="viewport" content="width=device-width, initial-scale=1">
                       <script src='/bundle.js' defer></script>
                         <script>window.__INITIAL_DATA__= ${serialize(data)}</script>
-                            <title>COLLAB</title>
                           </head>
                         <body>
                        <div id="app">

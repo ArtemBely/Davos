@@ -1,0 +1,35 @@
+@media (min-width: 992px) and (max-width: 1320px) {
+
+  .lead__container {
+    margin-bottom: -56px;
+  }
+
+  .lead__logo {
+    width: 70px;
+    height: 60px;
+  }
+
+  .lead__logo-description {
+    font-size: 17px;
+    text-align: center;
+    font-family: "WorkSans-Bold";
+    text-align: center;
+  }
+
+  .description__title {
+    font-size: 112px;
+    width: 952px;
+    line-height: 195px;
+    margin: 0 auto;
+  }
+
+  .description__paragraph {
+    width: 410px;
+    height: 70px;
+    margin-bottom: 0;
+  }
+
+  .description__paragraph:last-of-type {
+    margin: 0 auto 110px;
+  }
+}

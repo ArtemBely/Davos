@@ -51,6 +51,25 @@ function DavosMain() {
                 <img className="supporters supporters-2" src={Cambridge} alt="Cambridge University"/>
                 <img className="supporters supporters-2" src={WorldMaskGroup} alt="WorldMaskGroup"/>
             </div>
+            <div className="dekstop">
+                <div className="dekstop__wrapper">
+                    <div className="dekstop__logo">
+                    <img className="supportersOffice" src={SheikhOffice} alt="Office of Sheikh"/>
+                    <div className="supported-descr">The conference is supportedby The Private Office of Sheikh Saqer Bin Mohamed Al Qasimi</div>
+                    <img className="supportersCypro" src={CryptoValley} alt="Crypto Valley"/>
+                    </div>
+                    <div className="dekstop__logo">
+                    <img className="supportersIdaxa" src={IDAXA} alt="IDAXA"/>
+                    <img className="supportersUni" src={Cambridge} alt="Cambridge University"/>
+                    <img className="supportersWorld" src={WorldMaskGroup} alt="WorldMaskGroup"/>
+                    </div>
+                    <div className="dekstop__logo">
+                    <img className="supportersForum" src={WorldEconomicForum} alt="World Economic Forum"/>
+                    <img className="supportersIe" src={IEEE} alt="IEEE"/>
+                    <img className="supportersBank" src={TheWorldBank} alt="The World Bank"/>
+                    </div>
+                </div>
+            </div>
         </div>
     </>
     )

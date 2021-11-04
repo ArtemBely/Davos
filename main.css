@@ -4901,7 +4901,7 @@ body {
   }
 
   .dekstop__wrapper {
-    width: 100%;
+    width: 532px;
     margin: 0 auto;
   }
 
@@ -4929,6 +4929,7 @@ body {
     width: 224.61px;
     height: 78.47px;
     font-size: 16px;
+    margin-bottom: 20px;
   }
 
   .supportersCypro {
@@ -4992,6 +4993,11 @@ body {
   .davosCard__date {
     bottom: 24px;
     left: 26px;
+  }
+
+  .dekstop__wrapper {
+    width: 725px;
+    margin: 0 auto;
   }
 }
 /* davos footer */

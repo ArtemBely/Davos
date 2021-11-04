@@ -98,6 +98,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
+  width: 952px;
+  margin-left: 76px;
 }
 
 .concept-download {
@@ -217,4 +219,8 @@
   position: relative;
   left: 280px;
   bottom: 40px;
+}
+
+.dekstop {
+  display: none;
 }

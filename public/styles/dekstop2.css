@@ -1,0 +1,147 @@
+@media (min-width: 992px) and (max-width: 1320px) {
+  .concept__title {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    line-height: 47px;
+  }
+
+  .concept__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .join-us__header {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .join-us__descr {
+    font-size: 18px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .join-us__btn {
+    font-size: 18px;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: block;
+  }
+
+
+  .Card-wrapper {
+    gap: 20px;
+    margin: 0 auto;
+    margin-top: 37px;
+    
+  }
+
+  .davosCard__img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  .davosCard {
+    display: flex;
+    width: 466px;
+    height: 227px;
+  }
+
+  .concept-download {
+    width: 410px;
+    height: 50px;
+    margin-top: 20px;
+  }
+
+  .partners__title {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 40px;
+  }
+
+  .partners__descr {
+    height: 116px;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+
+  .partners__supported,
+  .partners__logos {
+    display: none;
+  }
+
+  .partners__wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .dekstop {
+    display: block;
+  }
+
+  .dekstop__wrapper {
+    width: 952px;
+    margin: 0 auto;
+  }
+
+  .dekstop__logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .supportersOffice {
+    width: 130.6px;
+    height: 140.9px;
+  }
+
+  .supported-descr {
+    width: 324.61px;
+    height: 78.47px;
+    font-size: 18px;
+    margin-right: 160px;
+  }
+
+  .supportersCypro {
+    width: 330.85px;
+    height: 63.78px;
+  }
+
+  .supportersIdaxa {
+    width: 190.76px;
+    height: 52.88px;
+    font-size: 18px;
+  }
+
+  .supportersUni {
+    width: 346.74px;
+    height: 73.14px;
+  }
+
+  .supportersWorld {
+    width: 146.46px;
+    height: 124.47px;
+  }
+
+  .supportersForum {
+    width: 185.06px;
+    height: 114.29px;
+  }
+
+  .supportersIe {
+    width: 188.24px;
+    height: 55.4px;
+  }
+
+  .supportersBank {
+    width: 413.94px;
+    height: 82.09px;
+  }
+}

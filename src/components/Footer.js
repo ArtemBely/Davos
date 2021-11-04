@@ -41,7 +41,7 @@ function Footer () {
                     <NavLink to="#" className='footer__link3 footer-link'>Contacts</NavLink>
                 </li>
                 <li className='footer__item3 footer-item'>
-                    <NavLink to="#" className='footer__link3 footer-link'>+ 42 867 867 89</NavLink>
+                    <NavLink to="#" className='footer__link3 footer-link'>41 79 269 53 60</NavLink>
                 </li>
                 <li className='footer__item3 footer-item'>
                     <NavLink to="#" className='footer__link3 footer-link'>hi@emtech.eu</NavLink>

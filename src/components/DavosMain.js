@@ -43,13 +43,36 @@ function DavosMain() {
                 </div>
             </div>
             <div className="partners__logos">
-                <img className="supporters" src={WorldEconomicForum} alt="World Economic Forum"/>
-                <img className="supporters" src={IEEE} alt="IEEE"/>
-                <img className="supporters" src={IDAXA} alt="IDAXA"/>
-                <img className="supporters" src={CryptoValley} alt="Crypto Valley"/>
-                <img className="supporters supporters-2" src={TheWorldBank} alt="The World Bank"/>
-                <img className="supporters supporters-2" src={Cambridge} alt="Cambridge University"/>
-                <img className="supporters supporters-2" src={WorldMaskGroup} alt="WorldMaskGroup"/>
+                <img className="supporters one" src={WorldEconomicForum} alt="World Economic Forum"/>
+                <img className="supporters two" src={IEEE} alt="IEEE"/>
+                <img className="supporters three" src={IDAXA} alt="IDAXA"/>
+                <img className="supporters four" src={CryptoValley} alt="Crypto Valley"/>
+                <img className="supporters supporters-2 five" src={TheWorldBank} alt="The World Bank"/>
+                <img className="supporters supporters-2 six" src={Cambridge} alt="Cambridge University"/>
+                <img className="supporters supporters-2 seven" src={WorldMaskGroup} alt="WorldMaskGroup"/>
+            </div>
+
+            
+            <div className="dekstop">
+                <div className="dekstop__wrapper">
+                    <div className="dekstop__logo">
+                    <div className="OfficeDescr">
+                        <img className="supportersOffice" src={SheikhOffice} alt="Office of Sheikh"/>
+                        <div className="supported-descr">The conference is supportedby The Private Office of Sheikh Saqer Bin Mohamed Al Qasimi</div>
+                    </div>
+                    <img className="supportersCypro" src={CryptoValley} alt="Crypto Valley"/>
+                    </div>
+                    <div className="dekstop__logo">
+                    <img className="supportersIdaxa" src={IDAXA} alt="IDAXA"/>
+                    <img className="supportersUni" src={Cambridge} alt="Cambridge University"/>
+                    <img className="supportersWorld" src={WorldMaskGroup} alt="WorldMaskGroup"/>
+                    </div>
+                    <div className="dekstop__logo">
+                    <img className="supportersForum" src={WorldEconomicForum} alt="World Economic Forum"/>
+                    <img className="supportersIe" src={IEEE} alt="IEEE"/>
+                    <img className="supportersBank" src={TheWorldBank} alt="The World Bank"/>
+                    </div>
+                </div>
             </div>
         </div>
     </>

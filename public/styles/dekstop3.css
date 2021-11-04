@@ -1,0 +1,51 @@
+@media (min-width: 992px) and (max-width: 1320px) {
+  .strategic__title {
+    display: block;
+    margin: 0 auto;
+    width: 426px;
+    height: 47px;
+    font-size: 40px;
+    line-height: 47px;
+    margin-top: 129px;
+    margin-bottom: 12px;
+  }
+
+  .strategic__text {
+    display: block;
+    margin: 0 auto;
+    width: 365px;
+    height: 58px;
+    font-size: 18px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .startegic__logo {
+    display: block;
+    margin: 0 auto;
+    width: 313.24px;
+    height: 66px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+
+  .strategic__contact {
+    width: 530px;
+    height: 131px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 18px;
+  }
+
+  .strategic__contact-name {
+      margin: 0;
+  }
+
+  .strategic-donwload__text {
+      font-size: 18px;
+      margin: 0 auto;
+  }
+
+}

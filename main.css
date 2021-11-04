@@ -4139,8 +4139,13 @@ body {
     top: -80px;
     right: 0;
     width: 100%;
+<<<<<<< HEAD
     display: grid;
     justify-items: center;
+=======
+    display: flex;
+    justify-content: center;
+>>>>>>> 444380d739a22be12ff89ea1ae270292b20b95da
 }
 .lead__image {
     width: 100%;
@@ -4293,6 +4298,8 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
+  width: 952px;
+  margin-left: 76px;
 }
 
 .concept-download {
@@ -4413,6 +4420,10 @@ body {
   left: 280px;
   bottom: 40px;
 }
+
+.dekstop {
+  display: none;
+}
 .strategic {
   padding-left: 30px;
   padding-right: 30px;
@@ -4510,3 +4521,552 @@ body {
   color: #05060b;
 }
 
+@media (min-width: 992px) and (max-width: 1320px) {
+
+  .lead__container {
+    margin-bottom: -56px;
+  }
+
+  .lead__logo {
+    width: 70px;
+    height: 60px;
+  }
+
+  .lead__logo-description {
+    font-size: 17px;
+    text-align: center;
+    font-family: "WorkSans-Bold";
+    text-align: center;
+  }
+
+  .description__title {
+    font-size: 112px;
+    width: 952px;
+    line-height: 195px;
+    margin: 0 auto;
+  }
+
+  .description__paragraph {
+    width: 410px;
+    height: 70px;
+    margin-bottom: 0;
+  }
+
+  .description__paragraph:last-of-type {
+    margin: 0 auto 110px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1320px) {
+  .concept__title {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    line-height: 47px;
+  }
+
+  .concept__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .join-us__header {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .join-us__descr {
+    font-size: 18px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .join-us__btn {
+    font-size: 18px;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: block;
+  }
+
+
+  .Card-wrapper {
+    gap: 20px;
+    margin: 0 auto;
+    margin-top: 37px;
+    
+  }
+
+  .davosCard__img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  .davosCard {
+    display: flex;
+    width: 466px;
+    height: 227px;
+  }
+
+  .concept-download {
+    width: 410px;
+    height: 50px;
+    margin-top: 20px;
+  }
+
+  .partners__title {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 40px;
+  }
+
+  .partners__descr {
+    height: 116px;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+
+  .partners__supported,
+  .partners__logos {
+    display: none;
+  }
+
+  .partners__wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .dekstop {
+    display: block;
+  }
+
+  .dekstop__wrapper {
+    width: 952px;
+    margin: 0 auto;
+  }
+
+  .dekstop__logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .supportersOffice {
+    width: 130.6px;
+    height: 140.9px;
+  }
+
+  .supported-descr {
+    width: 324.61px;
+    height: 78.47px;
+    font-size: 18px;
+    margin-right: 160px;
+  }
+
+  .supportersCypro {
+    width: 330.85px;
+    height: 63.78px;
+  }
+
+  .supportersIdaxa {
+    width: 190.76px;
+    height: 52.88px;
+    font-size: 18px;
+  }
+
+  .supportersUni {
+    width: 346.74px;
+    height: 73.14px;
+  }
+
+  .supportersWorld {
+    width: 146.46px;
+    height: 124.47px;
+  }
+
+  .supportersForum {
+    width: 185.06px;
+    height: 114.29px;
+  }
+
+  .supportersIe {
+    width: 188.24px;
+    height: 55.4px;
+  }
+
+  .supportersBank {
+    width: 413.94px;
+    height: 82.09px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1320px) {
+  .strategic__title {
+    display: block;
+    margin: 0 auto;
+    width: 426px;
+    height: 47px;
+    font-size: 40px;
+    line-height: 47px;
+    margin-top: 129px;
+    margin-bottom: 12px;
+  }
+
+  .strategic__text {
+    display: block;
+    margin: 0 auto;
+    width: 365px;
+    height: 58px;
+    font-size: 18px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .startegic__logo {
+    display: block;
+    margin: 0 auto;
+    width: 313.24px;
+    height: 66px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+
+  .strategic__contact {
+    width: 530px;
+    height: 131px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 18px;
+  }
+
+  .strategic__contact-name {
+      margin: 0;
+  }
+
+  .strategic-donwload__text {
+      font-size: 18px;
+      margin: 0 auto;
+  }
+
+}
+
+/* davosSection */
+
+@media (min-width: 576px) and (max-width: 992px) {
+  .header__burger {
+    width: 22px;
+    height: 18px;
+  }
+
+  .lead__logo {
+    width: 43px;
+    height: 37px;
+  }
+
+  .lead__logo-description {
+    font-size: 10px;
+    width: 109px;
+    line-height: 114%;
+  }
+
+  .lead__container {
+    bottom: -23px;
+  }
+
+  .description__title {
+    font-size: 68px;
+    line-height: 160%;
+    margin: 0 auto;
+  }
+
+  .description__paragraph {
+    font-size: 24px;
+    line-height: 160%;
+  }
+
+  .description__paragraph:last-of-type {
+    margin: 0 auto 80px;
+  }
+}
+/* davosMain */
+
+@media (min-width: 576px) and (max-width: 992px) {
+  .concept{
+    padding: 20px;
+  }
+
+  .concept__wrapper {
+    display: block;
+  }
+
+  .concept__title {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .join-us__header {
+    margin-top: 0;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .join-us__descr {
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: center;
+    width: 272px;
+  }
+
+  .join-us__btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 24px;
+    width: 303px;
+    height: 56px;
+  }
+
+  .Card-wrapper {
+    gap: 11px;
+    width: 535px;
+    margin: 0 auto;
+  }
+
+  .davosCard {
+    width: 262px;
+    height: 127px;
+  }
+
+  .davosCard__img {
+    width: 258px;
+    height: 123px;
+  }
+
+  .davosCard__title {
+    font-size: 16px;
+    bottom: 28px;
+    left: 19px;
+  }
+
+  .davosCard__date {
+    font-size: 16px;
+    bottom: 13px;
+    left: 19px;
+  }
+
+  .concept-download {
+    margin: 20px auto;
+  }
+
+  .partners__title {
+    margin-top: 80px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .partners__wrapper {
+    display: block;
+  }
+
+  .partners__descr {
+    font-size: 16px;
+    margin: 0 auto;
+    width: 474px;
+  }
+
+  .partners__supported {
+    justify-content: baseline;
+    width: 270px;
+  }
+
+  .supported-logo {
+    width: 73px;
+    height: 79px;
+  }
+
+  .supported-descr {
+    font-size: 12px;
+    width: 183px;
+  }
+
+  .partners__supported,
+  .partners__logos {
+    display: none;
+  }
+
+  .dekstop {
+    display: block;
+  }
+
+  .dekstop__wrapper {
+    width: 532px;
+    margin: 0 auto;
+  }
+
+  .dekstop__logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .OfficeDescr {
+    display: flex;
+  }
+
+  supported-descr {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .supportersOffice {
+    width: 73px;
+    height: 79px;
+  }
+
+  .supported-descr {
+    width: 224.61px;
+    height: 78.47px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .supportersCypro {
+    width: 183px;
+    height: 36px;
+  }
+
+  .supportersIdaxa {
+    width: 107px;
+    height: 30px;
+    font-size: 18px;
+  }
+
+  .supportersUni {
+    width: 195px;
+    height: 41px;
+  }
+
+  .supportersWorld {
+    width: 83px;
+    height: 70px;
+  }
+
+  .supportersForum {
+    width: 104px;
+    height: 65px;
+  }
+
+  .supportersIe {
+    width: 106px;
+    height: 31px;
+  }
+
+  .supportersBank {
+    width: 229px;
+    height: 46px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .Card-wrapper {
+    width: 725px;
+  }
+
+  .davosCard {
+    width: 355px;
+    height: 173px;
+  }
+
+  .davosCard__img {
+    width: 351px;
+    height: 169px;
+  }
+
+  .davosCard__title {
+    bottom: 45px;
+    left: 26px;
+  }
+
+  .davosCard__date {
+    bottom: 24px;
+    left: 26px;
+  }
+
+  .dekstop__wrapper {
+    width: 725px;
+    margin: 0 auto;
+  }
+}
+/* davos footer */
+
+@media (min-width: 576px) and (max-width: 992px) {
+  .strategic {
+    margin-bottom: 82px;
+  }
+
+  .strategic__contact {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .strategic__title {
+    margin-top: 80px;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .strategic__text {
+    font-size: 16px;
+    width: 334px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .startegic__wrap {
+    text-align: center;
+  }
+
+  .startegic__logo {
+    width: 176px;
+    height: 37px;
+  }
+
+  .strategic__contact-name {
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .strategic__contact-position {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .strategic__contact-email {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .strategic__contact-phone {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .download__strategic {
+    margin: 21px auto;
+    width: 495px;
+    height: 56px;
+  }
+
+  .strategic-donwload__text {
+    font-size: 16px;
+  }
+}

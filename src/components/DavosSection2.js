@@ -16,16 +16,16 @@ function DavosSection2() {
           <img src={logo} alt="logo" className="startegic__logo" />
         </div>
         <div className="strategic__contact">
-          <p className="strategic__contact-name">Alena Yudina</p> <br />
+          <p className="strategic__contact-name">Alena Yudina</p> 
           <p className="strategic__contact-position">
             Managing Director, Quantum Leap Strategy
           </p>
-          <p className="strategic__contact-email">
-            <span className="info">E-mail</span>a.yudina@qlstrategy.ch
-          </p>
-          <p className="strategic__contact-phone">
-            <span className="info">Mobile</span>+41 79 269 53 60
-          </p>
+            <p className="strategic__contact-email">
+              <span className="info">E-mail</span>a.yudina@qlstrategy.ch
+            </p>
+            <p className="strategic__contact-phone">
+              <span className="info">Mobile</span>+41 79 269 53 60
+            </p>
         </div>
         <button className="download__strategic">
                 <div className="download-wrap__strategic">

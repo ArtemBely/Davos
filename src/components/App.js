@@ -42,11 +42,9 @@ import '../../public/styles/style16.css';
 import '../../public/styles/dekstop1.css';
 import '../../public/styles/dekstop2.css';
 import '../../public/styles/dekstop3.css';
-
-
-
-
-
+import '../../public/styles/tablet9.css';
+import '../../public/styles/tablet10.css';
+import '../../public/styles/tablet11.css';
 
 class App extends React.Component {
   render() {

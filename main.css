@@ -4140,6 +4140,7 @@ body {
     right: 0;
     width: 100%;
     display: grid;
+    justify-items: center;
 }
 .lead__image {
     width: 100%;

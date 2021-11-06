@@ -1,0 +1,46 @@
+/* DavosSection */
+
+@media (min-width: 320px) and (max-width: 575px) {
+  .wrap__sections {
+    max-width: 536px;
+  }
+
+  .wrap__lead {
+    top: 10px;
+  }
+
+  .lead__container {
+    width: 88px;
+    bottom: -35px;
+  }
+
+  .lead__logo {
+    width: 35px;
+    height: 29px;
+  }
+
+  .lead__image {
+    object-fit: cover;
+  }
+
+  .lead__logo-description {
+    font-size: 9px;
+    line-height: 10px;
+    margin: 5px 0;
+  }
+
+  .description__title {
+    font-size: 33px;
+    line-height: 53px;
+    margin: 57px auto 10px;
+  }
+
+  .description__paragraph {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .description__paragraph:last-of-type {
+    margin-bottom: 92px;
+  }
+}

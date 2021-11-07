@@ -4362,7 +4362,6 @@ body {
 .partners__descr {
   margin-top: 20px;
   width: 470px;
-  height: 128px;
   font-family: 'WorkSans-Regular';
   font-style: normal;
   font-weight: normal;
@@ -5215,7 +5214,7 @@ body {
   .partners__supported {
     justify-content: baseline;
     width: 270px;
-    margin-bottom: 20px;
+    margin: 0 auto 29px;
   }
 
   .supported-logo {

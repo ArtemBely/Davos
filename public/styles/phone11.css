@@ -1,0 +1,58 @@
+/* davos footer */
+
+@media (min-width: 320px) and (max-width: 575px) {
+  .strategic {
+    margin-bottom: 110px;
+  }
+
+  .strategic__contact {
+    display: block;
+    max-width: 235px;
+    margin: 0 auto;
+  }
+
+  .strategic__title {
+    margin-top: 175px;
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .strategic__text {
+    font-size: 16px;
+    line-height: 25px;
+    width: 236px;
+    margin: 0 auto 40px;
+    text-align: center;
+  }
+
+  .startegic__wrap {
+    text-align: center;
+  }
+
+  .startegic__logo {
+    width: 176px;
+    height: 37px;
+    margin-bottom: 12px
+  }
+
+  .strategic__contact p {
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: center;
+    line-height: 25px;
+  }
+
+  .strategic__contact p span {
+    margin-right: 7px;
+  }
+
+  .download__strategic {
+    margin: 40px auto 0;
+    width: 280px;
+    height: 82px;
+  }
+
+  .strategic-donwload__text {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,201 @@
+
+
+@media (min-width: 320px) and (max-width: 575px) {
+  .concept{
+    padding: 20px;
+  }
+
+  .concept__wrapper {
+    display: block;
+  }
+
+  .concept__title {
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+
+  .join-us__header {
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+  }
+
+  .join-us__descr {
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: center;
+    width: 272px;
+  }
+
+  .join-us__btn {
+    display: block;
+    margin: 10px auto 40px;
+    width: 280px;
+    height: 56px;
+    font-size: 20px;
+  }
+
+  .Card-wrapper {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width: 280px;
+    margin: 0 auto;
+  }
+
+  .davosCard {
+    width: 100%;
+    height: 136px;
+  }
+
+  .davosCard__img {
+    width: 100%;
+    height: 132px;
+  }
+
+  .davosCard__title {
+    font-size: 17px;
+    bottom: 29px;
+    left: 20px;
+  }
+
+  .davosCard__date {
+    font-size: 17px;
+    bottom: 13px;
+    left: 20px;
+  }
+
+  .concept-download {
+    width: 280px;
+    height: 82px;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 39px auto;
+  }
+
+  .partners__title {
+    margin: 110px auto 12px;
+    font-size: 28px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .partners__wrapper {
+    display: block;
+  }
+
+  .partners__descr {
+    font-size: 16px;
+    margin: 0 auto;
+    width: 286px;
+  }
+
+  .partners__supported {
+    justify-content: baseline;
+    width: 270px;
+    margin-bottom: 29px;
+  }
+
+  .supported-logo {
+    width: 73px;
+    height: 79px;
+  }
+
+  .supported-descr {
+    font-size: 12px;
+    width: 183px;
+  }
+  
+  .partners__logos {
+    display: none;
+  }
+
+  .partners__logos {
+    margin: 0 auto;
+    max-width: 280px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .one {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    width: 64px;
+    height: 39px;
+  }
+
+  .two {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 66px;
+    height: 20px;
+  }
+
+  .three {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 66px;
+    height: 20px;
+  }
+
+  .four {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 115px;
+    height: 22px;
+  }
+
+  .five {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    width: 144px;
+    height: 28px;
+  }
+
+  .six {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 120px;
+    height: 25px;
+  }
+
+  .seven {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 51px;
+    height: 43px;
+  }
+  
+  .supporters:nth-child(6) {
+    position: relative;
+    left: 0;
+  }
+  
+  .supporters:nth-child(7) {
+    position: relative;
+    left: 0;
+    bottom: 0;
+  } 
+  
+  .dekstop {
+    display: none;
+  }
+
+}

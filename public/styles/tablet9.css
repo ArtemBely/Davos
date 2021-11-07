@@ -1,6 +1,10 @@
 /* davosSection */
 
 @media (min-width: 576px) and (max-width: 992px) {
+  .wrap__sections {
+    max-width: 726px;
+  }
+
   .header__burger {
     width: 22px;
     height: 18px;

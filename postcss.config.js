@@ -1,4 +1,4 @@
-const autoprefixer = require('autoprefixer');
+/*const autoprefixer = require('autoprefixer');
 const cssnano = require('cssnano');
 
 module.exports = {
@@ -7,3 +7,4 @@ module.exports = {
     cssnano
   ]
 };
+*/

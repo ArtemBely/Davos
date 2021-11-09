@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../public/images/strategic_logo.png";
+import logo from "../../public/images/Strategic_logo.png";
 import mainImage from "../../public/images/Group467.jpg";
 import ArrowBtn from '../../images/download-arrow.svg';
 

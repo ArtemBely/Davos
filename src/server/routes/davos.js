@@ -24,7 +24,9 @@ router.get('/', (req, res) => {
             <body>
                  <div id="app">
                     <div className='main_wrap'>
+                      <div className='wrap_davos'>
                        ${content}
+                       </div>
                   </div>
             </div>
       </body>

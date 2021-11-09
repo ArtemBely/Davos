@@ -13,7 +13,7 @@ import SheikhOffice from '../../images/OfficeOfSheikh.png';
 
 function DavosMain() {
     return (
-        <>
+        <div>
         <div className="concept">
             <h3 className="concept__title">Concept</h3>
             <div className="concept__wrapper">
@@ -52,7 +52,7 @@ function DavosMain() {
                 <img className="supporters supporters-2 seven" src={WorldMaskGroup} alt="WorldMaskGroup"/>
             </div>
 
-            
+
             <div className="dekstop">
                 <div className="dekstop__wrapper">
                     <div className="dekstop__logo">
@@ -75,7 +75,7 @@ function DavosMain() {
                 </div>
             </div>
         </div>
-    </>
+    </div>
     )
 }
 

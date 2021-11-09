@@ -1,5 +1,5 @@
 body {
-    background-color:#05060B;
+    background-color:black;
 }
 .blur {
     position: absolute;
@@ -19,7 +19,7 @@ body {
 .lead__image {
     width: 100%;
     object-fit: contain;
-    z-index: 2; 
+    z-index: 2;
 }
 .lead__container {
     display: flex;

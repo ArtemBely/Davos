@@ -21,7 +21,7 @@ class Header extends React.Component {
       <div className='wrap__header'>
           <div className='header'>
               <div className="navigation">
-                <img src={logo} id='logo' />
+                <NavLink to='/'><img src={logo} id='logo' /></NavLink>
                 <div className="header__burger" ref={this.head} onClick={this.addClass}>
                   <span></span>
                 </div>

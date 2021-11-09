@@ -90,12 +90,13 @@
     font-size: 16px;
     margin: 0 auto;
     width: 286px;
+    text-align: center;
   }
 
   .partners__supported {
     justify-content: baseline;
     width: 270px;
-    margin-bottom: 29px;
+    margin: 0 auto 29px;
   }
 
   .supported-logo {
@@ -104,8 +105,8 @@
   }
 
   .supported-descr {
-    font-size: 12px;
-    width: 183px;
+    font-size: 10px;
+    max-width: 156px;
   }
   
   .partners__logos {

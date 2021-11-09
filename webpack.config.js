@@ -20,7 +20,21 @@ var browserConfig = {
           {
             test: /\.css$/,
             exclude: /node_modules/,
-            use: [MiniCssExtractPlugin.loader, 'css-loader']
+            use: [MiniCssExtractPlugin.loader, 'css-loader',          {
+            loader: "postcss-loader",
+            options: {
+              postcssOptions: {
+                plugins: [
+                  [
+                    "postcss-preset-env",
+                    {
+                      // Options
+                    },
+                  ],
+                ],
+              },
+            },
+          },]
           },
           {
             test: /\.(jpe?g|jpg|png|gif|svg|ico)$/i,
@@ -71,9 +85,23 @@ var serverConfig = {
          use: 'babel-loader'
       },
       {
-         test: /\.css$/,
-         exclude: /node_modules/,
-         use: [MiniCssExtractPlugin.loader, 'css-loader'],
+        test: /\.css$/,
+        exclude: /node_modules/,
+        use: [MiniCssExtractPlugin.loader, 'css-loader',          {
+            loader: "postcss-loader",
+            options: {
+              postcssOptions: {
+                plugins: [
+                  [
+                    "postcss-preset-env",
+                    {
+                      // Options
+                    },
+                  ],
+                ],
+              },
+            },
+          },]
       },
       {
         test: /\.(jpe?g|jpg|png|gif|svg|ico)$/i,

@@ -77,6 +77,7 @@ app.get('*', (req, res, next) => {
                 <head>
                   <title>International EmTech Investment Association</title>
                   <link rel="stylesheet" type="text/css" href="main.css">
+                   <link rel="shortcut icon" href="/images/Vector.ico" type="image/x-icon">
                     <meta name="viewport" content="width=device-width, initial-scale=1">
                       <script src='/bundle.js' defer></script>
                         <script>window.__INITIAL_DATA__= ${serialize(data)}</script>
@@ -114,4 +115,4 @@ var httpServer = http.createServer(app);
 var httpsServer = https.createServer(credentials, app);
 
 httpServer.listen(8080, () => {console.log('connected on http!')});
-httpsServer.listen(443, () => {console.log('connected on https!')});
+// httpsServer.listen(443, () => {console.log('connected on https!')});

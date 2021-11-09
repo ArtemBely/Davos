@@ -5,7 +5,7 @@ import ArrowBtn from '../../images/download-arrow.svg';
 
 function DavosSection2() {
   return (
-    <div>
+    <>
       <div className="strategic">
         <h3 className="strategic__title">Strategic partnerships</h3>
         <p className="strategic__text">
@@ -34,7 +34,7 @@ function DavosSection2() {
                 </div>
             </button>
       </div>
-    </div>
+    </>
   );
 }
 

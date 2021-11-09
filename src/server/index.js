@@ -18,6 +18,7 @@ import https from 'https';
 import asRouter from './routes/association';
 import asEvents from './routes/events';
 import asMembers from './routes/members';
+import asDavos from './routes/davos';
 
 
 const app = express();
@@ -52,6 +53,7 @@ app.use(cookieParser());
 app.use('/association', asRouter);
 app.use('/events', asEvents);
 app.use('/members', asMembers);
+app.use('/davos', asMembers);
 
 app.get('/files', (req, res) => {
   const resolvePath = path.resolve('public/images/shutterstock.mp4');

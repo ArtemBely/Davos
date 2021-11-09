@@ -13,7 +13,7 @@ import SheikhOffice from '../../images/OfficeOfSheikh.png';
 
 function DavosMain() {
     return (
-        <div>
+        <>
         <div className="concept">
             <h3 className="concept__title">Concept</h3>
             <div className="concept__wrapper">
@@ -75,7 +75,7 @@ function DavosMain() {
                 </div>
             </div>
         </div>
-    </div>
+    </>
     )
 }
 

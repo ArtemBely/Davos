@@ -4,7 +4,7 @@ import mainImage from '../../public/images/Group467.jpg';
 
 function DavosSection() {
   return (
-    <div>
+    <>
       <div className="blur"></div>
       <div className="wrap__lead">
         <img src={mainImage} alt="main-image" className="lead__image" />
@@ -22,7 +22,7 @@ function DavosSection() {
           <p className="description__paragraph">Davos, Switzerland</p>
         </div>
       </div>
-    </div>
+    </>
   )
 }
 

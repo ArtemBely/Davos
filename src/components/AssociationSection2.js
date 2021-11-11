@@ -1,5 +1,5 @@
 import React from 'react';
-import Sponsorships_Img from "../../public/images/Sponsorships_Img.svg"
+import sponsorships_Img from "../../public/images/image 13.png";
 import cross from '../../public/images/cross.svg';
 
 
@@ -22,7 +22,7 @@ class AssociationSection2 extends React.Component {
                 </p>
                 <button className="association2__sponsorships-btn" onClick={()=>this.setState({isOpen:true})}>Become a sponsor</button>
             </div>
-            <img src={Sponsorships_Img} className="association2__sponsorships-img"></img>
+            <img src={sponsorships_Img} className="association2__sponsorships-img"></img>
         </div>
         {this.state.isOpen && (
                 <div className="popup">
@@ -55,7 +55,7 @@ class AssociationSection2 extends React.Component {
                                         of data and agree to the privacy policy
                                     </p>
                                 </div>
-                            </form> 
+                            </form>
                         </div>
                     </div>
                 </div>)}

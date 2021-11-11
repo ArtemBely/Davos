@@ -1,7 +1,8 @@
 import React from "react";
 import logo from "../../public/images/Strategic_logo.png";
 import mainImage from "../../public/images/Group467.jpg";
-import ArrowBtn from '../../images/download-arrow.svg';
+import arrowBtn from '../../images/download-arrow.svg';
+import blackArr from '../../public/images/Vector (1).svg';
 
 function DavosSection2() {
   return (
@@ -29,7 +30,8 @@ function DavosSection2() {
             </div>
             <button className="download__strategic">
                     <div className="download-wrap__strategic">
-                        <img className="arrow-button__strategic" src={ArrowBtn} alt="Download"/>
+                        <img className="arrow-button__strategic" src={arrowBtn} alt="Download"/>
+                        <img className="arrow-button__strategic2" src={blackArr} alt="Download"/>
                         <div className="strategic-donwload__text">Download presentation of sponsorship packages</div>
                     </div>
                 </button>

@@ -114,21 +114,28 @@
   }
 
   .dekstop__logo {
+    position: relative;
+    top: 45px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+  .newPartnersForTablet {
+    display: none;
   }
 
   .OfficeDescr {
     display: flex;
   }
 
-  supported-descr {
+  .supported-descr {
     font-size: 12px;
     line-height: 15px;
   }
 
   .supportersOffice {
+    position: relative;
+    top: 13px;
     width: 73px;
     height: 79px;
   }

@@ -71,9 +71,8 @@
         height: 50px;
     }
     .association2__sponsorships-img {
-        width: 505px;
         height: 360px;
-        /* z-index: -1; */
+        left: 322px;
     }
     .association3 {
         height: 570px;

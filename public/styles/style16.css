@@ -63,11 +63,21 @@
   background-color: #05060b;
   transition: 0.5s;
 }
-
+.newPartners {
+  display: none;
+}
 .download__strategic:hover {
   background-color: #ffff;
 }
-
+.download__strategic:hover .strategic-donwload__text {
+  color: #05060b;
+}
+.download__strategic:hover .arrow-button__strategic2 {
+  opacity: 1 !important;
+}
+.download__strategic:hover .arrow-button__strategic {
+  opacity: 0;
+}
 .download-wrap__strategic {
   display: flex;
   justify-content: space-between;
@@ -83,14 +93,6 @@
   color: #ffff;
 }
 
-.strategic-donwload__text:hover {
-  color: #05060b;
-}
-
 .arrow-button__strategic {
   margin-left: 30px;
-}
-
-.arrow-button__strategic:hover {
-  color: #05060b;
 }

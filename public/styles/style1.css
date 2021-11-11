@@ -1,5 +1,6 @@
 @font-face {
     font-family: 'WorkSans-Regular';
+    font-display: swap;
     src: url('../fonts/WorkSans-Regular.eot');
     src: url('../fonts/WorkSans-Regular.eot?#iefix') format('embedded-opentype'),
     url('../fonts/WorkSans-Regular.woff') format('woff'),
@@ -9,6 +10,7 @@
 }
 @font-face {
     font-family: 'WorkSans-Light';
+    font-display: swap;
     src: url('../fonts/WorkSans-Light.eot');
     src: url('../fonts/WorkSans-Light.eot?#iefix') format('embedded-opentype'),
     url('../fonts/WorkSans-Light.woff') format('woff'),
@@ -18,6 +20,7 @@
 }
 @font-face {
     font-family: 'WorkSans-Bold';
+    font-display: swap;
     src: url('../fonts/WorkSans-Bold.eot');
     src: url('../fonts/WorkSans-Bold.eot?#iefix') format('embedded-opentype'),
     url('../fonts/WorkSans-Bold.woff') format('woff'),
@@ -25,6 +28,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -59,7 +63,7 @@ body {
   top: 0;
 }
 .navigation-link {
-  font-family: 'WorkSans-Regular';
+  font-family: 'WorkSans-Regular', Verdana, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;

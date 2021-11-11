@@ -35,6 +35,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 @font-face {
     font-family: 'WorkSans-Regular';
+    font-display: swap;
     src: url(/fonts/WorkSans-Regular.eot);
     src: url(/fonts/WorkSans-Regular.eot?#iefix) format('embedded-opentype'),
     url(/fonts/WorkSans-Regular.woff) format('woff'),
@@ -44,6 +45,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 @font-face {
     font-family: 'WorkSans-Light';
+    font-display: swap;
     src: url(/fonts/WorkSans-Light.eot);
     src: url(/fonts/WorkSans-Light.eot?#iefix) format('embedded-opentype'),
     url(/fonts/WorkSans-Light.woff) format('woff'),
@@ -53,6 +55,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 @font-face {
     font-family: 'WorkSans-Bold';
+    font-display: swap;
     src: url(/fonts/WorkSans-Bold.eot);
     src: url(/fonts/WorkSans-Bold.eot?#iefix) format('embedded-opentype'),
     url(/fonts/WorkSans-Bold.woff) format('woff'),
@@ -60,6 +63,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     font-weight: normal;
     font-style: normal;
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -94,7 +98,7 @@ body {
   top: 0;
 }
 .navigation-link {
-  font-family: 'WorkSans-Regular';
+  font-family: 'WorkSans-Regular', Verdana, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -180,7 +184,7 @@ body {
     margin-top: 393px;
 }
 .section1__title {
-    font-family: "WorkSans-Bold";
+    font-family: 'WorkSans-Bold', Verdana, sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 50px;
@@ -189,7 +193,7 @@ body {
     margin-bottom: 10px;
 }
 .section1__paragraph {
-    font-family: "WorkSans-Regular";
+    font-family: 'WorkSans-Regular', Verdana, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
@@ -198,7 +202,7 @@ body {
 }
 .section1__link, .section1__link:visited {
     margin-top: 16.6px;
-    font-family: "WorkSans-Regular";
+    font-family: 'WorkSans-Regular', Verdana, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
@@ -213,7 +217,7 @@ body {
     width: 414px;
 }
 .section1__img-title {
-    font-family: "WorkSans-Regular";
+    font-family: 'WorkSans-Regular', Verdana, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
@@ -270,7 +274,7 @@ body {
 .section2-title {
     margin-top: 60px;
     margin-bottom: 10px;
-    font-family: "WorkSans-Bold";
+    font-family: "WorkSans-Bold", Verdana, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 45px;
@@ -279,7 +283,7 @@ body {
     color: #FFFFFF;
 }
 .section2-paragraph {
-    font-family: 'WorkSans-Regular';
+    font-family: 'WorkSans-Regular', Verdana, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -341,7 +345,7 @@ body {
     width: 1290px;
 }
 .section3-title {
-    font-family: 'WorkSans-Bold';
+    font-family: 'WorkSans-Bold', Verdana, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 45px;
@@ -400,7 +404,7 @@ body {
     margin-bottom: 38px;
 }
 .events__title-link, .events__title-link:visited {
-    font-family: 'WorkSans-Regular';
+    font-family: 'WorkSans-Regular', Verdana, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
@@ -431,7 +435,7 @@ body {
               justify-content: start;
 }
 .event-paragraph {
-    font-family: 'WorkSans-Regular';
+    font-family: 'WorkSans-Regular', Verdana, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -477,7 +481,7 @@ body {
     width: 74px;
 }
 .footer-link {
-  font-family: 'WorkSans-Regular';
+  font-family: 'WorkSans-Regular', Verdana, sans-serif;
      font-style: normal;
      font-weight: normal;
      font-size: 20px;
@@ -1952,6 +1956,12 @@ body {
 }
 .association2__sponsorships {
     width: 520px;
+    z-index: 1;
+}
+.arrow-button__strategic2 {
+  position: relative;
+  left: -13px;
+  opacity: 0;
 }
 .association2__sponsorships-title {
     font-family: "WorkSans-Bold";
@@ -1996,7 +2006,7 @@ body {
 }
 .association2__sponsorships-img {
     position: absolute;
-    right: 0;
+    left: 546px;
     top: 0;
     width: 997.96px;
     height: 446.12px;
@@ -2191,9 +2201,8 @@ body {
         height: 50px;
     }
     .association2__sponsorships-img {
-        width: 505px;
         height: 360px;
-        /* z-index: -1; */
+        left: 322px;
     }
     .association3 {
         height: 570px;
@@ -2217,6 +2226,7 @@ body {
         height: 50px;
     }
 }
+
 @media (min-width: 991px) {
   .wrap_wave2 {
     display: none;
@@ -2304,7 +2314,7 @@ body {
         font-size: 18px;
     }
     .association2__sponsorships-img {
-        width: 354px;
+        left: 209px;
         height: 353px;
     }
     .association3 {
@@ -2450,7 +2460,7 @@ body {
         font-size: 18px;
     }
     .association2__sponsorships-img {
-        display: none;
+        left: 177px;
     }
     .association3 {
         height: 961px;
@@ -2482,6 +2492,7 @@ body {
         height: 50px;
     }
 }
+
 @media (min-width: 320px) and (max-width: 575px) {
     .association1,
     .association2,
@@ -2490,6 +2501,9 @@ body {
     }
     .association1 {
         height: 1778px;
+    }
+    .arrow-button__strategic {
+      margin-left: 22px !important;
     }
     .association1-img {
         margin: 50px auto 130px auto;
@@ -2558,7 +2572,7 @@ body {
         font-size: 16px;
     }
     .association2__sponsorships-img {
-        display: none;
+        left: 0px;
     }
     .association3 {
         height: 859px;
@@ -2590,6 +2604,7 @@ body {
         height: 50px;
     }
 }
+
 .wrap__event-section {
     width: 100%;
   	display: -webkit-box;
@@ -3820,7 +3835,7 @@ body {
     left: 0;
     overflow-y: auto;
     overflow-x: hidden;
-    z-index: 1;
+    z-index: 1000;
 }
 .popup__body {
     min-height: 100%;
@@ -4299,7 +4314,9 @@ body {
 
 .concept-download {
   display: block;
-  width: 410px;
+  position: relative;
+  width: 410px !important;
+  left: 10px;
   height: 50px;
   margin: 100px auto;
   width: 364px;
@@ -4319,21 +4336,31 @@ body {
 }
 
 .concept-donwload__text {
-  margin-right: 10px;
+  margin-right: 21px;
   font-family: 'WorkSans-Regular';
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 160%;
   color: #ffff;
+  left: -26px;
 }
-
-.concept-donwload__text:hover {
+.arrow-button3 {
+  position: relative;
+  left: -20px;
+  opacity: 0;
+}
+.concept-download:hover .concept-donwload__text {
   color: #05060B;
 }
-
+.concept-download:hover .arrow-button3 {
+  opacity: 1 !important;
+}
+.concept-download:hover .arrow-button {
+  opacity: 0;
+}
 .arrow-button {
-  margin-left: 10px;
+  margin-left: 25px;
   margin-top: 8px;
   width: 15px;
   height: 15px;
@@ -4400,7 +4427,7 @@ body {
   grid-column: span 3;
 }
 
-.supporters-2 { 
+.supporters-2 {
   grid-column: span 4;
 }
 
@@ -4418,6 +4445,7 @@ body {
 .dekstop {
   display: none;
 }
+
 .strategic {
   padding-left: 30px;
   padding-right: 30px;
@@ -4483,11 +4511,21 @@ body {
   background-color: #05060b;
   transition: 0.5s;
 }
-
+.newPartners {
+  display: none;
+}
 .download__strategic:hover {
   background-color: #ffff;
 }
-
+.download__strategic:hover .strategic-donwload__text {
+  color: #05060b;
+}
+.download__strategic:hover .arrow-button__strategic2 {
+  opacity: 1 !important;
+}
+.download__strategic:hover .arrow-button__strategic {
+  opacity: 0;
+}
 .download-wrap__strategic {
   display: flex;
   justify-content: space-between;
@@ -4503,16 +4541,8 @@ body {
   color: #ffff;
 }
 
-.strategic-donwload__text:hover {
-  color: #05060b;
-}
-
 .arrow-button__strategic {
   margin-left: 30px;
-}
-
-.arrow-button__strategic:hover {
-  color: #05060b;
 }
 
 @media (min-width: 992px) and (max-width: 1320px) {
@@ -4594,7 +4624,7 @@ body {
     gap: 20px;
     margin: 0 auto;
     margin-top: 37px;
-    
+
   }
 
   .davosCard__img {
@@ -4653,19 +4683,29 @@ body {
     justify-content: space-between;
     align-items: center;
   }
-
+  .newPartnersForTablet {
+    display: none;
+  }
   .supportersOffice {
+    position: relative;
+    top: 36px;
     width: 130.6px;
     height: 140.9px;
   }
 
   .supported-descr {
+    margin-left: 131px;
+    margin-top: -58px;
     width: 324.61px;
     height: 78.47px;
     font-size: 18px;
     margin-right: 160px;
   }
 
+  .supportersCypro {
+    position: relative;
+    top: 38px;
+  }
   .supportersCypro {
     width: 330.85px;
     height: 63.78px;
@@ -4761,7 +4801,9 @@ body {
   .wrap__sections {
     max-width: 726px;
   }
-
+  .arrow-button__strategic2 {
+    left: -24px;
+  }
   .header__burger {
     width: 22px;
     height: 18px;
@@ -4797,6 +4839,7 @@ body {
     margin: 0 auto 80px;
   }
 }
+
 /* davosMain */
 
 @media (min-width: 576px) and (max-width: 992px) {
@@ -4913,21 +4956,28 @@ body {
   }
 
   .dekstop__logo {
+    position: relative;
+    top: 45px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+  .newPartnersForTablet {
+    display: none;
   }
 
   .OfficeDescr {
     display: flex;
   }
 
-  supported-descr {
+  .supported-descr {
     font-size: 12px;
     line-height: 15px;
   }
 
   .supportersOffice {
+    position: relative;
+    top: 13px;
     width: 73px;
     height: 79px;
   }
@@ -5007,6 +5057,7 @@ body {
     margin: 0 auto;
   }
 }
+
 /* davos footer */
 
 @media (min-width: 576px) and (max-width: 992px) {
@@ -5188,13 +5239,17 @@ body {
   }
 
   .concept-download {
-    width: 280px;
+    width: 280px !important;
+    left: 0px;
     height: 82px;
     font-size: 16px;
     line-height: 25px;
     margin: 39px auto;
   }
-
+  .arrow-button3 {
+    left: -12px;
+    top: -17px;
+  }
   .partners__title {
     margin: 110px auto 12px;
     font-size: 28px;
@@ -5228,9 +5283,9 @@ body {
     font-size: 10px;
     max-width: 156px;
   }
-  
+
   .partners__logos {
-    display: none;
+    display: none !important;
   }
 
   .partners__logos {
@@ -5303,23 +5358,24 @@ body {
     width: 51px;
     height: 43px;
   }
-  
+
   .supporters:nth-child(6) {
     position: relative;
     left: 0;
   }
-  
+
   .supporters:nth-child(7) {
     position: relative;
     left: 0;
     bottom: 0;
-  } 
-  
+  }
+
   .dekstop {
     display: none;
   }
 
 }
+
 /* davos footer */
 
 @media (min-width: 320px) and (max-width: 575px) {

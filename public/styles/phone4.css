@@ -7,6 +7,9 @@
     .association1 {
         height: 1778px;
     }
+    .arrow-button__strategic {
+      margin-left: 22px !important;
+    }
     .association1-img {
         margin: 50px auto 130px auto;
         width: 280;
@@ -74,7 +77,7 @@
         font-size: 16px;
     }
     .association2__sponsorships-img {
-        display: none;
+        left: 0px;
     }
     .association3 {
         height: 859px;

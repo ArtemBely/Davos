@@ -1,7 +1,7 @@
 import React from 'react';
 import DavosCard from './DavosCard';
-import ArrowButton from '../../images/download-arrow.svg';
-
+import arrowButton from '../../images/download-arrow.svg';
+import blackArr from '../../public/images/Vector (1).svg';
 import WorldEconomicForum from '../../images/WorldEconomicForum.png';
 import IEEE from '../../images/IEEE.png';
 import IDAXA from '../../images/IDAXA.png';
@@ -26,7 +26,8 @@ function DavosMain() {
                  </div>
                  <button className="concept-download">
                      <div className="download-wrap">
-                         <img className="arrow-button" src={ArrowButton} alt="Download"/>
+                         <img className="arrow-button" src={arrowButton} alt="Download"/>
+                         <img className="arrow-button3" src={blackArr} alt="Download"/>
                          <div className="concept-donwload__text">Download Concept Presentation</div>
                      </div>
                  </button>
@@ -42,7 +43,7 @@ function DavosMain() {
                          <div className="supported-descr">The conference is supportedby The Private Office of Sheikh Saqer Bin Mohamed Al Qasimi</div>
                      </div>
                  </div>
-                 <div className="partners__logos">
+                 <div className="partners__logos newPartners">
                      <img className="supporters one" src={WorldEconomicForum} alt="World Economic Forum"/>
                      <img className="supporters two" src={IEEE} alt="IEEE"/>
                      <img className="supporters three" src={IDAXA} alt="IDAXA"/>
@@ -62,12 +63,12 @@ function DavosMain() {
                          </div>
                          <img className="supportersCypro" src={CryptoValley} alt="Crypto Valley"/>
                          </div>
-                         <div className="dekstop__logo">
+                         <div className="dekstop__logo newPartnersForTablet">
                          <img className="supportersIdaxa" src={IDAXA} alt="IDAXA"/>
                          <img className="supportersUni" src={Cambridge} alt="Cambridge University"/>
                          <img className="supportersWorld" src={WorldMaskGroup} alt="WorldMaskGroup"/>
                          </div>
-                         <div className="dekstop__logo">
+                         <div className="dekstop__logo newPartnersForTablet">
                          <img className="supportersForum" src={WorldEconomicForum} alt="World Economic Forum"/>
                          <img className="supportersIe" src={IEEE} alt="IEEE"/>
                          <img className="supportersBank" src={TheWorldBank} alt="The World Bank"/>

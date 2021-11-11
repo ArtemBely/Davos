@@ -68,13 +68,17 @@
   }
 
   .concept-download {
-    width: 280px;
+    width: 280px !important;
+    left: 0px;
     height: 82px;
     font-size: 16px;
     line-height: 25px;
     margin: 39px auto;
   }
-
+  .arrow-button3 {
+    left: -12px;
+    top: -17px;
+  }
   .partners__title {
     margin: 110px auto 12px;
     font-size: 28px;
@@ -108,9 +112,9 @@
     font-size: 10px;
     max-width: 156px;
   }
-  
+
   .partners__logos {
-    display: none;
+    display: none !important;
   }
 
   .partners__logos {
@@ -183,18 +187,18 @@
     width: 51px;
     height: 43px;
   }
-  
+
   .supporters:nth-child(6) {
     position: relative;
     left: 0;
   }
-  
+
   .supporters:nth-child(7) {
     position: relative;
     left: 0;
     bottom: 0;
-  } 
-  
+  }
+
   .dekstop {
     display: none;
   }

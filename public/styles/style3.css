@@ -19,7 +19,7 @@
 .section2-title {
     margin-top: 60px;
     margin-bottom: 10px;
-    font-family: "WorkSans-Bold";
+    font-family: "WorkSans-Bold", Verdana, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 45px;
@@ -28,7 +28,7 @@
     color: #FFFFFF;
 }
 .section2-paragraph {
-    font-family: 'WorkSans-Regular';
+    font-family: 'WorkSans-Regular', Verdana, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;

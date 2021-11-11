@@ -29,6 +29,12 @@
 }
 .association2__sponsorships {
     width: 520px;
+    z-index: 1;
+}
+.arrow-button__strategic2 {
+  position: relative;
+  left: -13px;
+  opacity: 0;
 }
 .association2__sponsorships-title {
     font-family: "WorkSans-Bold";
@@ -73,7 +79,7 @@
 }
 .association2__sponsorships-img {
     position: absolute;
-    right: 0;
+    left: 546px;
     top: 0;
     width: 997.96px;
     height: 446.12px;

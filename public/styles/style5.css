@@ -22,7 +22,7 @@
     width: 74px;
 }
 .footer-link {
-  font-family: 'WorkSans-Regular';
+  font-family: 'WorkSans-Regular', Verdana, sans-serif;
      font-style: normal;
      font-weight: normal;
      font-size: 20px;

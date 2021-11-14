@@ -4399,13 +4399,15 @@ body {
 }
 
 .partners__supported {
+  position: relative;
+  top: -28px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .supported-descr {
-  width: 471px;
+  width: 487px;
   margin-left: 10px;
   margin-top: 26px;
   font-family: 'WorkSans-Regular';
@@ -4696,7 +4698,7 @@ body {
   .supported-descr {
     margin-left: 131px;
     margin-top: -58px;
-    width: 324.61px;
+    width: 332px;
     height: 78.47px;
     font-size: 18px;
     margin-right: 160px;
@@ -4705,6 +4707,10 @@ body {
   .supportersCypro {
     position: relative;
     top: 38px;
+  }
+  .OfficeDescr {
+    position: relative;
+    top: 14px;
   }
   .supportersCypro {
     width: 330.85px;
@@ -4983,7 +4989,9 @@ body {
   }
 
   .supported-descr {
-    width: 224.61px;
+    width: 308px;
+    position: relative;
+    top: 18px;
     height: 78.47px;
     font-size: 16px;
     margin-bottom: 20px;
@@ -5271,6 +5279,7 @@ body {
   .partners__supported {
     justify-content: baseline;
     width: 270px;
+    top: 16px;
     margin: 0 auto 29px;
   }
 
@@ -5281,7 +5290,6 @@ body {
 
   .supported-descr {
     font-size: 10px;
-    max-width: 156px;
   }
 
   .partners__logos {

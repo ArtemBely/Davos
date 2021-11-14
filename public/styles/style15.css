@@ -189,13 +189,15 @@
 }
 
 .partners__supported {
+  position: relative;
+  top: -28px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .supported-descr {
-  width: 471px;
+  width: 487px;
   margin-left: 10px;
   margin-top: 26px;
   font-family: 'WorkSans-Regular';

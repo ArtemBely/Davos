@@ -109,7 +109,7 @@
   .supported-descr {
     margin-left: 131px;
     margin-top: -58px;
-    width: 324.61px;
+    width: 332px;
     height: 78.47px;
     font-size: 18px;
     margin-right: 160px;
@@ -118,6 +118,10 @@
   .supportersCypro {
     position: relative;
     top: 38px;
+  }
+  .OfficeDescr {
+    position: relative;
+    top: 14px;
   }
   .supportersCypro {
     width: 330.85px;

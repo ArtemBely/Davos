@@ -7,7 +7,7 @@ import img4 from '../../public/images/Group 51.png';
 import img5 from '../../public/images/Group 53.png';
 import img6 from '../../public/images/Group 370.png';
 import img7 from '../../public/images/Group 373.png';
-import img8 from '../../public/images/Group 421.png';
+import img8 from '../../public/images/Group 47.png';
 import img9 from '../../public/images/Group 49.png';
 import foodTech from '../../public/images/FoodTech.svg';
 import { NavLink } from 'react-router-dom';

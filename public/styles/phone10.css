@@ -100,6 +100,7 @@
   .partners__supported {
     justify-content: baseline;
     width: 270px;
+    top: 16px;
     margin: 0 auto 29px;
   }
 
@@ -110,7 +111,6 @@
 
   .supported-descr {
     font-size: 10px;
-    max-width: 156px;
   }
 
   .partners__logos {

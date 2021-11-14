@@ -19,6 +19,7 @@ router.get('/', (req, res) => {
                    <link rel="stylesheet" type="text/css" href="../main.css">
                      <link rel="shortcut icon" href="/images/Vector.ico" type="image/x-icon">
                      <meta name="viewport" content="width=device-width, initial-scale=1">
+                     <meta name="yandex-verification" content="389e86ea6444fd90" />
                   <script src='/bundle.js' defer></script>
             </head>
             <body>

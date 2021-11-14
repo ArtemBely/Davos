@@ -40,7 +40,7 @@ function DavosMain() {
                      </div>
                      <div className="partners__supported">
                          <img className="supported-logo" src={SheikhOffice} alt="Office of Sheikh"/>
-                         <div className="supported-descr">The conference is supportedby The Private Office of Sheikh Saqer Bin Mohamed Al Qasimi</div>
+                         <div className="supported-descr">Patronated by The Private Office  of Sheikh Saqer Bin Mohamed Al Qasimi</div>
                      </div>
                  </div>
                  <div className="partners__logos newPartners">
@@ -59,7 +59,7 @@ function DavosMain() {
                          <div className="dekstop__logo">
                          <div className="OfficeDescr">
                              <img className="supportersOffice" src={SheikhOffice} alt="Office of Sheikh"/>
-                             <div className="supported-descr">The conference is supportedby The Private Office of Sheikh Saqer Bin Mohamed Al Qasimi</div>
+                             <div className="supported-descr">Patronated by The Private Office of Sheikh Saqer Bin Mohamed Al Qasimi</div>
                          </div>
                          <img className="supportersCypro" src={CryptoValley} alt="Crypto Valley"/>
                          </div>

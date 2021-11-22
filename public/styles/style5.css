@@ -47,7 +47,9 @@
     margin-bottom: 46px;
 }
 .footer__list4 {
-    margin-left: 405px;
+    margin-left: 367px;
+    position: relative;
+    top: -41px;
 }
 #social_networks {
   width: 70px;

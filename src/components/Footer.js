@@ -21,7 +21,7 @@ function Footer () {
                 <li className='footer__item1 footer-item'>
                     <NavLink to="#" className='footer__link1 footer-link'>Members</NavLink>
                 </li>
-                <li className='footer__item1 footer-item'>
+                <li className='footer__item1 footer-item news_hide'>
                     <NavLink to="#" className='footer__link1 footer-link'>News</NavLink>
                 </li>
             </ul>
@@ -55,7 +55,7 @@ function Footer () {
             </ul>
             <ul className='footer__list4'>
                 <li className='footer__item4 footer-item'>
-                    <NavLink to="#" className='footer__link4 footer-link'>Log in</NavLink>
+                    <NavLink to="#" className='footer__link4 footer-link' id='login_foot'>Log in</NavLink>
                 </li>
                 <li className='footer__item4 footer-item'>
                     <NavLink to="#" className='footer__link4 footer-link'>En</NavLink>

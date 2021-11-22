@@ -12,6 +12,19 @@
     	        align-items: center;
       background-color: rgba(5, 6, 11, 1);
 }
+.footer__item2 {
+    width: 86px;
+}
+.footer__item4 {
+  width: 60px;
+}
+#login_foot {
+  opacity: 0;
+  z-index: -1;
+}
+.news_hide {
+  display: none;
+}
 .association1 {
     width: 1290px;
     height: 1724px;

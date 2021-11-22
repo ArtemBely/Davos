@@ -9,8 +9,9 @@ import MainSection4 from './MainSection4';
 function EventsSection () {
   return(
     <div className="wrap__event-section">
+
       <div className='hoo'>
-        <img src={foneEvents} className="event-img2" />
+          <img src={foneEvents} className="event-img2" />
       </div>
         <div className="event__container">
           <img src={eventImg} className="event-img" />

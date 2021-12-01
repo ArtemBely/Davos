@@ -24,12 +24,12 @@ function MainSection1 () {
                 to build a better future leveraging emerging <br />
                 technologies
                 </p>
-                <a href="##" className='section1__link'>More →</a>
+                <a href="/association" className='section1__link'>More →</a>
             </div>
             <div className='section1__img-container'>
                 <h2 className='section1__img-title'>Coming soon</h2>
                 <NavLink to='/davos'><img src={Davos} className='section1__img-davos'></img></NavLink>
-                <img src={Dubai} className='section1__img-dubai'></img>
+                <a href='https://dfisx.com/'><img src={Dubai} className='section1__img-dubai'></img></a>
             </div>
         </div>
     </div>

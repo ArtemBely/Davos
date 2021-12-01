@@ -37,12 +37,12 @@ class AssociationSection2 extends React.Component {
                                 manager will contact you
                             </p>
                             <form className="popup__form">
-                                <input type="text" name="Company or name" className="popup__input" placeholder="Company or name" />
-                                <input type="text" name="Interest in tech" className="popup__input" placeholder="Interest in tech" />
-                                <input type="text" name="Investment stage" className="popup__input" placeholder="Investment stage" />
-                                <input type="text" name="Jurisdiction" className="popup__input" placeholder="Jurisdiction" />
-                                <input type="text" name="Phone number" className="popup__input" placeholder="Phone number" />
-                                <input type="text" name="Email" className="popup__input" placeholder="Email" />
+                                <input type="text" name="Company or name" className="popup__input" placeholder="Company or name" required/>
+                                <input type="text" name="Interest in tech" className="popup__input" placeholder="Interest in tech" required/>
+                                <input type="text" name="Investment stage" className="popup__input" placeholder="Investment stage" required/>
+                                <input type="text" name="Jurisdiction" className="popup__input" placeholder="Jurisdiction" required/>
+                                <input type="text" name="Phone number" className="popup__input" placeholder="Phone number" required/>
+                                <input type="text" name="Email" className="popup__input" placeholder="Email" required/>
                                 <div className="popup__checkbox-container">
                                     <input type="checkbox" id="invest" name="scales" className="popup__checkbox"/>
                                     <label for="invest" className="popup__label">Ready to invest</label>

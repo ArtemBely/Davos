@@ -9,6 +9,10 @@
     .association3 {
         width: 730px;
     }
+    #social_networks {
+      left: 231px;
+      top: -99px;
+    }
     .wrap_wave2 {
       display: block;
       position: absolute;

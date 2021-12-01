@@ -30,13 +30,18 @@
     }
     .event__section2-title {
         font-size: 28px;
+        position: relative;
+        left: -74px;
         line-height: 33px;
         margin-bottom: 10px;
     }
     .event__section2-link {
-        font-size: 18px;
-        line-height: 21px;
-        margin-top: 0px;
-        margin-bottom: 0px;
+      position: relative;
+      left: 7px;
+      font-size: 18px;
+      line-height: 21px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      width: 170px;
     }
 }

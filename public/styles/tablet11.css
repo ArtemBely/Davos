@@ -15,7 +15,10 @@
     font-size: 22px;
     text-align: center;
   }
-
+  #vr_img {
+    position: relative;
+    top: 67px;
+  }
   .strategic__text {
     font-size: 16px;
     width: 334px;
@@ -61,5 +64,11 @@
 
   .strategic-donwload__text {
     font-size: 16px;
+  }
+}
+@media (max-width: 1320px) {
+  .spec_cont {
+    display: flex;
+    justify-content: center;
   }
 }

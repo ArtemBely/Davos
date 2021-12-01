@@ -10,12 +10,48 @@ class MembersSection3 extends React.Component {
 
      this.state = {
          isOpen2: false,
+         isOpen6: false
      }
+  }
+
+  popap5 = () => {
+    this.setState({ isOpen6: true });
   }
 
     render() {
     return(
         <div className='wrap__members-section3'>
+
+        <div className="popup" style={{
+          display: this.state.isOpen6 == false ? 'none' : 'block'
+        }}>
+            <div className="popup__body">
+                <div className="popup__content">
+                    <div className="popup__header">
+                        <h2 className="popup-title">Contact us for more</h2>
+                        <img src={cross} className="popup__close" onClick={()=>this.setState({isOpen6:false})}></img>
+                    </div>
+                    <p className="popup__main-paragraph">
+                        Fill out the form, our <br />
+                        manager will contact you
+                    </p>
+                    <form className="popup__form">
+                        <input type="text" name="Name" className="popup__input" placeholder="Name" required/>
+                        <input type="text" name="Phone_number" className="popup__input" placeholder="Phone number" required/>
+                        <input type="text" name="Email" className="popup__input" placeholder="Email" required/>
+                        <div className="popup__footer">
+                            <button className="popup__footer-btn">Send</button>
+                            <p className="popup__footer-paragraph">
+                                By clicking on the «Send» button you <br />
+                                confirm your consent to the processing <br />
+                                of data and agree to the privacy policy
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
             <div className='members__section3'>
                 <div className="members__section3-technologies">
                     <h2 className="members__technologies-title">Different technologies. Rooms. Showcases.</h2>
@@ -29,7 +65,7 @@ class MembersSection3 extends React.Component {
                 </div>
                 <div className="members__section3-report">
                     <h2 className="members__report-title">Report on Emerging technologies investment trends</h2>
-                    <button className="members__report-btn">Subscribe</button>
+                    <button className="members__report-btn" onClick={this.popap5}>Subscribe</button>
                 </div>
             </div>
             {this.state.isOpen2 && (
@@ -45,11 +81,11 @@ class MembersSection3 extends React.Component {
                                 manager will contact you
                             </p>
                             <form className="popup__form">
-                                <input type="text" name="Company name" className="popup__input" placeholder="Company name" />
-                                <input type="text" name="Address" className="popup__input" placeholder="Address" />
-                                <input type="text" name="The technology used" className="popup__input" placeholder="The technology used" />
-                                <input type="text" name="Contact person" className="popup__input" placeholder="Contact person" />
-                                <input type="text" name="Attachments" className="popup__input" placeholder="Attachments" />
+                                <input type="text" name="Company name" className="popup__input" placeholder="Company name" required/>
+                                <input type="text" name="Address" className="popup__input" placeholder="Address" required/>
+                                <input type="text" name="The technology used" className="popup__input" placeholder="The technology used" required/>
+                                <input type="text" name="Contact person" className="popup__input" placeholder="Contact person" required/>
+                                <input type="text" name="Attachments" className="popup__input" placeholder="Attachments" required/>
                                 <div className="popup__checkbox-container">
                                     <input type="checkbox" id="showcase" name="scales" className="popup__checkbox"/>
                                     <label for="showcase" className="popup__label">Ready to showcase</label>

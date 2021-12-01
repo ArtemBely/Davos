@@ -18,6 +18,8 @@ import https from 'https';
 import asRouter from './routes/association';
 import asEvents from './routes/events';
 import asMembers from './routes/members';
+import techRouter from './routes/technologies';
+import contRouter from './routes/contacts';
 //import asDavos from './routes/davos';
 
 
@@ -53,7 +55,8 @@ app.use(cookieParser());
 app.use('/association', asRouter);
 app.use('/events', asEvents);
 app.use('/members', asMembers);
-//app.use('/davos', asMembers);
+app.use('/technologie', techRouter);
+app.use('/contacts', contRouter);
 
 app.get('/files', (req, res) => {
   const resolvePath = path.resolve('public/images/shutterstock.mp4');

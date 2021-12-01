@@ -54,11 +54,11 @@ class AssociationSection3 extends React.Component {
                           manager will contact you
                       </p>
                       <form className="popup__form">
-                          <input type="text" name="Company name" className="popup__input" placeholder="Company name" />
-                          <input type="text" name="Address" className="popup__input" placeholder="Address" />
-                          <input type="text" name="The technology used" className="popup__input" placeholder="The technology used" />
-                          <input type="text" name="Contact person" className="popup__input" placeholder="Contact person" />
-                          <input type="text" name="Attachments" className="popup__input" placeholder="Attachments" />
+                          <input type="text" name="Company name" className="popup__input" placeholder="Company name" required/>
+                          <input type="text" name="Address" className="popup__input" placeholder="Address" required/>
+                          <input type="text" name="The technology used" className="popup__input" placeholder="The technology used" required/>
+                          <input type="text" name="Contact person" className="popup__input" placeholder="Contact person" required/>
+                          <input type="text" name="Attachments" className="popup__input" placeholder="Attachments" required/>
                           <div className="popup__checkbox-container">
                               <input type="checkbox" id="showcase" name="scales" className="popup__checkbox"/>
                               <label for="showcase" className="popup__label">Ready to showcase</label>
@@ -75,7 +75,7 @@ class AssociationSection3 extends React.Component {
                                   of data and agree to the privacy policy
                               </p>
                           </div>
-                      </form> 
+                      </form>
                   </div>
               </div>
           </div>)}

@@ -48,6 +48,7 @@ import '../../public/styles/tablet11.css';
 import '../../public/styles/phone9.css';
 import '../../public/styles/phone10.css';
 import '../../public/styles/phone11.css';
+import '../../public/styles/phone12.css';
 
 class App extends React.Component {
   render() {

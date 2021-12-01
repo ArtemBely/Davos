@@ -1,5 +1,5 @@
 @media (min-width: 320px) and (max-width: 575px) {
-    .header, 
+    .header,
     .main__section1,
     .main__section2,
     .main__section3,
@@ -8,6 +8,13 @@
     }
     body.lock {
         overflow: hidden;
+    }
+    .section2__logo-item {
+      text-align: center;
+    }
+    #social_networks {
+      left: 211px;
+      top: -100px;
     }
     .header {
         position: relative;
@@ -151,7 +158,18 @@
         height: 201.03px;
     }
     .main__section2 {
-        height: 1105px;
+        height: 830px;
+    }
+    #eagle {
+       transform: scale(1);
+       left: 0px;
+       top: 0px;
+    }
+    #curio {
+      left: 0px;
+    }
+    #goweb {
+      display: block;
     }
     .section2-title {
         margin-top: 50px;
@@ -164,10 +182,18 @@
         margin-bottom: 66px;
     }
     .section2__logo-list {
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+          flex-wrap: nowrap;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          display: grid;
+          grid-template-columns: 1fr;
+          width: 320px;
+          transform: scale(0.5);
+          grid-template-rows: repeat(6, 1fr);
+          position: relative;
+          top: -279px;
+          left: -24px;
     }
     .section2__logo-list > li:nth-child(1) {
         margin-right: 0;
@@ -206,38 +232,7 @@
         margin-top: 60px;
         order: 6;
     }
-    #facebook {
-        width: 210px;
-        height: 40px;
-    }
-    #spacex {
-        width: 249px;
-        height: 31px;
-    }
-    #tesla {
-        width: 196px;
-        height: 27px;
-    }
-    #visa {
-        width: 157px;
-        height: 51px;
-    }
-    #google {
-        width: 186px;
-        height: 61px;
-    }
-    #amazon {
-        width: 173px;
-        height: 52px;
-    }
-    #ibm {
-        width: 134px;
-        height: 53px;
-    }
-    #samsung {
-        width: 184px;
-        height: 61px;
-    }
+
     .main__section3 {
         margin-top: 100px;
     }
@@ -305,8 +300,9 @@
         margin-top: 10px;
     }
     .events__button {
-        height: 138px;
+        height: 161px;
         padding: 0;
+        display: flex;
         justify-content: start;
         flex-direction: column;
     }

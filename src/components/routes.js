@@ -3,7 +3,8 @@ import MainAssociation from './MainAssociation';
 import MainEvents from './MainEvents';
 import MainMembers from './MainMembers';
 import Davos from './Davos';
-
+import Technologies from './Technologies';
+import Contacts from './Contacts';
 
 const routes = [
   {
@@ -30,6 +31,15 @@ const routes = [
     path: '/davos',
     exact: true,
     component: Davos
+  },
+  {
+    path: '/technologie',
+    component: Technologies
+  },
+  {
+    path: '/contacts',
+    exact: true,
+    component: Contacts
   }
 ]
 

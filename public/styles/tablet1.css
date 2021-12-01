@@ -6,6 +6,20 @@
     .footer {
         width: 952px;
     }
+    .section2__logo-list {
+    -moz-transform: scale(0.74, 0.74); /* Moz-browsers */
+    zoom: 0.74; /* Other non-webkit browsers */
+    zoom: 74%; /* Webkit browsers */
+    display: grid;
+    grid-template-columns: 583px 233px 474px;
+    grid-template-rows: 100px 100px;
+    top: 30px;
+    position: relative;
+}
+    #goweb {
+      display: block;
+      top: 0px
+    }
     .header {
         margin: 20px 0px 0px 0px;
     }
@@ -62,7 +76,7 @@
     }
 
     .main__section2 {
-        height: 584px;
+        height: 547px;
     }
     .section2-title {
         margin-top: 70px;
@@ -173,7 +187,7 @@
     .events__button {
         height: 80px;
         padding: 25px 40px 25px 30px;
-        display: grid;
+        display: flex;
         grid-template-columns: 213px 640px 29px;
     }
     .event-paragraph {
@@ -185,7 +199,7 @@
         line-height: 30px;
     }
     .events__button > p:nth-child(2) {
-        margin-left: 0;
+        margin-left: -50px;
     }
     .events__button > p:nth-child(3) {
         margin-left: 0;
@@ -225,45 +239,32 @@
 }
 @media (min-width: 1345px) and (max-width: 1960px) {
   .event-img2 {
-    -webkit-transform: scale(0.68);
-    -ms-transform: scale(0.68);
-        transform: scale(0.68);
+    top: -155px !important;
+    height: 987px !important;
   }
 }
   @media (min-width: 995px) and (max-width: 1345px) {
     .event-img2 {
-      position: absolute;
-      left: -487px !important;
-      height: auto;
-      top: 24px !important;
-      -webkit-transform: scale(0.52);
-      -ms-transform: scale(0.52);
-          transform: scale(0.52);
+      top: -79px !important;
+      height: 852px !important;
     }
   }
     @media (min-width: 1290px) and (max-width: 1345px) {
-      .event-img2 {
-        position: absolute;
-        left: -316px !important;
-        height: auto;
-        top: -11px !important;
-        -webkit-transform: scale(0.67);
-        -ms-transform: scale(0.67);
-            transform: scale(0.67);
-      }
       .header, .event__section {
         z-index: 10;
       }
     }
-      @media (min-width: 767px) and (max-width: 995px) {
+    @media (min-width: 992px) and (max-width: 1290px) {
+      .event-img2 {
+        height: 745px !important;
+        top: -114px !important;
+      }
+    }
+      @media (min-width: 767px) and (max-width: 992px) {
         .event-img2 {
-          position: absolute;
-          left: -593px !important;
-          height: auto;
-          top: 72px !important;
-          -webkit-transform: scale(0.38);
-          -ms-transform: scale(0.38);
-              transform: scale(0.38);
+          height: 573px !important;
+          top: -60px !important;
+
         }
         .header {
           z-index: 10;
@@ -271,21 +272,39 @@
       }
         @media (min-width: 576px) and (max-width: 767px) {
           .event-img2 {
-            position: absolute;
-            left: -692px !important;
-            top: 123px !important;
-            -webkit-transform: scale(0.3);
-            -ms-transform: scale(0.3);
-                transform: scale(0.3);
+            height: 452px !important;
+            top: -67px !important;
+          }
+          .section2__logo-list {
+              display: grid;
+              grid-template-columns: repeat(3, 1fr);
+              width: 537px;
+              grid-template-rows: 1fr 1fr;
+          }
+          #social_networks {
+            left: 242px;
+            top: -100px;
+          }
+          .events__button > p:nth-child(2) {
+              flex-basis: 38.8%;
+          }
+          .events__button {
+            height: 105px !important;
+          }
+
+          #text_of_event4 {
+              width: 186px;
+              position: relative;
+              left: 17px;
+          }
+          #text_of_event2 {
+            position: relative;
+            left: 53px;
           }
 }
       @media (min-width: 320px) and (max-width: 576px) {
         .event-img2 {
-              position: absolute;
-              left: -816px !important;
-              top: 57px !important;
-              -webkit-transform: scale(0.15);
-              -ms-transform: scale(0.15);
-                  transform: scale(0.15);
+              height: 236px !important;
+              top: -2px !important;
         }
       }

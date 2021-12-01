@@ -1,5 +1,5 @@
 @media (min-width: 576px) and (max-width: 767px) {
-    .header, 
+    .header,
     .main__section1,
     .main__section2,
     .main__section3,
@@ -8,6 +8,11 @@
     }
     body.lock {
         overflow: hidden;
+    }
+    #vrt {
+      text-align: initial;
+      position: relative;
+      top: 77px;
     }
     .header {
         position: relative;
@@ -39,7 +44,7 @@
         width: 30px;
         height: 20px;
         z-index: 3;
-        right: 20px;
+        right: 0px;
     }
     .header__burger::before,
     .header__burger::after {
@@ -155,6 +160,37 @@
         font-size: 30px;
         line-height: 35px;
     }
+    #curio {
+      position: relative;
+      left: -26px;
+      top: 79px;
+    }
+    #smart_eye, #curio {
+      text-align: right;
+    }
+    #smart_eye {
+      right: 70px;
+      position: relative;
+    }
+    #goweb {
+      position: relative;
+      display: flex;
+      top: -18px;
+      transform: scale(0.6);
+      grid-row: 2 / 3;
+      grid-column: 1 / 2;
+      left: -137px;
+    }
+    .section2__logo-list {
+      display: grid;
+      height: 658px;
+      grid-template-columns: repeat(2, 1fr);
+      width: 537px;
+      grid-template-rows: 1fr 1fr;
+      -moz-transform: scale(0.5, 0.5); /* Moz-browsers */
+      zoom: 0.5; /* Other non-webkit browsers */
+      zoom: 50%; /* Webkit browsers */
+    }
     .section2-paragraph {
         font-size: 16px;
         margin-bottom: 67px;
@@ -166,16 +202,15 @@
     .section2__logo-list > li:nth-child(2) {
         order: 2;
         margin-right: 0;
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        position: relative;
+        left: -191px;
     }
     .section2__logo-list > li:nth-child(3) {
         order: 4;
         margin-right: 50px;
         margin-top: 60px;
-    }
-    .section2__logo-list > li:nth-child(4) {
-        order: 8;
-        margin-right: 63px;
-        margin-top: 67px;
     }
     .section2__logo-list > li:nth-child(5) {
         order: 5;
@@ -197,37 +232,13 @@
         margin-top: 30px;
         /* margin-top: 60px; */
     }
-    #facebook {
-        width: 196px;
-        height: 37px;
-    }
-    #spacex {
-        width: 249px;
-        height: 31px;
-    }
-    #tesla {
-        width: 196px;
-        height: 27px;
-    }
-    #visa {
-        width: 157px;
-        height: 51px;
-    }
-    #google {
-        width: 186px;
-        height: 61px;
-    }
-    #amazon {
-        width: 173px;
-        height: 52px;
-    }
-    #ibm {
-        width: 134px;
-        height: 53px;
-    }
-    #samsung {
-        width: 184px;
-        height: 61px;
+    #eagle {
+      position: relative;
+      top: -40px;
+      transform: scale(1);
+      left: -18px;
+      grid-column: 1 / 2;
+      grid-row: 1 / 2;
     }
     .main__section3 {
         margin-top: 110px;
@@ -295,7 +306,7 @@
     .events__button {
         height: 66px;
         padding: 20px 31px;
-        display: grid;
+        display: flex;
         grid-template-columns: 117px 334px 26px;
     }
     .event-paragraph {

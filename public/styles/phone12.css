@@ -1,0 +1,98 @@
+@media (min-width: 320px) and (max-width: 576px) {
+  .tech_0 {
+    width: 291px !important;
+    height: 654px !important;
+  }
+  .tech_0_ai, .tech_0_dlt {
+    width: 288px !important;
+  }
+  .tech_0_ai {
+    height: 736px !important;
+  }
+  .str_cont {
+    margin-bottom: 200px;
+  }
+  .title_of_tech {
+    top: 100px !important;
+    height: 64px !important;
+    line-height: 45px !important;
+    font-size: 35px;
+    width: 300px;
+  }
+  .title_of_tech_ai {
+    top: 76px !important;
+    height: 64px !important;
+    line-height: 45px !important;
+    width: 300px;
+    font-size: 35px;
+  }
+  .title_of_tech_dlt {
+    top: 95px !important;
+    height: 64px !important;
+    line-height: 45px !important;
+    font-size: 35px;
+    width: 300px;
+  }
+  .title_of_tech_ai, .text_of_tech_ai {
+    font-size: 35px;
+  }
+  .text_of_tech_dlt {
+    width: 228px !important;
+    height: 64px !important;
+    line-height: 22px !important;
+    font-size: 16px !important;
+    top: -19px !important;
+}
+.to_be_cont_dlt {
+  top: 54px !important;
+  height: 40px !important;
+  font-size: 16px !important;
+  line-height: 25px !important;
+}
+.to_be_cont_ai {
+    top: 2px !important;
+    height: 40px !important;
+    font-size: 16px !important;
+    line-height: 160% !important;
+    line-height: 160%;
+}
+  .text_of_tech {
+        width: 278px !important;
+        height: 64px !important;
+        line-height: 22px !important;
+        font-size: 16px !important;
+        top: 70px !important;
+  }
+  .to_be_cont {
+    height: 40px;
+    font-size: 16px !important;
+    line-height: 25px !important;
+    width: 200px;
+  }
+  .tech_img_ai {
+    top: 193px !important;
+    width: 20px !important;
+    height: 358px !important;
+    left: 122px !important;
+  }
+  .wrap_tech_img {
+        left: 99px !important;
+        width: 26px;
+        height: 440px;
+        top: 115px !important;
+        overflow: hidden;
+  }
+  .tech_0_dlt {
+    height: 1074px !important;
+  }
+  .text_of_tech_ai {
+    top: -13px !important;
+    width: 228px;
+  }
+  .tech_img_dlt {
+    left: 121px !important;
+    top: 202px !important;
+    width: 20px !important;
+    height: 358px !important;
+  }
+}

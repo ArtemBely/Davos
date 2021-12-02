@@ -43,6 +43,7 @@
 .section2__logo-list {
   display: grid;
   grid-template-columns: 583px 233px 474px;
+  mix-blend-mode: screen;
 }
 .section2__logo-item {
   text-align: end;

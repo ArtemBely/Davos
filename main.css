@@ -301,6 +301,7 @@ body {
 .section2__logo-list {
   display: grid;
   grid-template-columns: 583px 233px 474px;
+  mix-blend-mode: screen;
 }
 .section2__logo-item {
   text-align: end;
@@ -2675,6 +2676,9 @@ body {
     .association1 {
         height: 1778px;
     }
+    .wrap__association1 {
+      z-index: 0;
+    }
     .arrow-button__strategic {
       margin-left: 22px !important;
     }
@@ -3072,6 +3076,7 @@ body {
     .event__container {
         width: 286px;
         height: 983px;
+        z-index: 0;
     }
     .event-img {
         width: 286px;
@@ -5761,6 +5766,9 @@ body {
   }
   .dubai_link {
     height: 183px !important;
+  }
+  .event__section-title {
+    z-index: 10;
   }
   .tech_0_ai {
     height: 736px !important;

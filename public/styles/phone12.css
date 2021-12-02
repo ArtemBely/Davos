@@ -9,6 +9,9 @@
   .dubai_link {
     height: 183px !important;
   }
+  .event__section-title {
+    z-index: 10;
+  }
   .tech_0_ai {
     height: 736px !important;
   }

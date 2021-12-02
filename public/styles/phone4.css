@@ -7,6 +7,9 @@
     .association1 {
         height: 1778px;
     }
+    .wrap__association1 {
+      z-index: 0;
+    }
     .arrow-button__strategic {
       margin-left: 22px !important;
     }

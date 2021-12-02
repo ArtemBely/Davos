@@ -49,15 +49,16 @@
         margin-top: 80px;
     }
     .members__section2-list {
-        margin-top: 40px;
+        margin-top: 0px;
     }
     .members__section2-img {
-        width: 139px;
-        height: 147px;
+        width: 100%;
     }
     .members__section2-btn {
         width: 160px;
         height: 50px;
+        position: relative;
+        top: -32px;
     }
     .members__section3 {
         height: 917px;

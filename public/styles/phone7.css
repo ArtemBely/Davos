@@ -71,7 +71,10 @@
         text-align: center;
     }
     .members__section2 {
-        height: 728px;
+        height: 864px;
+    }
+    .wrap__members-section2 {
+        height: 850px;
     }
     .members__section2-title {
         font-size: 30px;
@@ -83,9 +86,11 @@
         line-height: 140%;
     }
     .members__section2-list {
-        display: flex;
-        justify-content: start;
-        flex-wrap: wrap;
+          display: grid;
+          flex-wrap: wrap;
+          grid-template-columns: repeat(2, 1fr);
+          height: 375px;
+          grid-template-rows: repeat(3, 133px);
     }
     .members__section2-list > li:nth-child(1) {
         margin-right: 26px;
@@ -104,11 +109,10 @@
     .members__section2-list > li:nth-child(6) {
         margin-top: 27px;
     }
-    .members__section2-img {
-        width: 161px;
-        height: 170px;
-    }
+
     .members__section2-btn {
+        position: relative;
+        top: 124px;
         width: 161px;
         height: 50px;
         font-size: 18px;

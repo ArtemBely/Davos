@@ -786,6 +786,9 @@ body {
             height: 452px !important;
             top: -67px !important;
           }
+          .events__title-container {
+            width: 537px !important;
+          }
           .section2__logo-list {
               display: grid;
               grid-template-columns: repeat(3, 1fr);
@@ -1019,7 +1022,7 @@ body {
         margin-bottom: 107px;
     }
     .events__title-container {
-        width: 351px;
+        width: 730px;
         margin-bottom: 27px;
     }
     .events__title-link, .events__title-link:visited {
@@ -2827,7 +2830,7 @@ body {
     margin-top: 190px;
 }
 .event__title-container {
-    width: 710.05px;
+    width: 490px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3011,7 +3014,7 @@ body {
         margin-top: 150px;
     }
     .event__title-container {
-        width: 538px;
+        width: 730px;
         margin-bottom: 25px;
     }
     .event__section2-title {
@@ -3025,6 +3028,7 @@ body {
         margin-bottom: 3px;
     }
 }
+
 @media (min-width: 576px) and (max-width: 767px) {
     .event__container {
         width: 537px;
@@ -3306,8 +3310,16 @@ body {
     margin-top: 30px;
 }
 .members__section2-img {
+    width: 100%
+}
+.members__section2-img {
+    width: 100%
+}
+.members__section2-item {
     width: 190px;
     height: 200px;
+    display: flex;
+    align-items: center;
 }
 .members__section2-btn {
     display: -webkit-box;
@@ -3497,15 +3509,16 @@ body {
         margin-top: 80px;
     }
     .members__section2-list {
-        margin-top: 40px;
+        margin-top: 0px;
     }
     .members__section2-img {
-        width: 139px;
-        height: 147px;
+        width: 100%;
     }
     .members__section2-btn {
         width: 160px;
         height: 50px;
+        position: relative;
+        top: -32px;
     }
     .members__section3 {
         height: 917px;
@@ -3547,6 +3560,7 @@ body {
         height: 50px;
     }
 }
+
 @media (min-width: 768px) and (max-width: 991px) {
     .members__section1,
     .members__section2,
@@ -3605,14 +3619,15 @@ body {
     .members__section2-list {
         margin-top: 21px;
     }
-    .members__section2-img {
-        width: 106px;
-        height: 112px;
-    }
     .members__section2-btn {
         width: 152px;
         height: 50px;
         font-size: 18px;
+        position: relative;
+        top: -45px;
+    }
+    .members__section2-list {
+        margin-top: -17px;
     }
     .members__section3 {
         height: 827px;
@@ -3657,6 +3672,7 @@ body {
         font-size: 18px;
     }
 }
+
 @media (min-width: 576px) and (max-width: 767px) {
     .members__section1,
     .members__section2,
@@ -3730,7 +3746,10 @@ body {
         text-align: center;
     }
     .members__section2 {
-        height: 728px;
+        height: 864px;
+    }
+    .wrap__members-section2 {
+        height: 850px;
     }
     .members__section2-title {
         font-size: 30px;
@@ -3742,9 +3761,11 @@ body {
         line-height: 140%;
     }
     .members__section2-list {
-        display: flex;
-        justify-content: start;
-        flex-wrap: wrap;
+          display: grid;
+          flex-wrap: wrap;
+          grid-template-columns: repeat(2, 1fr);
+          height: 375px;
+          grid-template-rows: repeat(3, 133px);
     }
     .members__section2-list > li:nth-child(1) {
         margin-right: 26px;
@@ -3763,11 +3784,10 @@ body {
     .members__section2-list > li:nth-child(6) {
         margin-top: 27px;
     }
-    .members__section2-img {
-        width: 161px;
-        height: 170px;
-    }
+
     .members__section2-btn {
+        position: relative;
+        top: 124px;
         width: 161px;
         height: 50px;
         font-size: 18px;
@@ -3813,6 +3833,7 @@ body {
         font-size: 18px;
     }
 }
+
 @media (min-width: 320px) and (max-width: 575px) {
     .members__section1,
     .members__section2,
@@ -3887,7 +3908,7 @@ body {
         text-align: center;
     }
     .members__section2 {
-        height: 822px;
+        height: 930px;
     }
     .members__section2-title {
         font-size: 28px;
@@ -3899,9 +3920,11 @@ body {
         line-height: 140%;
     }
     .members__section2-list {
-        display: flex;
-        justify-content: start;
-        flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 89px);
+      position: relative;
+      top: -67px;
     }
     .members__section2-list > li:nth-child(1) {
         margin-right: 20px;
@@ -3920,14 +3943,12 @@ body {
     .members__section2-list > li:nth-child(6) {
         margin-top: 20px;
     }
-    .members__section2-img {
-        width: 130px;
-        height: 137px;
-    }
     .members__section2-btn {
         width: 130px;
         height: 50px;
         font-size: 16px;
+        position: relative;
+        top: 32px;
     }
     .members__section3 {
         height: 787px;
@@ -5737,6 +5758,9 @@ body {
   }
   .tech_0_ai, .tech_0_dlt {
     width: 288px !important;
+  }
+  .dubai_link {
+    height: 183px !important;
   }
   .tech_0_ai {
     height: 736px !important;

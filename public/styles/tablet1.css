@@ -275,6 +275,9 @@
             height: 452px !important;
             top: -67px !important;
           }
+          .events__title-container {
+            width: 537px !important;
+          }
           .section2__logo-list {
               display: grid;
               grid-template-columns: repeat(3, 1fr);

@@ -1,6 +1,13 @@
 import React from 'react';
 import membersImg from "../../public/images/members_img.svg"
 import cross from '../../public/images/cross.svg';
+import sponsor1 from '../../public/images/9.png';
+import sponsor2 from '../../public/images/8.png';
+import sponsor3 from '../../public/images/7.png';
+import sponsor4 from '../../public/images/4.png';
+import sponsor5 from '../../public/images/10.png';
+import sponsor6 from '../../public/images/6.png';
+
 
 class MembersSection2 extends React.Component{
 
@@ -62,22 +69,22 @@ class MembersSection2 extends React.Component{
                 </p>
                 <ul className='members__section2-list'>
                     <li className='members__section2-item'>
-                        <img src={membersImg} className='members__section2-img'></img>
+                        <img src={sponsor1} className='members__section2-img'></img>
                     </li>
                     <li className='members__section2-item'>
-                        <img src={membersImg} className='members__section2-img'></img>
+                        <img src={sponsor2} className='members__section2-img'></img>
                     </li>
                     <li className='members__section2-item'>
-                        <img src={membersImg} className='members__section2-img'></img>
+                        <img src={sponsor3} className='members__section2-img'></img>
                     </li>
                     <li className='members__section2-item'>
-                        <img src={membersImg} className='members__section2-img'></img>
+                        <img src={sponsor4} className='members__section2-img'></img>
                     </li>
                     <li className='members__section2-item'>
-                        <img src={membersImg} className='members__section2-img'></img>
+                        <img src={sponsor5} className='members__section2-img'></img>
                     </li>
                     <li className='members__section2-item'>
-                        <img src={membersImg} className='members__section2-img'></img>
+                        <img src={sponsor6} className='members__section2-img'></img>
                     </li>
                 </ul>
                 <button className='members__section2-btn' onClick={this.popap7}>Register</button>

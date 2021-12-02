@@ -10,7 +10,7 @@ function MainSection4 () {
                 <p className='events__button-date event-paragraph' id='text_of_event1'>13-14 October 2021</p>
                 <p className='events__button-date event-paragraph' id='text_of_event2'>Future innovation summit</p>
             </NavLink>
-            <a href='https://dfisx.com/' className='events__button'>
+            <a href='https://dfisx.com/' className='events__button dubai_link'>
                 <p className='events__button-davos event-paragraph'>Dubai</p>
                 <p className='events__button-date event-paragraph' id='text_of_event3'>16-23 January 2022</p>
                 <p className='events__button-date event-paragraph' id='text_of_event4'>International EmTech Investment Forum Association Forum</p>

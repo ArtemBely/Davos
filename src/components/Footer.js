@@ -16,7 +16,7 @@ function Footer () {
                     <NavLink to="/association" className='footer__link1 footer-link'>Association</NavLink>
                 </li>
                 <li className='footer__item1 footer-item'>
-                    <NavLink to="/events" className='footer__link1 footer-link'>Events</NavLink>
+                    <NavLink to="/events" className='footer__link1 footer-link' style={{display: 'none'}}>Events</NavLink>
                 </li>
                 <li className='footer__item1 footer-item'>
                     <NavLink to="/members" className='footer__link1 footer-link'>Members</NavLink>

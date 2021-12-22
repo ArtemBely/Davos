@@ -1,3 +1,19 @@
+@media (min-width: 768px) and (max-width: 1320px) {
+  #img2 {
+    grid-column: 3 / 6;
+  }
+  .partners {
+    max-width: 950px;
+  }
+  .partners__title {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    font-size: 40px;
+    position: relative;
+    left: -119px
+  }
+}
 @media (min-width: 992px) and (max-width: 1320px) {
   .concept__title {
     display: flex;
@@ -56,13 +72,6 @@
     width: 410px;
     height: 50px;
     margin-top: 20px;
-  }
-
-  .partners__title {
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
-    font-size: 40px;
   }
 
   .partners__descr {

@@ -16,6 +16,48 @@ body {
     display: grid;
     justify-items: center;
 }
+#img1 {
+    position: relative;
+    top: -33px;
+    grid-column: 1 / 3;
+    left: -20px;
+}
+#img4 {
+    grid-column: 5 / 6;
+    position: relative;
+    top: -23px;
+    left: 11px;
+    display: flex;
+    justify-content: end;
+}
+#img5 {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+#img9 {
+  position: relative;
+  left: 20px;
+}
+#img11 {
+  position: relative;
+  left: 82px;
+}
+#img12 {
+  position: relative;
+  left: 190px;
+}
+#img13 {
+  position: relative;
+  left: 234px;
+}
+.middle_top {
+  position: relative;
+  top: 40px;
+}
+.down_center {
+  display: flex;
+  align-items: center;
+}
 .lead__image {
     width: 100%;
     object-fit: contain;

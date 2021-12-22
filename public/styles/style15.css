@@ -103,7 +103,8 @@
 }
 
 .concept-download {
-  display: block;
+  display: flex;
+  align-items: center;
   position: relative;
   width: 410px !important;
   left: 10px;
@@ -157,12 +158,19 @@
 }
 
 .partners {
-  padding-left: 30px;
-  padding-right: 30px;
-  margin: 0 auto;
-  max-width: 1330px;
+  max-width: 1290px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 0px 22px;
 }
-
+.wrap_partners {
+    position: relative;
+    top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 .partners__title {
   font-family: 'WorkSans-Bold';
   font-style: normal;
@@ -170,6 +178,9 @@
   font-size: 45px;
   line-height: 53px;
   color: #FFFFFF;
+  grid-column: 1 / 6;
+  top: 45px;
+  position: relative;
 }
 
 .partners__wrapper {

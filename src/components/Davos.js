@@ -7,6 +7,7 @@ import DavosSection2 from './DavosSection2'
 
 
 class Davos extends React.Component{
+
   render() {
     return(
       <div className='wrap_davos'>

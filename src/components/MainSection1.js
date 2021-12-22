@@ -28,7 +28,7 @@ function MainSection1 () {
             </div>
             <div className='section1__img-container'>
                 <h2 className='section1__img-title'>Coming soon</h2>
-                <NavLink to='/davos'><img src={Davos} className='section1__img-davos'></img></NavLink>
+                <a href='https://emtechinvest.com/'><img src={Davos} className='section1__img-davos'></img></a>
                 <a href='https://dfisx.com/'><img src={Dubai} className='section1__img-dubai'></img></a>
             </div>
         </div>

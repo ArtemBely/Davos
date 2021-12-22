@@ -33,7 +33,7 @@ function Footer () {
                     <a href='https://dfisx.com/' className='footer__link2 footer-link'>→ Dubai</a>
                 </li>
                 <li className='footer__item2 footer-item'>
-                    <NavLink to="/davos" className='footer__link2 footer-link'>→ Davos</NavLink>
+                    <a href="https://emtechinvest.com/" className='footer__link2 footer-link'>→ Davos</a>
                 </li>
             </ul>
             <ul className='footer__list3'>

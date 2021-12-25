@@ -63,9 +63,8 @@ class MembersSection2 extends React.Component{
             <div className='members__section2'>
                 <h2 className='members__section2-title'>About our members</h2>
                 <p className='members__section2-paragraph'>
-                    On the other hand, we denounce with righteous indignation <br />
-                    and dislike men who are so beguiled and demoralized by <br />
-                    the charms of pleasure of the moment.
+                Our members are leaders in tech industries,
+                investment structures, <br /> international organizations and governmental bodies.
                 </p>
                 <ul className='members__section2-list'>
                     <li className='members__section2-item'>

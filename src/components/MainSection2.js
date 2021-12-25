@@ -12,8 +12,8 @@ function MainSection2 () {
         <div className='main__section2'>
             <h2 className='section2-title'>About our members</h2>
             <p className='section2-paragraph'>
-            Our members are leaders in tech industries, investment structures, <br />
-            international organizations and governmental bodies.
+            Our members are leaders in tech industries,
+            investment structures, <br /> international organizations and governmental bodies.
             </p>
             <div className='section2__logo-container'>
                 <ul className='section2__logo-list'>

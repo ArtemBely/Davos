@@ -45,10 +45,8 @@
     margin-top: 30px;
 }
 .members__section2-img {
-    width: 100%
-}
-.members__section2-img {
-    width: 100%
+    width: 100%;
+    mix-blend-mode: screen;
 }
 .members__section2-item {
     width: 190px;

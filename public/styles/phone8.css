@@ -32,7 +32,8 @@
         box-shadow: 2.03654px 5.43077px 8.825px #000000;
     }
     .members__container-title {
-        font-size: 20px;
+        font-size: 19px;
+        font-weight: bolder;
         line-height: 140%;
         margin-bottom: 4px;
     }

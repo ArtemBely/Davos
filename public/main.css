@@ -3315,10 +3315,8 @@ body {
     margin-top: 30px;
 }
 .members__section2-img {
-    width: 100%
-}
-.members__section2-img {
-    width: 100%
+    width: 100%;
+    mix-blend-mode: screen;
 }
 .members__section2-item {
     width: 190px;
@@ -3873,7 +3871,8 @@ body {
         box-shadow: 2.03654px 5.43077px 8.825px #000000;
     }
     .members__container-title {
-        font-size: 20px;
+        font-size: 19px;
+        font-weight: bolder;
         line-height: 140%;
         margin-bottom: 4px;
     }

@@ -13,7 +13,7 @@ function MainSection4 () {
             <a href='https://dfisx.com/' className='events__button dubai_link'>
                 <p className='events__button-davos event-paragraph'>Dubai</p>
                 <p className='events__button-date event-paragraph' id='text_of_event3'>13-14 October 2021</p>
-                <p className='events__button-date event-paragraph' id='text_of_event4'>Future innovation summit</p>
+                <p className='events__button-date event-paragraph' id='text_of_event4'></p>
             </a>
         </div>
  )

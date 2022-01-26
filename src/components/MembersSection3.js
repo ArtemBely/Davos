@@ -35,12 +35,12 @@ class MembersSection3 extends React.Component {
                         Fill out the form, our <br />
                         manager will contact you
                     </p>
-                    <form className="popup__form">
-                        <input type="text" name="Name" className="popup__input" placeholder="Name" required/>
-                        <input type="text" name="Phone_number" className="popup__input" placeholder="Phone number" required/>
-                        <input type="text" name="Email" className="popup__input" placeholder="Email" required/>
+                    <form action='/members/for_more' method='POST' className="popup__form">
+                        <input type="text" name="name" className="popup__input" placeholder="Name" required/>
+                        <input type="text" name="phone" className="popup__input" placeholder="Phone number" required/>
+                        <input type="text" name="email" className="popup__input" placeholder="Email" required/>
                         <div className="popup__footer">
-                            <button className="popup__footer-btn">Send</button>
+                            <button type='submit' className="popup__footer-btn">Send</button>
                             <p className="popup__footer-paragraph">
                                 By clicking on the «Send» button you <br />
                                 confirm your consent to the processing <br />
@@ -80,12 +80,12 @@ class MembersSection3 extends React.Component {
                                 Fill out the form, our <br />
                                 manager will contact you
                             </p>
-                            <form className="popup__form">
-                                <input type="text" name="Company name" className="popup__input" placeholder="Company name" required/>
-                                <input type="text" name="Address" className="popup__input" placeholder="Address" required/>
-                                <input type="text" name="The technology used" className="popup__input" placeholder="The technology used" required/>
-                                <input type="text" name="Contact person" className="popup__input" placeholder="Contact person" required/>
-                                <input type="text" name="Attachments" className="popup__input" placeholder="Attachments" required/>
+                            <form action='/members/attachment' method='POST' className="popup__form">
+                                <input type="text" name="name" className="popup__input" placeholder="Company name" required/>
+                                <input type="text" name="address" className="popup__input" placeholder="Address" required/>
+                                <input type="text" name="tech" className="popup__input" placeholder="The technology used" required/>
+                                <input type="text" name="contact" className="popup__input" placeholder="Contact person" required/>
+                                <input type="text" name="attachments" className="popup__input" placeholder="Attachments" required/>
                                 <div className="popup__checkbox-container">
                                     <input type="checkbox" id="showcase" name="scales" className="popup__checkbox"/>
                                     <label for="showcase" className="popup__label">Ready to showcase</label>
@@ -95,7 +95,7 @@ class MembersSection3 extends React.Component {
                                     <label for="round" className="popup__label">Ready for new investment round</label>
                                 </div>
                                 <div className="popup__footer">
-                                    <button className="popup__footer-btn">Send</button>
+                                    <button type='submit' className="popup__footer-btn">Send</button>
                                     <p className="popup__footer-paragraph">
                                         By clicking on the «Send» button you <br />
                                         confirm your consent to the processing <br />

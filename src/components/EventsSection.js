@@ -40,12 +40,12 @@ class EventsSection extends React.Component{
                       Fill out the form, our <br />
                       manager will contact you
                   </p>
-                  <form className="popup__form">
-                      <input type="text" name="Name" className="popup__input" placeholder="Name" required/>
-                      <input type="text" name="Phone_number" className="popup__input" placeholder="Phone number" required/>
-                      <input type="text" name="Email" className="popup__input" placeholder="Email" required/>
+                  <form action='/events/send' method='POST' className="popup__form">
+                      <input type="text" name="name" className="popup__input" placeholder="Name" required/>
+                      <input type="text" name="phone" className="popup__input" placeholder="Phone number" required/>
+                      <input type="text" name="email" className="popup__input" placeholder="Email" required/>
                       <div className="popup__footer">
-                          <button className="popup__footer-btn">Send</button>
+                          <button type='submit' className="popup__footer-btn">Send</button>
                           <p className="popup__footer-paragraph">
                               By clicking on the «Send» button you <br />
                               confirm your consent to the processing <br />

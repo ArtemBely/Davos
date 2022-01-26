@@ -15,10 +15,9 @@ class AssociationSection2 extends React.Component {
             <div className="association2__sponsorships">
                 <h2 className="association2__sponsorships-title">Sponsorships</h2>
                 <p className="association2__sponsorships-pargraph">
-                    At vero eos et accusamus et iusto odio dignissimos <br />
-                    ducimus qui blanditiis praesentium voluptatum <br />
-                    deleniti atque corrupti qui officia deserunt mollitia <br />
-                    animi, id est laborum et dolorum fuga.
+                    Fill out an application to become a sponsor <br />
+                    <br />
+                    <br />
                 </p>
                 <button className="association2__sponsorships-btn" onClick={()=>this.setState({isOpen:true})}>Become a sponsor</button>
             </div>
@@ -36,19 +35,19 @@ class AssociationSection2 extends React.Component {
                                 Fill out the form, our <br />
                                 manager will contact you
                             </p>
-                            <form className="popup__form">
-                                <input type="text" name="Company or name" className="popup__input" placeholder="Company or name" required/>
-                                <input type="text" name="Interest in tech" className="popup__input" placeholder="Interest in tech" required/>
-                                <input type="text" name="Investment stage" className="popup__input" placeholder="Investment stage" required/>
-                                <input type="text" name="Jurisdiction" className="popup__input" placeholder="Jurisdiction" required/>
-                                <input type="text" name="Phone number" className="popup__input" placeholder="Phone number" required/>
-                                <input type="text" name="Email" className="popup__input" placeholder="Email" required/>
+                            <form action='/association/send' method='POST' className="popup__form">
+                                <input type="text" name="name" className="popup__input" placeholder="Company or name" required/>
+                                <input type="text" name="tech" className="popup__input" placeholder="Interest in tech" required/>
+                                <input type="text" name="stage" className="popup__input" placeholder="Investment stage" required/>
+                                <input type="text" name="jurisdiction" className="popup__input" placeholder="Jurisdiction" required/>
+                                <input type="text" name="phone" className="popup__input" placeholder="Phone number" required/>
+                                <input type="text" name="email" className="popup__input" placeholder="Email" required/>
                                 <div className="popup__checkbox-container">
                                     <input type="checkbox" id="invest" name="scales" className="popup__checkbox"/>
                                     <label for="invest" className="popup__label">Ready to invest</label>
                                 </div>
                                 <div className="popup__footer">
-                                    <button className="popup__footer-btn">Send</button>
+                                    <button type='submit' className="popup__footer-btn">Send</button>
                                     <p className="popup__footer-paragraph">
                                         By clicking on the «Send» button you <br />
                                         confirm your consent to the processing <br />

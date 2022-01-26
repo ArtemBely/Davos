@@ -800,6 +800,9 @@ body {
             left: 242px;
             top: -100px;
           }
+          .association2__sponsorships-pargraph {
+            width: 280px;
+          }
           .events__button > p:nth-child(2) {
               flex-basis: 38.8%;
           }
@@ -2147,6 +2150,7 @@ body {
     line-height: 140%;
     color: #FFFFFF;
     margin-bottom: 36.38px;
+    width: 319px;
 }
 .association2__sponsorships-btn {
     border: 2px solid #F6DBA8;
@@ -2361,7 +2365,7 @@ body {
     }
     .association2__sponsorships-pargraph {
         margin-bottom: 31px;
-        width: 387px;
+        width: 280px;
     }
     .association2__sponsorships-pargraph br {
         display: none;
@@ -2478,6 +2482,7 @@ body {
     .association2__sponsorships-pargraph {
         font-size: 18px;
         margin-bottom: 25px;
+        width: 280px;
     }
     .association2__sponsorships-pargraph br {
         display: none;
@@ -2742,6 +2747,7 @@ body {
     .association2__sponsorships-pargraph {
         font-size: 16px;
         margin-bottom: 20px;
+        width: 204px;
     }
     .association2__sponsorships-btn {
         width: 205px;

@@ -288,6 +288,9 @@
             left: 242px;
             top: -100px;
           }
+          .association2__sponsorships-pargraph {
+            width: 280px !important;
+          }
           .events__button > p:nth-child(2) {
               flex-basis: 38.8%;
           }

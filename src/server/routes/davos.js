@@ -16,10 +16,28 @@ router.get('/', (req, res) => {
         <html>
             <head>
               <title>International EmTech Investment Association</title>
+              <meta name="description" content="International EmTech Investment Association is purpose to unite like-minded people to build a better future leveraging emerging technologies" />
                    <link rel="stylesheet" type="text/css" href="../main.css">
                      <link rel="shortcut icon" href="/images/Vector.ico" type="image/x-icon">
+                     <link rel="canonical" href="https://emtechassociation.com/davos/">
                      <meta name="viewport" content="width=device-width, initial-scale=1">
                      <meta name="yandex-verification" content="389e86ea6444fd90" />
+                     <!-- HTML Meta Tags -->
+
+                      <!-- Facebook Meta Tags -->
+                      <meta property="og:url" content="https://emtechassociation.com/davos/">
+                      <meta property="og:type" content="website">
+                      <meta property="og:title" content="International EmTech Investment Association">
+                      <meta property="og:description" content="International EmTech Investment Association is purpose to unite like-minded people to build a better future leveraging emerging technologies">
+                      <meta property="og:image" content="">
+
+                      <!-- Twitter Meta Tags -->
+                      <meta name="twitter:card" content="summary_large_image">
+                      <meta property="twitter:domain" content="emtechassociation.com">
+                      <meta property="twitter:url" content="https://emtechassociation.com/davos/">
+                      <meta name="twitter:title" content="International EmTech Investment Association">
+                      <meta name="twitter:description" content="International EmTech Investment Association is purpose to unite like-minded people to build a better future leveraging emerging technologies">
+                      <meta name="twitter:image" content="">
                   <script src='/bundle.js' defer></script>
             </head>
             <body>

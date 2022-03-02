@@ -47,6 +47,7 @@
       top: -322px;
       z-index: 1;
       width: 100%;
+      max-width: 2300px;
       height: 1273px;
 }
 .association1__about-title {

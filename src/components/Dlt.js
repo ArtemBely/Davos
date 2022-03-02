@@ -6,7 +6,7 @@ function Dlt () {
   return(
     <div className='wrap_of_tech'>
         <div className="tech_0 tech_0_dlt">
-            <p className='title_of_tech title_of_tech_dlt'>DLT and Blockchain</p>
+            <h1 className='title_of_tech title_of_tech_dlt'>DLT and Blockchain</h1>
             <p className='text_of_tech_dlt'>Traditional transactions are complex and costly.
               Prone to human error or fraud — each participant has its own separate ledger.
               Inefficient — intermediaries are needed for validation. Frequent delays & losses —

@@ -7,6 +7,15 @@
     .members__section1 {
         height: 753px;
     }
+    .oops {
+        width: 730px !important;
+    }
+    .wrap_alert {
+      font-size: 20px !important;
+    }
+    .mistake404 {
+      font-size: 117px !important;
+    }
     .members__section1-title {
         font-size: 35px;
         margin-top: 57px;

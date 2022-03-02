@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../../public/images/Group300.svg';
-import mainImage from '../../public/images/Group467.jpg';
+import mainImage from '../../public/images/Group300.svg';
 
 function DavosSection() {
   return (

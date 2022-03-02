@@ -11,6 +11,7 @@ import FoodTech from './FoodTech';
 import Dlt from './Dlt';
 import Vr from './Vr';
 import Ai from './Ai';
+import AllTechno from './AllTechno';
 import { Route } from 'react-router-dom';
 
 function Technologies () {
@@ -18,6 +19,7 @@ function Technologies () {
     return(
       <p className='wrap_techno'>
           <Header />
+             <p className='wrap_allTechno'><Route exact path='/technologie' component={AllTechno} /></p>
              <Route exact path='/technologie/FinTech' component={FinTech} />
              <Route exact path='/technologie/Wearables' component={Wearables} />
              <Route exact path='/technologie/VR' component={Vr} />

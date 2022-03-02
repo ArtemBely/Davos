@@ -5,6 +5,7 @@ import MainMembers from './MainMembers';
 import Davos from './Davos';
 import Technologies from './Technologies';
 import Contacts from './Contacts';
+import NoMatch from './NoMatch';
 
 const routes = [
   {
@@ -40,6 +41,9 @@ const routes = [
     path: '/contacts',
     exact: true,
     component: Contacts
+  },
+  {
+    component: NoMatch
   }
 ]
 

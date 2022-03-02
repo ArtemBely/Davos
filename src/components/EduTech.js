@@ -6,7 +6,7 @@ function EduTech () {
   return(
     <div className='wrap_of_tech'>
         <div className="tech_0">
-            <p className='title_of_tech'>EduTech</p>
+            <h1 className='title_of_tech'>EduTech</h1>
             <p className='text_of_tech'>Educational Technologies - a step towards transformations of teaching and learning.
               More than 90% of teachers believe tech is going to have a major impact on the way they educate in the near future.
               For that reason, it’s vital to understand the benefits EdTech brings in the form of increased communication,

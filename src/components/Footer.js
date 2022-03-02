@@ -30,10 +30,10 @@ function Footer () {
                     <NavLink to="/events" className='footer__link2 footer-link'>Events</NavLink>
                 </li>
                 <li className='footer__item2 footer-item'>
-                    <a href='https://dfisx.com/' className='footer__link2 footer-link'>→ Dubai</a>
+                    <a rel="nofollow" href='https://dfisx.com/' className='footer__link2 footer-link'>→ Dubai</a>
                 </li>
                 <li className='footer__item2 footer-item'>
-                    <a href="https://emtechinvest.com/" className='footer__link2 footer-link'>→ Davos</a>
+                    <a rel="nofollow" href="https://emtechinvest.com/" className='footer__link2 footer-link'>→ Davos</a>
                 </li>
             </ul>
             <ul className='footer__list3'>
@@ -41,15 +41,15 @@ function Footer () {
                     <NavLink to="/contacts" className='footer__link3 footer-link'>Contacts</NavLink>
                 </li>
                 <li className='footer__item3 footer-item'>
-                    <NavLink to="#" className='footer__link3 footer-link'>+41 79 269 5360</NavLink>
+                    <a href="tel:+41 79 269 5360" className='footer__link3 footer-link'>+41 79 269 5360</a>
                 </li>
                 <li className='footer__item3 footer-item'>
-                    <a href="mailto:A.Yudina@qlstrategy.ch" className='footer__link3 footer-link'>A.Yudina@qlstrategy.ch</a>
+                    <a rel="nofollow" href="mailto:A.Yudina@qlstrategy.ch" className='footer__link3 footer-link'>A.Yudina@qlstrategy.ch</a>
                 </li>
                 <li className='footer__item3 footer-item'>
                     <NavLink to="#" className='footer__link3' id="social_networks">
                         <img src={Instagram} className='footer__link3-img'></img>
-                        <a href='https://www.facebook.com/International-EmTech-Investment-Association-101085159068669'>
+                        <a rel="nofollow" href='https://www.facebook.com/International-EmTech-Investment-Association-101085159068669'>
                         <img src={Facebook} className='footer__link3-img'></img>
                         </a>
                     </NavLink>

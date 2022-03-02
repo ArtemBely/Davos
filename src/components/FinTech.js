@@ -6,7 +6,7 @@ function FinTech () {
   return(
     <div className='wrap_of_tech'>
         <div className="tech_0">
-            <p className='title_of_tech'>FinTech</p>
+            <h1 className='title_of_tech'>FinTech</h1>
             <p className='text_of_tech'>Ultimately, the goal of fintech is to make financial
             services less expensive and more flexible per transaction.
             We support innovations that aim to compete with traditional

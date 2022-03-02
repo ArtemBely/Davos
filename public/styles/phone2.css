@@ -9,6 +9,37 @@
     body.lock {
         overflow: hidden;
     }
+    .oops {
+        width: 286px !important;
+        display: grid !important;
+        justify-content: center !important;
+        text-align: center !important;
+        line-height: 30px !important;
+    }
+    .wrap_alert {
+      font-size: 16px !important;
+    }
+    .mistake404 {
+      font-size: 57px !important;
+    }
+    .wrap_allTechno {
+      position: relative;
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+    }
+    .inside_cont_img {
+          width: 286px !important;
+          margin: 136px 0px 136px 0px;
+    }
+    .title_inside_techno {
+        position: relative;
+        top: -37px;
+    }
     .section2__logo-item {
       text-align: center;
     }

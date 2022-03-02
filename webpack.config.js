@@ -23,7 +23,7 @@ var browserConfig = {
             use: [MiniCssExtractPlugin.loader, 'css-loader']
           },
           {
-            test: /\.(jpe?g|jpg|png|gif|svg|ico)$/i,
+            test: /\.(jpe?g|jpg|png|gif|svg|webp|avif|ico)$/i,
             use: [
               {
               loader: "file-loader",
@@ -76,7 +76,7 @@ var serverConfig = {
         use: [MiniCssExtractPlugin.loader, 'css-loader']
       },
       {
-        test: /\.(jpe?g|jpg|png|gif|svg|ico)$/i,
+        test: /\.(jpe?g|jpg|png|gif|svg|webp|avif|ico)$/i,
         use: [
           {
           loader: "file-loader",

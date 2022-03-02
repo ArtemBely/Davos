@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../public/images/Strategic_logo.png";
-import mainImage from "../../public/images/Group467.jpg";
+import mainImage from "../../public/images/Group300.svg";
 import arrowBtn from '../../images/download-arrow.svg';
 import blackArr from '../../public/images/Vector (1).svg';
 

@@ -3,6 +3,7 @@ import { StaticRouter, matchPath } from 'react-router-dom';
 import App from '../components/App';
 import Main from '../components/Main';
 import Routes from '../components/routes';
+import NoMatch from '../components/NoMatch';
 import express from 'express';
 import { renderToString } from 'react-dom/server';
 import cookieParser from 'cookie-parser';
@@ -58,12 +59,57 @@ app.use('/members', asMembers);
 app.use('/technologie', techRouter);
 app.use('/contacts', contRouter);
 
+app.use('*', (req, res, next) => {
+  if (req.headers.host.match(/^www/) !== null ) {
+      res.redirect(301, 'https://' + req.headers.host.replace(/^www\./, '') + req.url);
+    } else {
+      next();
+    }
+});
+
 app.get('/files', (req, res) => {
   const resolvePath = path.resolve('public/images/shutterstock.mp4');
   res.sendFile(resolvePath);
 });
 
-app.get('*', (req, res, next) => {
+app.get('/robots.txt', (req, res) => {
+  const resolvePath = path.resolve('public/robots.txt');
+  res.sendFile(resolvePath);
+});
+
+app.get('/sitemap.xml', (req, res) => {
+  const resolvePath2 = path.resolve('public/sitemap.xml');
+  res.sendFile(resolvePath2);
+});
+
+app.get('/*', (req, res) => {
+  const content = renderToString(
+    <StaticRouter>
+      <NoMatch />
+    </StaticRouter>
+  );
+  res.status(404).send(
+    `<!DOCTYPE html>
+        <html>
+            <head>
+              <title>International EmTech Investment Association</title>
+                   <link rel="stylesheet" type="text/css" href="../main.css">
+                     <link rel="shortcut icon" href="/images/Vector.ico" type="image/x-icon">
+                     <meta name="viewport" content="width=device-width, initial-scale=1">
+                  <script src='/bundle.js' defer></script>
+            </head>
+            <body>
+                 <div id="app">
+                    <div className='main_wrap'>
+                       ${content}
+                  </div>
+            </div>
+      </body>
+  </html>`
+  )
+});
+
+app.get(['/association', '/contacts', '/davos', '/events', '/members', 'technologie'], (req, res, next) => {
   const activeRouter = Routes.find((route) => matchPath(req.url, route)) || {};
   const promise = activeRouter.fetchInitialData ?
                   activeRouter.fetchInitialData(req.path) :
@@ -81,10 +127,30 @@ app.get('*', (req, res, next) => {
             <html>
                 <head>
                   <title>International EmTech Investment Association</title>
+                  <meta name="description" content="International EmTech Investment Association is purpose to unite like-minded people to build a better future leveraging emerging technologies" />
                   <link rel="stylesheet" type="text/css" href="main.css">
                    <link rel="shortcut icon" href="/images/Vector.ico" type="image/x-icon">
+                   <link rel="canonical" href="https://emtechassociation.com/">
                     <meta name="viewport" content="width=device-width, initial-scale=1">
                      <meta name="yandex-verification" content="389e86ea6444fd90" />
+
+                      <!-- HTML Meta Tags -->
+
+                      <!-- Facebook Meta Tags -->
+                      <meta property="og:url" content="https://emtechassociation.com/">
+                      <meta property="og:type" content="website">
+                      <meta property="og:title" content="International EmTech Investment Association">
+                      <meta property="og:description" content="International EmTech Investment Association is purpose to unite like-minded people to build a better future leveraging emerging technologies">
+                      <meta property="og:image" content="">
+
+                      <!-- Twitter Meta Tags -->
+                      <meta name="twitter:card" content="summary_large_image">
+                      <meta property="twitter:domain" content="emtechassociation.com">
+                      <meta property="twitter:url" content="https://emtechassociation.com/">
+                      <meta name="twitter:title" content="International EmTech Investment Association">
+                      <meta name="twitter:description" content="International EmTech Investment Association is purpose to unite like-minded people to build a better future leveraging emerging technologies">
+                      <meta name="twitter:image" content="">
+
                       <script src='/bundle.js' defer></script>
                         <script>window.__INITIAL_DATA__= ${serialize(data)}</script>
                           </head>
@@ -99,7 +165,7 @@ app.get('*', (req, res, next) => {
   }).catch(next)
 });
 
-
+/*
 app.use((error, req, res, next) => {
   res.status(error.status);
 
@@ -109,13 +175,13 @@ app.use((error, req, res, next) => {
     stack: error.stack
   });
 });
+*/
 
-/*
 app.use((req, res, next) => {  //<-- заменить если появится непредвиденная ошибка
    const err = new Error ('Noooo');
      err.status = 404;
      next (err);
-});*/
+});
 
 var httpServer = http.createServer(app);
 var httpsServer = https.createServer(credentials, app);

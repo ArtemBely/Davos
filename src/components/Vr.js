@@ -6,7 +6,7 @@ function Vr () {
   return(
     <div className='wrap_of_tech'>
         <div className="tech_0">
-            <p className='title_of_tech'>VR, AR, Mixed Reality(MR)</p>
+            <h1 className='title_of_tech'>VR, AR, Mixed Reality(MR)</h1>
             <p className='text_of_tech'>An interactive experience of a real-world environment
              where objects that reside in the real world are enhanced by computer-generated perceptual
              information, sometimes across multiple sensory modalities, including visual, auditory, haptic,

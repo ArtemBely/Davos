@@ -6,7 +6,7 @@ function Ai () {
   return(
     <div className='wrap_of_tech'>
         <div className="tech_0_ai">
-            <p className='title_of_tech title_of_tech_ai'>Ai</p>
+            <h1 className='title_of_tech title_of_tech_ai'>Ai</h1>
             <p className='text_of_tech text_of_tech_ai'>According to McKinsey, "AI could potentially deliver an additional economic
              output of around $13 trillion by 2030, boosting global GDP by about 1.2% per year."
             AI/ML applications bring about the convergence of analytics, data science and automation

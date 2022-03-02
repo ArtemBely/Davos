@@ -5,6 +5,24 @@
     .association3 {
         width: 952px;
     }
+    .wrap_allTechno {
+      position: relative;
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+    }
+    .inside_cont_img {
+          width: 952px !important;
+          margin: 136px 0px 136px 0px;
+    }
+    .title_inside_techno {
+        position: relative;
+        top: -37px;
+    }
     #social_networks {
       left: 335px;
       top: -121px;

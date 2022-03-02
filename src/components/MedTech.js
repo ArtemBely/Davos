@@ -6,7 +6,7 @@ function MedTech () {
   return(
     <div className='wrap_of_tech'>
         <div className="tech_0">
-            <p className='title_of_tech'>MedTech</p>
+            <h1 className='title_of_tech'>MedTech</h1>
             <p className='text_of_tech'>MedTech, or medical technology, is every product,
              service or solution using medical technology to improve people's health by preventing,
              diagnosing, monitoring, and treating disease.

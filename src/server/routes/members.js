@@ -16,11 +16,29 @@ router.get('/', (req, res) => {
     `<!DOCTYPE html>
         <html>
             <head>
-              <title>International EmTech Investment Association</title>
+              <title>Our members</title>
+              <meta name="description" content="The members of IEIA are leaders of technology industries, investment structures, international organizations and government agencies">
                    <link rel="stylesheet" type="text/css" href="../main.css">
                      <link rel="shortcut icon" href="/images/Vector.ico" type="image/x-icon">
+                     <link rel="canonical" href="https://emtechassociation.com/members/">
                      <meta name="viewport" content="width=device-width, initial-scale=1">
                      <meta name="yandex-verification" content="389e86ea6444fd90" />
+                     <!-- HTML Meta Tags -->
+
+                        <!-- Facebook Meta Tags -->
+                        <meta property="og:url" content="https://emtechassociation.com/members/">
+                        <meta property="og:type" content="website">
+                        <meta property="og:title" content="Our members">
+                        <meta property="og:description" content="The members of IEIA are leaders of technology industries, investment structures, international organizations and government agencies">
+                        <meta property="og:image" content="">
+
+                        <!-- Twitter Meta Tags -->
+                        <meta name="twitter:card" content="summary_large_image">
+                        <meta property="twitter:domain" content="emtechassociation.com">
+                        <meta property="twitter:url" content="https://emtechassociation.com/members/">
+                        <meta name="twitter:title" content="Our members">
+                        <meta name="twitter:description" content="The members of IEIA are leaders of technology industries, investment structures, international organizations and government agencies">
+                        <meta name="twitter:image" content="">
                   <script src='/bundle.js' defer></script>
             </head>
             <body>

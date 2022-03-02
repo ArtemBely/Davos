@@ -6,7 +6,7 @@ function Wearables () {
   return(
     <div className='wrap_of_tech'>
         <div className="tech_0">
-            <p className='title_of_tech'>Wearables</p>
+            <h1 className='title_of_tech'>Wearables</h1>
             <p className='text_of_tech'>Wearable technology, also known as "wearables",
              is a category of electronic devices that can be worn as accessories, embedded in clothing,
               implanted in the user's body, or even tattooed on the skin. Wearable technology provides us

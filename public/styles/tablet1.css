@@ -275,6 +275,15 @@
             height: 452px !important;
             top: -67px !important;
           }
+          .oops {
+              width: 537px !important;
+          }
+          .wrap_alert {
+            font-size: 15px !important;
+          }
+          .mistake404 {
+            font-size: 107px !important;
+          }
           .events__title-container {
             width: 537px !important;
           }

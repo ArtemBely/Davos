@@ -6,7 +6,34 @@
   color: #ffffff;
   margin-bottom: 159px;
 }
-
+.wrap_noMatch_footer {
+  position: relative;
+  top: 500px;
+}
+.wrap_alert {
+  position: relative;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  font-size: 30px;
+  top: 196px;
+}
+.oops {
+  width: 1290px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.mistake404 {
+  color: white;
+  font-size: 200px;
+  text-align: center;
+  position: relative;
+  top: 91px;
+}
+.main_page_return {
+  color: bisque;
+}
 .strategic__title {
   font-family: "WorkSans-Bold";
   font-style: normal;

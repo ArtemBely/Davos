@@ -16,6 +16,11 @@
         text-align: center !important;
         line-height: 30px !important;
     }
+    #google {
+      position: relative;
+      left: -9px;
+      top: -18px;
+    }
     .wrap_alert {
       font-size: 16px !important;
     }

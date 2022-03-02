@@ -22,6 +22,10 @@
         height: 22px;
         margin: 28px 0px 0px 0px;
     }
+    #google {
+        position: relative;
+        left: -44px;
+    }
     .header::before {
         content: "";
         position: absolute;

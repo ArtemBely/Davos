@@ -13,6 +13,10 @@
       left: 231px;
       top: -99px;
     }
+    #google {
+      position: relative;
+      left: 44px;
+    }
     .wrap_wave2 {
       display: block;
       position: absolute;

@@ -15,6 +15,10 @@
           -ms-flex-pack: center;
               justify-content: center;
     }
+    #google {
+      position: relative;
+      left: -87px;
+    }
     .inside_cont_img {
           width: 952px !important;
           margin: 136px 0px 136px 0px;

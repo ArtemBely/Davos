@@ -59,34 +59,6 @@ app.use('/members', asMembers);
 app.use('/technologie', techRouter);
 app.use('/contacts', contRouter);
 
-/*
-app.use(function(req, res, next) {
-  console.log("helloo");
-  if (req.headers.host.match(/^www/)) res.redirect('https://' + req.headers.host.replace(/^www\./, '') + req.url, 301);
-  else next();
-});
-
-function redirectWwwTraffic(req, res, next) {
-    //console.log("req.headers.host");
-  if (req.headers.host.slice(0, 4) === "www.") {
-    var newHost = req.headers.host.slice(4);
-    return res.redirect(301, req.protocol + "://" + newHost + req.originalUrl);
-  }
-  next();
-
-}
-
-app.set("trust proxy", true);
-app.use(redirectWwwTraffic);
-
-app.use('*', (req, res, next) => {
-  if (req.headers.host.match(/^www/) !== null ) {
-      res.redirect(301, 'https://' + req.headers.host.replace(/^www\./, '') + req.url);
-    } else {
-      next();
-    }
-});*/
-
 app.get('/files', (req, res) => {
   const resolvePath = path.resolve('public/images/shutterstock.mp4');
   res.sendFile(resolvePath);
@@ -102,34 +74,7 @@ app.get('/sitemap.xml', (req, res) => {
   res.sendFile(resolvePath2);
 });
 
-app.get('/*', (req, res) => {
-  const content = renderToString(
-    <StaticRouter>
-      <NoMatch />
-    </StaticRouter>
-  );
-  res.status(404).send(
-    `<!DOCTYPE html>
-        <html>
-            <head>
-              <title>International EmTech Investment Association</title>
-                   <link rel="stylesheet" type="text/css" href="../main.css">
-                     <link rel="shortcut icon" href="/images/Vector.ico" type="image/x-icon">
-                     <meta name="viewport" content="width=device-width, initial-scale=1">
-                  <script src='/bundle.js' defer></script>
-            </head>
-            <body>
-                 <div id="app">
-                    <div className='main_wrap'>
-                       ${content}
-                  </div>
-            </div>
-      </body>
-  </html>`
-  )
-});
-
-app.get(['/association', '/contacts', '/davos', '/events', '/members', 'technologie'], (req, res, next) => {
+app.get(['/', '/association', '/contacts', '/davos', '/events', '/members', 'technologie'], (req, res, next) => {
   const activeRouter = Routes.find((route) => matchPath(req.url, route)) || {};
   const promise = activeRouter.fetchInitialData ?
                   activeRouter.fetchInitialData(req.path) :
@@ -185,6 +130,32 @@ app.get(['/association', '/contacts', '/davos', '/events', '/members', 'technolo
   }).catch(next)
 });
 
+app.get('*', (req, res) => {
+  const content = renderToString(
+    <StaticRouter>
+      <NoMatch />
+    </StaticRouter>
+  );
+  res.status(404).send(
+    `<!DOCTYPE html>
+        <html>
+            <head>
+              <title>International EmTech Investment Association</title>
+                   <link rel="stylesheet" type="text/css" href="../main.css">
+                     <link rel="shortcut icon" href="/images/Vector.ico" type="image/x-icon">
+                     <meta name="viewport" content="width=device-width, initial-scale=1">
+                  <script src='/bundle.js' defer></script>
+            </head>
+            <body>
+                 <div id="app">
+                    <div className='main_wrap'>
+                       ${content}
+                  </div>
+            </div>
+      </body>
+  </html>`
+  )
+});
 /*
 app.use((error, req, res, next) => {
   res.status(error.status);

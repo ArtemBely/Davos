@@ -59,13 +59,26 @@ app.use('/members', asMembers);
 app.use('/technologie', techRouter);
 app.use('/contacts', contRouter);
 
+function redirectWwwTraffic(req, res, next) {
+    //console.log("req.headers.host");
+  if (req.headers.host.slice(0, 4) === "www.") {
+    var newHost = req.headers.host.slice(4);
+    return res.redirect(301, req.protocol + "://" + newHost + req.originalUrl);
+  }
+  next();
+
+}
+
+app.set("trust proxy", true);
+app.use(redirectWwwTraffic);
+/*
 app.use('*', (req, res, next) => {
   if (req.headers.host.match(/^www/) !== null ) {
       res.redirect(301, 'https://' + req.headers.host.replace(/^www\./, '') + req.url);
     } else {
       next();
     }
-});
+});*/
 
 app.get('/files', (req, res) => {
   const resolvePath = path.resolve('public/images/shutterstock.mp4');

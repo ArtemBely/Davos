@@ -61,7 +61,7 @@ app.use('/contacts', contRouter);
 
 /*
 app.use(function(req, res, next) {
-  console.log("hello");
+  console.log("helloo");
   if (req.headers.host.match(/^www/)) res.redirect('https://' + req.headers.host.replace(/^www\./, '') + req.url, 301);
   else next();
 });

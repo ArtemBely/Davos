@@ -16,6 +16,11 @@
         text-align: center !important;
         line-height: 30px !important;
     }
+    #eye2 {
+        width: 119px;
+        position: relative;
+        top: 9px;
+}
     #google {
       position: relative;
       left: -9px;

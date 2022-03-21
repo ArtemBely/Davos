@@ -14,7 +14,7 @@
 }
 .members__section2 {
     width: 1290px;
-    height: 669px;
+    height: 554px;
 }
 .members__section2-title {
     font-family: 'WorkSans-Bold';
@@ -42,7 +42,7 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin-top: 30px;
+    margin-top: -23px;
 }
 .members__section2-img {
     width: 100%;
@@ -75,5 +75,5 @@
     font-size: 20px;
     line-height: 160%;
     color: #FFFFFF;
-    margin-top: 30px;
+    margin-top: -10px;
 }

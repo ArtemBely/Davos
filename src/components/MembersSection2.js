@@ -6,7 +6,7 @@ import sponsor2 from '../../public/images/8.png';
 import sponsor3 from '../../public/images/7.png';
 import sponsor4 from '../../public/images/4.png';
 import sponsor5 from '../../public/images/10.png';
-import sponsor6 from '../../public/images/6.png';
+import sponsor6 from '../../public/images/smart eye gold.png';
 
 
 class MembersSection2 extends React.Component{
@@ -41,7 +41,7 @@ class MembersSection2 extends React.Component{
                             Fill out the form, our <br />
                             manager will contact you
                         </p>
-                        <form action='/members/purpose' method='POST' className="popup__form"> 
+                        <form action='/members/purpose' method='POST' className="popup__form">
                             <input type="text" name="name" className="popup__input" placeholder="Name" required/>
                             <input type="text" name="purpose" className="popup__input" placeholder="Purpose" required/>
                             <input type="text" name="phone" className="popup__input" placeholder="Phone number" required/>
@@ -68,22 +68,22 @@ class MembersSection2 extends React.Component{
                 </p>
                 <ul className='members__section2-list'>
                     <li className='members__section2-item'>
-                        <img src={sponsor1} className='members__section2-img'></img>
+                        <img src={sponsor1} className='members__section2-img' id='sp1'></img>
                     </li>
                     <li className='members__section2-item'>
-                        <img src={sponsor2} className='members__section2-img'></img>
+                        <img src={sponsor2} className='members__section2-img' id='sp2'></img>
                     </li>
                     <li className='members__section2-item'>
-                        <img src={sponsor3} className='members__section2-img'></img>
+                        <img src={sponsor3} className='members__section2-img' id='sp3'></img>
                     </li>
                     <li className='members__section2-item'>
-                        <img src={sponsor4} className='members__section2-img'></img>
+                        <img src={sponsor4} className='members__section2-img' id='sp4'></img>
                     </li>
                     <li className='members__section2-item'>
-                        <img src={sponsor5} className='members__section2-img'></img>
+                        <img src={sponsor5} className='members__section2-img' id='sp5'></img>
                     </li>
                     <li className='members__section2-item'>
-                        <img src={sponsor6} className='members__section2-img'></img>
+                        <img src={sponsor6} className='members__section2-img' id='eye2'></img>
                     </li>
                 </ul>
                 <button className='members__section2-btn' onClick={this.popap7}>Register</button>

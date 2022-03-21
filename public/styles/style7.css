@@ -12,6 +12,44 @@
   	        align-items: center;
     background-color: #111419;
 }
+#amazon {
+    width: 155px;
+}
+#eye2 {
+  width: 113px;
+  position: relative;
+  top: -7px;
+  left: 62px;
+}
+#sp1 {
+    width: 300px;
+    position: relative;
+    left: -10px;
+}
+#sp2 {
+  width: 169px;
+  position: relative;
+  left: 102px;
+  top: -4px;
+}
+#sp3 {
+  width: 93px;
+  position: relative;
+  left: 131px;
+  top: -3px;
+}
+#sp4 {
+  width: 124px;
+  position: relative;
+  left: 79px;
+  top: -7px;
+}
+#sp5 {
+  width: 131px;
+  left: 68px;
+  position: relative;
+  top: -7px;
+}
 .association2 {
     width: 1290px;
     height: 446.14px;

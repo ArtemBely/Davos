@@ -4,7 +4,7 @@ import spacex from '../../public/images/8.png';
 import tesla from '../../public/images/7.png';
 import visa from '../../public/images/4.png';
 import google from '../../public/images/10.png';
-import amazon from '../../public/images/6.png';
+import amazon from '../../public/images/smart eye gold.png';
 
 function MainSection2 () {
   return(

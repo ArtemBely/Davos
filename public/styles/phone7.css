@@ -71,10 +71,10 @@
         text-align: center;
     }
     .members__section2 {
-        height: 864px;
+        height: 507px;
     }
     .wrap__members-section2 {
-        height: 850px;
+        height: 500px;
     }
     .members__section2-title {
         font-size: 30px;
@@ -85,12 +85,48 @@
         font-size: 16px;
         line-height: 140%;
     }
+    #sp1 {
+        width: 253px;
+        position: relative;
+        left: -7px;
+    }
+    #sp2 {
+        width: 169px;
+        position: relative;
+        left: -13px;
+        top: 83px;
+    }
+    #sp3 {
+        width: 74px;
+        position: relative;
+        left: 25px;
+        top: -3px;
+    }
+    #sp4 {
+        width: 124px;
+        position: relative;
+        left: 2px;
+        top: -78px;
+    }
+    #sp5 {
+        width: 116px;
+        left: 54px;
+        position: relative;
+        top: -163px;
+    }
+    #eye2 {
+        width: 89px;
+        position: relative;
+        top: -73px;
+        left: 10px;
+    }
     .members__section2-list {
           display: grid;
+          margin-top: -47px;
           flex-wrap: wrap;
-          grid-template-columns: repeat(2, 1fr);
+          grid-template-columns: repeat(3, 1fr);
           height: 375px;
-          grid-template-rows: repeat(3, 133px);
+          grid-template-rows: repeat(2, 133px);
     }
     .members__section2-list > li:nth-child(1) {
         margin-right: 26px;
@@ -112,7 +148,7 @@
 
     .members__section2-btn {
         position: relative;
-        top: 124px;
+        top: -108px;
         width: 161px;
         height: 50px;
         font-size: 18px;

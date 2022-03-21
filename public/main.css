@@ -852,6 +852,9 @@ body {
     .footer {
         width: 730px;
     }
+    #eye2 {
+        width: 101px;
+    }
     .events__button > p:nth-child(2) {
       flex-basis: 27.8%;
     }
@@ -1626,6 +1629,11 @@ body {
         text-align: center !important;
         line-height: 30px !important;
     }
+    #eye2 {
+        width: 119px;
+        position: relative;
+        top: 9px;
+}
     #google {
       position: relative;
       left: -9px;
@@ -2166,6 +2174,44 @@ body {
   	    -ms-flex-align: center;
   	        align-items: center;
     background-color: #111419;
+}
+#amazon {
+    width: 155px;
+}
+#eye2 {
+  width: 113px;
+  position: relative;
+  top: -7px;
+  left: 62px;
+}
+#sp1 {
+    width: 300px;
+    position: relative;
+    left: -10px;
+}
+#sp2 {
+  width: 169px;
+  position: relative;
+  left: 102px;
+  top: -4px;
+}
+#sp3 {
+  width: 93px;
+  position: relative;
+  left: 131px;
+  top: -3px;
+}
+#sp4 {
+  width: 124px;
+  position: relative;
+  left: 79px;
+  top: -7px;
+}
+#sp5 {
+  width: 131px;
+  left: 68px;
+  position: relative;
+  top: -7px;
 }
 .association2 {
     width: 1290px;
@@ -2999,28 +3045,21 @@ body {
         margin-bottom: 4px;
     }
 }
-@media (min-width: 1946px) and (max-width: 2400px) {
+@media (min-width: 1914px) and (max-width: 2863px) {
   .wrap_wave {
-    -webkit-transform: scale(0.9);
-    -ms-transform: scale(0.9);
-        transform: scale(0.9);
-  }
-}
-@media (min-width: 1713px) and (max-width: 1946px) {
-  .wrap_wave {
-    -webkit-transform: scale(0.8);
-    -ms-transform: scale(0.8);
-        transform: scale(0.8);
-  }
-}
-@media (min-width: 1504px) and (max-width: 1713px) {
-  .wrap_wave {
-    -webkit-transform: scale(0.7);
-    -ms-transform: scale(0.7);
-        transform: scale(0.7);
+    -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+         transform: scale(1.5);
   }
 }
 
+@media (min-width: 2863px) {
+  .wrap_wave {
+    -webkit-transform: scale(1.7);
+        -ms-transform: scale(1.7);
+         transform: scale(1.7);
+  }
+}
 
 @media (min-width: 945px) and (max-width: 1188px) {
   .wrap_wave {
@@ -3393,7 +3432,7 @@ body {
 }
 .members__section2 {
     width: 1290px;
-    height: 669px;
+    height: 554px;
 }
 .members__section2-title {
     font-family: 'WorkSans-Bold';
@@ -3421,7 +3460,7 @@ body {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin-top: 30px;
+    margin-top: -23px;
 }
 .members__section2-img {
     width: 100%;
@@ -3454,7 +3493,7 @@ body {
     font-size: 20px;
     line-height: 160%;
     color: #FFFFFF;
-    margin-top: 30px;
+    margin-top: -10px;
 }
 
 /* members section3  */
@@ -3622,7 +3661,7 @@ body {
         height: 50px;
     }
     .members__section2 {
-        height: 580px;
+        height: 453px;
     }
     .members__section2-title {
         font-size: 40px;
@@ -3630,8 +3669,42 @@ body {
         margin-top: 80px;
     }
     .members__section2-list {
-        margin-top: 0px;
+        margin-top: -53px;
     }
+    #sp1 {
+      width: 185px;
+      left: -5px;
+    }
+    #sp2 {
+      width: 118px;
+      position: relative;
+      left: 23px;
+      top: -2px;
+  }
+  #sp3 {
+    width: 69px;
+    position: relative;
+    left: 54px;
+    top: -3px;
+  }
+  #sp4 {
+    width: 99px;
+    position: relative;
+    left: 33px;
+    top: -5px;
+  }
+  #sp5 {
+    width: 100px;
+    left: 49px;
+    position: relative;
+    top: -4px;
+  }
+  #eye2 {
+    position: relative;
+    top: -7px;
+    left: 60px;
+    width: 95px;
+  }
     .members__section2-img {
         width: 100%;
     }
@@ -3680,6 +3753,10 @@ body {
         width: 162px;
         height: 50px;
     }
+}
+
+@media (min-width: 1502px) {
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -3735,7 +3812,7 @@ body {
         font-size: 18px;
     }
     .members__section2 {
-        height: 493px;
+        height: 403px;
     }
     .members__section2-title {
         font-size: 30px;
@@ -3747,7 +3824,41 @@ body {
         line-height: 140%;
     }
     .members__section2-list {
-        margin-top: 21px;
+        margin-top: -62px !important;
+    }
+    #sp1 {
+        width: 169px;
+        position: relative;
+        left: -5px;
+    }
+    #sp2 {
+        width: 91px;
+        position: relative;
+        left: 22px;
+        top: -1px;
+    }
+    #sp3 {
+        width: 48px;
+        position: relative;
+        left: 54px;
+        top: -2px;
+    }
+    #sp4 {
+        width: 64px;
+        position: relative;
+        left: 40px;
+        top: -3px;
+    }
+    #sp5 {
+        width: 67px;
+        left: 44px;
+        position: relative;
+        top: -3px;
+    }
+    #eye2 {
+      top: -2px;
+      left: 49px;
+      width: 67px !important;
     }
     .members__section2-btn {
         width: 152px;
@@ -3876,10 +3987,10 @@ body {
         text-align: center;
     }
     .members__section2 {
-        height: 864px;
+        height: 507px;
     }
     .wrap__members-section2 {
-        height: 850px;
+        height: 500px;
     }
     .members__section2-title {
         font-size: 30px;
@@ -3890,12 +4001,48 @@ body {
         font-size: 16px;
         line-height: 140%;
     }
+    #sp1 {
+        width: 253px;
+        position: relative;
+        left: -7px;
+    }
+    #sp2 {
+        width: 169px;
+        position: relative;
+        left: -13px;
+        top: 83px;
+    }
+    #sp3 {
+        width: 74px;
+        position: relative;
+        left: 25px;
+        top: -3px;
+    }
+    #sp4 {
+        width: 124px;
+        position: relative;
+        left: 2px;
+        top: -78px;
+    }
+    #sp5 {
+        width: 116px;
+        left: 54px;
+        position: relative;
+        top: -163px;
+    }
+    #eye2 {
+        width: 89px;
+        position: relative;
+        top: -73px;
+        left: 10px;
+    }
     .members__section2-list {
           display: grid;
+          margin-top: -47px;
           flex-wrap: wrap;
-          grid-template-columns: repeat(2, 1fr);
+          grid-template-columns: repeat(3, 1fr);
           height: 375px;
-          grid-template-rows: repeat(3, 133px);
+          grid-template-rows: repeat(2, 133px);
     }
     .members__section2-list > li:nth-child(1) {
         margin-right: 26px;
@@ -3917,7 +4064,7 @@ body {
 
     .members__section2-btn {
         position: relative;
-        top: 124px;
+        top: -108px;
         width: 161px;
         height: 50px;
         font-size: 18px;
@@ -4039,7 +4186,7 @@ body {
         text-align: center;
     }
     .members__section2 {
-        height: 930px;
+        height: 546px;
     }
     .members__section2-title {
         font-size: 28px;
@@ -4050,12 +4197,47 @@ body {
         font-size: 16px;
         line-height: 140%;
     }
+    #sp1 {
+        width: 167px;
+        position: relative;
+        left: -5px;
+    }
+    #sp2 {
+        width: 118px;
+        position: relative;
+        left: -201px;
+        top: 149px;
+    }
+    #sp3 {
+        width: 73px;
+        position: relative;
+        left: 33px;
+        top: -172px;
+    }
+    #sp4 {
+        width: 93px;
+        position: relative;
+        left: -41px;
+        top: -174px;
+    }
+    #sp5 {
+        width: 89px;
+        left: 174px;
+        position: relative;
+        top: -460px;
+    }
+    #eye2 {
+        width: 86px;
+        position: relative;
+        top: -307px;
+        left: -33px;
+    }
     .members__section2-list {
       display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: repeat(6, 89px);
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 1fr);
       position: relative;
-      top: -67px;
+      top: -31px;
     }
     .members__section2-list > li:nth-child(1) {
         margin-right: 20px;
@@ -4079,7 +4261,7 @@ body {
         height: 50px;
         font-size: 16px;
         position: relative;
-        top: 32px;
+        top: -374px;
     }
     .members__section3 {
         height: 787px;
@@ -5140,6 +5322,9 @@ body {
   .partners {
     max-width: 950px;
   }
+  #eye2 {
+    width: 95px;
+}
   .partners__title {
     display: flex;
     justify-content: center;

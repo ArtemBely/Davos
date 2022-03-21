@@ -51,7 +51,7 @@
         font-size: 18px;
     }
     .members__section2 {
-        height: 493px;
+        height: 403px;
     }
     .members__section2-title {
         font-size: 30px;
@@ -63,7 +63,41 @@
         line-height: 140%;
     }
     .members__section2-list {
-        margin-top: 21px;
+        margin-top: -62px !important;
+    }
+    #sp1 {
+        width: 169px;
+        position: relative;
+        left: -5px;
+    }
+    #sp2 {
+        width: 91px;
+        position: relative;
+        left: 22px;
+        top: -1px;
+    }
+    #sp3 {
+        width: 48px;
+        position: relative;
+        left: 54px;
+        top: -2px;
+    }
+    #sp4 {
+        width: 64px;
+        position: relative;
+        left: 40px;
+        top: -3px;
+    }
+    #sp5 {
+        width: 67px;
+        left: 44px;
+        position: relative;
+        top: -3px;
+    }
+    #eye2 {
+      top: -2px;
+      left: 49px;
+      width: 67px !important;
     }
     .members__section2-btn {
         width: 152px;

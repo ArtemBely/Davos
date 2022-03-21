@@ -5,6 +5,9 @@
   .partners {
     max-width: 950px;
   }
+  #eye2 {
+    width: 95px;
+}
   .partners__title {
     display: flex;
     justify-content: center;

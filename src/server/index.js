@@ -118,6 +118,23 @@ app.get(['/', '/association', '/contacts', '/davos', '/events', '/members', 'tec
 
                       <script src='/bundle.js' defer></script>
                         <script>window.__INITIAL_DATA__= ${serialize(data)}</script>
+
+                        <!-- Global site tag (gtag.js) - Google Analytics -->
+                          <script async src="https://www.googletagmanager.com/gtag/js?id=G-N6XLQ0TJ9H"></script>
+                          <script>
+                           setTimeout(() => {
+                             <!-- Global site tag (gtag.js) - Google Analytics -->
+                              <script async src="https://www.googletagmanager.com/gtag/js?id=G-N6XLQ0TJ9H"></script>
+                              <script>
+                                window.dataLayer = window.dataLayer || [];
+                                function gtag(){dataLayer.push(arguments);}
+                                gtag('js', new Date());
+
+                                gtag('config', 'G-N6XLQ0TJ9H');
+                              </script>
+                           },10000)
+                          </script>
+                          
                           </head>
                         <body>
                        <div id="app">

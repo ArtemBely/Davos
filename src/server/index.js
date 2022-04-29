@@ -145,6 +145,23 @@ app.get('*', (req, res) => {
                      <link rel="shortcut icon" href="/images/Vector.ico" type="image/x-icon">
                      <meta name="viewport" content="width=device-width, initial-scale=1">
                   <script src='/bundle.js' defer></script>
+
+                  <!-- Global site tag (gtag.js) - Google Analytics -->
+                    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N6XLQ0TJ9H"></script>
+                    <script>
+                     setTimeout(() => {
+                       <!-- Global site tag (gtag.js) - Google Analytics -->
+                        <script async src="https://www.googletagmanager.com/gtag/js?id=G-N6XLQ0TJ9H"></script>
+                        <script>
+                          window.dataLayer = window.dataLayer || [];
+                          function gtag(){dataLayer.push(arguments);}
+                          gtag('js', new Date());
+
+                          gtag('config', 'G-N6XLQ0TJ9H');
+                        </script>
+                     },10000)
+                    </script>
+
             </head>
             <body>
                  <div id="app">

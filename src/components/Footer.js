@@ -48,9 +48,11 @@ function Footer () {
                 </li>
                 <li className='footer__item3 footer-item'>
                     <NavLink to="#" className='footer__link3' id="social_networks">
-                        <img src={Instagram} className='footer__link3-img'></img>
-                        <a rel="nofollow" href='https://www.facebook.com/International-EmTech-Investment-Association-101085159068669'>
-                        <img src={Facebook} className='footer__link3-img'></img>
+                        <a rel="nofollow" href='https://www.linkedin.com/company/80804754/admin/' style={{ zIndex: 1 }}>
+                          <img src={Instagram} className='footer__link3-img'></img>
+                        </a>
+                        <a rel="nofollow" href='https://www.facebook.com/International-EmTech-Investment-Association-101085159068669' style={{ zIndex: 1 }}>
+                          <img src={Facebook} className='footer__link3-img'></img>
                         </a>
                     </NavLink>
                 </li>
